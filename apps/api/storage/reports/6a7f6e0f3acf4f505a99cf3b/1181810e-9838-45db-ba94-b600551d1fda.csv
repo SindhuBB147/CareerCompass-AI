@@ -1,0 +1,18 @@
+Report,Financial Planning Report
+Student,Asha Rao
+Generated,2026-08-14T19:39:14.366Z
+
+Fee & Cost Comparison
+College,Course,Total Fees (₹),Hostel Cost (₹),Living Cost (₹),Total Cost (₹),Scholarship Savings (₹),Loan Needed (₹)
+RV College of Engineering,Computer Science & Engineering,1099000,620000,0,1719000,960000,759000
+BMS College of Engineering,Computer Science & Engineering,1007000,588000,0,1595000,880000,715000
+
+Return on Investment & Placement
+College,Placement %,Avg Package (₹/yr),Highest Package (₹/yr),ROI %,Payback (Years)
+RV College of Engineering,98.4,1280000,5200000,1572,0.87
+BMS College of Engineering,95.2,880000,5000000,1050,1.26
+
+Total Program Cost by College
+Label,Value
+RV College of Engineering,1719000
+BMS College of Engineering,1595000
