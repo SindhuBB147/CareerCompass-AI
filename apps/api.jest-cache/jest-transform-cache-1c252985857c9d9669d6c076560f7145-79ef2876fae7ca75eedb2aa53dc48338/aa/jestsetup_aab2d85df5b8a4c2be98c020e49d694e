@@ -1,0 +1,18 @@
+2a3b8d3154d53d5299283a31856bb1ee
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const globals_1 = require("@jest/globals");
+const mongoose_1 = __importDefault(require("mongoose"));
+process.env.MONGOMS_TIMEOUT_MS = '600000'; // increase timeout to allow binary download (~10 minutes)
+(0, globals_1.afterEach)(async () => {
+    if (mongoose_1.default.connection && mongoose_1.default.connection.db) {
+        const collections = await mongoose_1.default.connection.db.collections();
+        for (const collection of collections) {
+            await collection.deleteMany({});
+        }
+    }
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFx0ZXN0XFxqZXN0LXNldHVwLnRzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsMkNBQTBDO0FBRTFDLHdEQUFnQztBQUNoQyxPQUFPLENBQUMsR0FBRyxDQUFDLGtCQUFrQixHQUFHLFFBQVEsQ0FBQyxDQUFDLDBEQUEwRDtBQUVyRyxJQUFBLG1CQUFTLEVBQUMsS0FBSyxJQUFJLEVBQUU7SUFDbkIsSUFBSSxrQkFBUSxDQUFDLFVBQVUsSUFBSSxrQkFBUSxDQUFDLFVBQVUsQ0FBQyxFQUFFLEVBQUUsQ0FBQztRQUNsRCxNQUFNLFdBQVcsR0FBRyxNQUFNLGtCQUFRLENBQUMsVUFBVSxDQUFDLEVBQUUsQ0FBQyxXQUFXLEVBQUUsQ0FBQztRQUMvRCxLQUFLLE1BQU0sVUFBVSxJQUFJLFdBQVcsRUFBRSxDQUFDO1lBQ3JDLE1BQU0sVUFBVSxDQUFDLFVBQVUsQ0FBQyxFQUFFLENBQUMsQ0FBQztRQUNsQyxDQUFDO0lBQ0gsQ0FBQztBQUNILENBQUMsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcc2luZGhcXERlc2t0b3BcXGNhcmVlci1jb21wYXNzLWFpICgxKVxcY2FyZWVyLWNvbXBhc3MtYWlcXGFwcHNcXGFwaVxcdGVzdFxcamVzdC1zZXR1cC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBhZnRlckVhY2ggfSBmcm9tICdAamVzdC9nbG9iYWxzJztcbmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJztcbmltcG9ydCBtb25nb29zZSBmcm9tICdtb25nb29zZSc7XG5wcm9jZXNzLmVudi5NT05HT01TX1RJTUVPVVRfTVMgPSAnNjAwMDAwJzsgLy8gaW5jcmVhc2UgdGltZW91dCB0byBhbGxvdyBiaW5hcnkgZG93bmxvYWQgKH4xMCBtaW51dGVzKVxuXG5hZnRlckVhY2goYXN5bmMgKCkgPT4ge1xuICBpZiAobW9uZ29vc2UuY29ubmVjdGlvbiAmJiBtb25nb29zZS5jb25uZWN0aW9uLmRiKSB7XG4gICAgY29uc3QgY29sbGVjdGlvbnMgPSBhd2FpdCBtb25nb29zZS5jb25uZWN0aW9uLmRiLmNvbGxlY3Rpb25zKCk7XG4gICAgZm9yIChjb25zdCBjb2xsZWN0aW9uIG9mIGNvbGxlY3Rpb25zKSB7XG4gICAgICBhd2FpdCBjb2xsZWN0aW9uLmRlbGV0ZU1hbnkoe30pO1xuICAgIH1cbiAgfVxufSk7XG4iXSwidmVyc2lvbiI6M30=

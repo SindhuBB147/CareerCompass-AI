@@ -1,0 +1,18 @@
+{
+  "name": "career-compass-ai",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build:packages": "npm run build -w packages/config -w packages/types -w packages/utils"
+  },
+  "devDependencies": {
+    "next": "^14.1.0"
+  },
+  "dependencies": {
+    "mongoose": "^9.11.2"
+  }
+}

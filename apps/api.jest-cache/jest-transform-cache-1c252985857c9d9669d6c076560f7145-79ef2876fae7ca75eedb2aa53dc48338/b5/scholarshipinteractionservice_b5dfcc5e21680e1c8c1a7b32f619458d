@@ -1,0 +1,48 @@
+e7fa380c636e0ac890dffb03abc30a8d
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ScholarshipInteractionService = void 0;
+const common_1 = require("@nestjs/common");
+const mongoose_1 = require("@nestjs/mongoose");
+const mongoose_2 = require("mongoose");
+const scholarship_interaction_model_1 = require("../models/scholarship-interaction.model");
+let ScholarshipInteractionService = class ScholarshipInteractionService {
+    constructor(model) {
+        this.model = model;
+        this.logger = new common_1.Logger('ScholarshipInteractionService');
+    }
+    /** Best-effort — interaction logging must never break the calling feature (bookmark, eligibility, browse). */
+    async record(userId, scholarshipId, action, metadata = {}) {
+        try {
+            await this.model.create({ userId, scholarshipId, action, metadata });
+        }
+        catch (err) {
+            this.logger.warn(`Failed to record scholarship interaction: ${err.message}`);
+        }
+    }
+    async listForUser(userId, limit = 50) {
+        return this.model.find({ userId }).sort({ createdAt: -1 }).limit(limit).exec();
+    }
+    async clear(userId) {
+        await this.model.deleteMany({ userId }).exec();
+    }
+};
+exports.ScholarshipInteractionService = ScholarshipInteractionService;
+exports.ScholarshipInteractionService = ScholarshipInteractionService = __decorate([
+    (0, common_1.Injectable)(),
+    __param(0, (0, mongoose_1.InjectModel)(scholarship_interaction_model_1.ScholarshipInteraction.name)),
+    __metadata("design:paramtypes", [mongoose_2.Model])
+], ScholarshipInteractionService);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXHNjaG9sYXJzaGlwc1xcc2VydmljZXNcXHNjaG9sYXJzaGlwLWludGVyYWN0aW9uLnNlcnZpY2UudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsMkNBQW9EO0FBQ3BELCtDQUErQztBQUMvQyx1Q0FBaUM7QUFDakMsMkZBRWlEO0FBRzFDLElBQU0sNkJBQTZCLEdBQW5DLE1BQU0sNkJBQTZCO0lBR3hDLFlBQzRDLEtBQTZEO1FBQTVDLFVBQUssR0FBTCxLQUFLLENBQXVDO1FBSHhGLFdBQU0sR0FBRyxJQUFJLGVBQU0sQ0FBQywrQkFBK0IsQ0FBQyxDQUFDO0lBSW5FLENBQUM7SUFFSiw4R0FBOEc7SUFDOUcsS0FBSyxDQUFDLE1BQU0sQ0FBQyxNQUFjLEVBQUUsYUFBcUIsRUFBRSxNQUFvQyxFQUFFLFdBQW9DLEVBQUU7UUFDOUgsSUFBSSxDQUFDO1lBQ0gsTUFBTSxJQUFJLENBQUMsS0FBSyxDQUFDLE1BQU0sQ0FBQyxFQUFFLE1BQU0sRUFBRSxhQUFhLEVBQUUsTUFBTSxFQUFFLFFBQVEsRUFBRSxDQUFDLENBQUM7UUFDdkUsQ0FBQztRQUFDLE9BQU8sR0FBRyxFQUFFLENBQUM7WUFDYixJQUFJLENBQUMsTUFBTSxDQUFDLElBQUksQ0FBQyw2Q0FBOEMsR0FBYSxDQUFDLE9BQU8sRUFBRSxDQUFDLENBQUM7UUFDMUYsQ0FBQztJQUNILENBQUM7SUFFRCxLQUFLLENBQUMsV0FBVyxDQUFDLE1BQWMsRUFBRSxLQUFLLEdBQUcsRUFBRTtRQUMxQyxPQUFPLElBQUksQ0FBQyxLQUFLLENBQUMsSUFBSSxDQUFDLEVBQUUsTUFBTSxFQUFFLENBQUMsQ0FBQyxJQUFJLENBQUMsRUFBRSxTQUFTLEVBQUUsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDLEtBQUssQ0FBQyxLQUFLLENBQUMsQ0FBQyxJQUFJLEVBQUUsQ0FBQztJQUNqRixDQUFDO0lBRUQsS0FBSyxDQUFDLEtBQUssQ0FBQyxNQUFjO1FBQ3hCLE1BQU0sSUFBSSxDQUFDLEtBQUssQ0FBQyxVQUFVLENBQUMsRUFBRSxNQUFNLEVBQUUsQ0FBQyxDQUFDLElBQUksRUFBRSxDQUFDO0lBQ2pELENBQUM7Q0FDRixDQUFBO0FBdkJZLHNFQUE2Qjt3Q0FBN0IsNkJBQTZCO0lBRHpDLElBQUEsbUJBQVUsR0FBRTtJQUtSLFdBQUEsSUFBQSxzQkFBVyxFQUFDLHNEQUFzQixDQUFDLElBQUksQ0FBQyxDQUFBO3FDQUF5QixnQkFBSztHQUo5RCw2QkFBNkIsQ0F1QnpDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcc2luZGhcXERlc2t0b3BcXGNhcmVlci1jb21wYXNzLWFpICgxKVxcY2FyZWVyLWNvbXBhc3MtYWlcXGFwcHNcXGFwaVxcc3JjXFxtb2R1bGVzXFxzY2hvbGFyc2hpcHNcXHNlcnZpY2VzXFxzY2hvbGFyc2hpcC1pbnRlcmFjdGlvbi5zZXJ2aWNlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUsIExvZ2dlciB9IGZyb20gJ0BuZXN0anMvY29tbW9uJztcbmltcG9ydCB7IEluamVjdE1vZGVsIH0gZnJvbSAnQG5lc3Rqcy9tb25nb29zZSc7XG5pbXBvcnQgeyBNb2RlbCB9IGZyb20gJ21vbmdvb3NlJztcbmltcG9ydCB7XG4gIFNjaG9sYXJzaGlwSW50ZXJhY3Rpb24sIFNjaG9sYXJzaGlwSW50ZXJhY3Rpb25Eb2N1bWVudCwgU2Nob2xhcnNoaXBJbnRlcmFjdGlvbkFjdGlvbixcbn0gZnJvbSAnLi4vbW9kZWxzL3NjaG9sYXJzaGlwLWludGVyYWN0aW9uLm1vZGVsJztcblxuQEluamVjdGFibGUoKVxuZXhwb3J0IGNsYXNzIFNjaG9sYXJzaGlwSW50ZXJhY3Rpb25TZXJ2aWNlIHtcbiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKCdTY2hvbGFyc2hpcEludGVyYWN0aW9uU2VydmljZScpO1xuXG4gIGNvbnN0cnVjdG9yKFxuICAgIEBJbmplY3RNb2RlbChTY2hvbGFyc2hpcEludGVyYWN0aW9uLm5hbWUpIHByaXZhdGUgcmVhZG9ubHkgbW9kZWw6IE1vZGVsPFNjaG9sYXJzaGlwSW50ZXJhY3Rpb25Eb2N1bWVudD4sXG4gICkge31cblxuICAvKiogQmVzdC1lZmZvcnQg4oCUIGludGVyYWN0aW9uIGxvZ2dpbmcgbXVzdCBuZXZlciBicmVhayB0aGUgY2FsbGluZyBmZWF0dXJlIChib29rbWFyaywgZWxpZ2liaWxpdHksIGJyb3dzZSkuICovXG4gIGFzeW5jIHJlY29yZCh1c2VySWQ6IHN0cmluZywgc2Nob2xhcnNoaXBJZDogc3RyaW5nLCBhY3Rpb246IFNjaG9sYXJzaGlwSW50ZXJhY3Rpb25BY3Rpb24sIG1ldGFkYXRhOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHt9KTogUHJvbWlzZTx2b2lkPiB7XG4gICAgdHJ5IHtcbiAgICAgIGF3YWl0IHRoaXMubW9kZWwuY3JlYXRlKHsgdXNlcklkLCBzY2hvbGFyc2hpcElkLCBhY3Rpb24sIG1ldGFkYXRhIH0pO1xuICAgIH0gY2F0Y2ggKGVycikge1xuICAgICAgdGhpcy5sb2dnZXIud2FybihgRmFpbGVkIHRvIHJlY29yZCBzY2hvbGFyc2hpcCBpbnRlcmFjdGlvbjogJHsoZXJyIGFzIEVycm9yKS5tZXNzYWdlfWApO1xuICAgIH1cbiAgfVxuXG4gIGFzeW5jIGxpc3RGb3JVc2VyKHVzZXJJZDogc3RyaW5nLCBsaW1pdCA9IDUwKSB7XG4gICAgcmV0dXJuIHRoaXMubW9kZWwuZmluZCh7IHVzZXJJZCB9KS5zb3J0KHsgY3JlYXRlZEF0OiAtMSB9KS5saW1pdChsaW1pdCkuZXhlYygpO1xuICB9XG5cbiAgYXN5bmMgY2xlYXIodXNlcklkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHtcbiAgICBhd2FpdCB0aGlzLm1vZGVsLmRlbGV0ZU1hbnkoeyB1c2VySWQgfSkuZXhlYygpO1xuICB9XG59XG4iXSwidmVyc2lvbiI6M30=

@@ -1,0 +1,18 @@
+c3e0283a49514779a52e46a50023e31b
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const course_matcher_util_1 = require("../../src/modules/predictions/utils/course-matcher.util");
+describe('COMEDK course group matching', () => {
+    const options = (0, course_matcher_util_1.courseOptionsForExam)('COMEDK');
+    const selected = ['Computer Science & IT'];
+    it.each([
+        ['Computer Science & Engineering', true],
+        ['Information Science & Engineering', true],
+        ['Information Technology', true],
+        ['Electrical & Electronics Engineering', false],
+        ['Pharmacy', false],
+    ])('matches %s to Computer Science & IT: %s', (name, expected) => {
+        expect((0, course_matcher_util_1.courseMatchesSelection)({ name, degreeType: 'B.E.', discipline: 'Engineering' }, selected, options)).toBe(expected);
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFx0ZXN0XFx1bml0XFxjb21lZGstY291cnNlLW1hdGNoZXIuc3BlYy50cyIsIm1hcHBpbmdzIjoiOztBQUFBLGlHQUF1SDtBQUV2SCxRQUFRLENBQUMsOEJBQThCLEVBQUUsR0FBRyxFQUFFO0lBQzVDLE1BQU0sT0FBTyxHQUFHLElBQUEsMENBQW9CLEVBQUMsUUFBUSxDQUFDLENBQUM7SUFDL0MsTUFBTSxRQUFRLEdBQUcsQ0FBQyx1QkFBdUIsQ0FBQyxDQUFDO0lBRTNDLEVBQUUsQ0FBQyxJQUFJLENBQUM7UUFDTixDQUFDLGdDQUFnQyxFQUFFLElBQUksQ0FBQztRQUN4QyxDQUFDLG1DQUFtQyxFQUFFLElBQUksQ0FBQztRQUMzQyxDQUFDLHdCQUF3QixFQUFFLElBQUksQ0FBQztRQUNoQyxDQUFDLHNDQUFzQyxFQUFFLEtBQUssQ0FBQztRQUMvQyxDQUFDLFVBQVUsRUFBRSxLQUFLLENBQUM7S0FDcEIsQ0FBQyxDQUFDLHlDQUF5QyxFQUFFLENBQUMsSUFBSSxFQUFFLFFBQVEsRUFBRSxFQUFFO1FBQy9ELE1BQU0sQ0FBQyxJQUFBLDRDQUFzQixFQUFDLEVBQUUsSUFBSSxFQUFFLFVBQVUsRUFBRSxNQUFNLEVBQUUsVUFBVSxFQUFFLGFBQWEsRUFBRSxFQUFFLFFBQVEsRUFBRSxPQUFPLENBQUMsQ0FBQyxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsQ0FBQztJQUM1SCxDQUFDLENBQUMsQ0FBQztBQUNMLENBQUMsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcc2luZGhcXERlc2t0b3BcXGNhcmVlci1jb21wYXNzLWFpICgxKVxcY2FyZWVyLWNvbXBhc3MtYWlcXGFwcHNcXGFwaVxcdGVzdFxcdW5pdFxcY29tZWRrLWNvdXJzZS1tYXRjaGVyLnNwZWMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY291cnNlTWF0Y2hlc1NlbGVjdGlvbiwgY291cnNlT3B0aW9uc0ZvckV4YW0gfSBmcm9tICcuLi8uLi9zcmMvbW9kdWxlcy9wcmVkaWN0aW9ucy91dGlscy9jb3Vyc2UtbWF0Y2hlci51dGlsJztcblxuZGVzY3JpYmUoJ0NPTUVESyBjb3Vyc2UgZ3JvdXAgbWF0Y2hpbmcnLCAoKSA9PiB7XG4gIGNvbnN0IG9wdGlvbnMgPSBjb3Vyc2VPcHRpb25zRm9yRXhhbSgnQ09NRURLJyk7XG4gIGNvbnN0IHNlbGVjdGVkID0gWydDb21wdXRlciBTY2llbmNlICYgSVQnXTtcblxuICBpdC5lYWNoKFtcbiAgICBbJ0NvbXB1dGVyIFNjaWVuY2UgJiBFbmdpbmVlcmluZycsIHRydWVdLFxuICAgIFsnSW5mb3JtYXRpb24gU2NpZW5jZSAmIEVuZ2luZWVyaW5nJywgdHJ1ZV0sXG4gICAgWydJbmZvcm1hdGlvbiBUZWNobm9sb2d5JywgdHJ1ZV0sXG4gICAgWydFbGVjdHJpY2FsICYgRWxlY3Ryb25pY3MgRW5naW5lZXJpbmcnLCBmYWxzZV0sXG4gICAgWydQaGFybWFjeScsIGZhbHNlXSxcbiAgXSkoJ21hdGNoZXMgJXMgdG8gQ29tcHV0ZXIgU2NpZW5jZSAmIElUOiAlcycsIChuYW1lLCBleHBlY3RlZCkgPT4ge1xuICAgIGV4cGVjdChjb3Vyc2VNYXRjaGVzU2VsZWN0aW9uKHsgbmFtZSwgZGVncmVlVHlwZTogJ0IuRS4nLCBkaXNjaXBsaW5lOiAnRW5naW5lZXJpbmcnIH0sIHNlbGVjdGVkLCBvcHRpb25zKSkudG9CZShleHBlY3RlZCk7XG4gIH0pO1xufSk7XG4iXSwidmVyc2lvbiI6M30=

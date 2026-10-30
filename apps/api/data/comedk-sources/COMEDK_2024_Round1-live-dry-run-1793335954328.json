@@ -1,0 +1,3747 @@
+{
+  "generatedAt": "2026-10-30T04:52:29.324Z",
+  "connection": {
+    "status": "connected",
+    "mode": "persistent",
+    "target": "127.0.0.1:27017/career-compass-dev",
+    "database": "career-compass-dev"
+  },
+  "counts": {
+    "colleges": 648,
+    "cutoffs": 174796,
+    "KCET": 174407,
+    "COMEDK": 386
+  },
+  "source": {
+    "file": "COMEDK_2024_Round1.pdf",
+    "url": "https://www.comedk.org/uploads/Round1_Cutoff_Ranks_after_Engineering_Allotment_Notified_on_12_07_2024.pdf",
+    "year": 2024,
+    "round": 1,
+    "phase": null,
+    "savedManifestStatus": "parser_complete_import_pending",
+    "parsedRows": 2320,
+    "populatedRankCells": 1166,
+    "parserRejected": [],
+    "sourceColleges": 145,
+    "mapping": {
+      "databaseConnectedInSavedReport": true,
+      "mappingStatuses": {
+        "exact_college_name": 94,
+        "unmatched": 49,
+        "ambiguous_exact_name": 1,
+        "official_code_name_conflict_review": 1
+      },
+      "exactSafeCollegeMappings": 92,
+      "collisionSourceCodes": [
+        "E078",
+        "E082"
+      ],
+      "unresolvedOrAmbiguous": [
+        {
+          "sourceCode": "E003",
+          "sourceName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+          "baseNameCompared": "A.C.S. College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E004",
+          "sourceName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+          "baseNameCompared": "Adichunchanagiri Institute Of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E006",
+          "sourceName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+          "baseNameCompared": "Alvas Institute of Engineering and Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E011",
+          "sourceName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+          "baseNameCompared": "APS College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E014",
+          "sourceName": "Bharatesh Institute of Technology-Shindhollicross, Belagavi",
+          "baseNameCompared": "Bharatesh Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E016",
+          "sourceName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+          "baseNameCompared": "KLE Technological University Formerly known as BVBCET",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E018",
+          "sourceName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+          "baseNameCompared": "Bangalore College of Engineering and Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E024",
+          "sourceName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+          "baseNameCompared": "Basaveshwar Engineering College",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E026",
+          "sourceName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+          "baseNameCompared": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E027",
+          "sourceName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+          "baseNameCompared": "BMS College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E032",
+          "sourceName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+          "baseNameCompared": "C.M.R. Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E035",
+          "sourceName": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+          "baseNameCompared": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E036",
+          "sourceName": "Chanakya University-Devanahalli, Bengaluru Rural",
+          "baseNameCompared": "Chanakya University",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E038",
+          "sourceName": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+          "baseNameCompared": "Coorg Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E044",
+          "sourceName": "Dr.Shri Shri Shivakumara Mahaswamy College of Engineering-Nelamangala, Bengaluru Rural",
+          "baseNameCompared": "Dr.Shri Shri Shivakumara Mahaswamy College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E045",
+          "sourceName": "Dr H N National College Of Engineering-Jayanagar, Bengaluru",
+          "baseNameCompared": "Dr H N National College Of Engineering",
+          "status": "ambiguous_exact_name",
+          "candidates": [
+            {
+              "id": "6a913cab8aeb83a96d380453",
+              "collegeId": "E305",
+              "name": "Dr. H N National College of Engineering"
+            },
+            {
+              "id": "6a913cab8aeb83a96d3805e1",
+              "collegeId": "E340",
+              "name": "DR H N National College of Engineering"
+            }
+          ]
+        },
+        {
+          "sourceCode": "E051",
+          "sourceName": "GM Institute of Technology-P B Road, Davangere",
+          "baseNameCompared": "GM Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E056",
+          "sourceName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+          "baseNameCompared": "H.K.E.Societys P.D.A. College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E059",
+          "sourceName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+          "baseNameCompared": "Jawaharlal Nehru New College of Engineering JNNCE",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E062",
+          "sourceName": "Jain College of Engineering-T.S Nagar, Belagavi",
+          "baseNameCompared": "Jain College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E063",
+          "sourceName": "Jnana Vikas Institute of Technology-Bidadi, Ramnagar Taluk, Bengaluru Rural",
+          "baseNameCompared": "Jnana Vikas Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E066",
+          "sourceName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+          "baseNameCompared": "KLE College of Engineering and Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E069",
+          "sourceName": "KVG College Of Engineering-Sullia, Dakshina Kannada",
+          "baseNameCompared": "KVG College Of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E072",
+          "sourceName": "K L E Institute of Technology-Gokul, Hubbali",
+          "baseNameCompared": "K L E Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E074",
+          "sourceName": "KLS Vishwanathrao Deshpande Institute of Technology-Dandeli Road, Haliyal",
+          "baseNameCompared": "KLS Vishwanathrao Deshpande Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E081",
+          "sourceName": "Moodalakatte Institute of Technology-Moodalakatte, Udupi",
+          "baseNameCompared": "Moodalakatte Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E089",
+          "sourceName": "P.E.S.College of Engineering-PES College Road, Mandya",
+          "baseNameCompared": "P.E.S.College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E094",
+          "sourceName": "Proudhadevaraya Institute of Technology-TB Dam Road, Hosapete",
+          "baseNameCompared": "Proudhadevaraya Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E098",
+          "sourceName": "R T E Societys Rural Engineering College-Hulkoti, Gadag",
+          "baseNameCompared": "R T E Societys Rural Engineering College",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E099",
+          "sourceName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+          "baseNameCompared": "Raja Rajeswari College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E109",
+          "sourceName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+          "baseNameCompared": "S.E.A. College of Engineering and Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E110",
+          "sourceName": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+          "baseNameCompared": "SSETs S.G. Balekundri Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E116",
+          "sourceName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+          "baseNameCompared": "Sapthagiri NPS University",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E117",
+          "sourceName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+          "baseNameCompared": "SDM College of Engineering and Technology, Tulu Minority",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E118",
+          "sourceName": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+          "baseNameCompared": "SDM Institute of Technology, Tulu Minority",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E119",
+          "sourceName": "SECAB Institute of Engineering andTechnology-Nauraspur-Bagalkot Road, Vijayapura",
+          "baseNameCompared": "SECAB Institute of Engineering andTechnology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E127",
+          "sourceName": "SJM Institute of Technology-NH 4 Bye-pass, Chitradurga",
+          "baseNameCompared": "SJM Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E142",
+          "sourceName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+          "baseNameCompared": "The National Institute of Engineering South Campus",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E145",
+          "sourceName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+          "baseNameCompared": "Vemana Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E147",
+          "sourceName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+          "baseNameCompared": "Vidyavardhaka College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E149",
+          "sourceName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+          "baseNameCompared": "Vivekananda Institute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E159",
+          "sourceName": "Lingaraj Appa Engineering-Gornalli, Bidar",
+          "baseNameCompared": "Lingaraj Appa Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E165",
+          "sourceName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+          "baseNameCompared": "Alliance College of Engineering and Design. Alliance University",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E171",
+          "sourceName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+          "baseNameCompared": "GITAM Deemed to be University",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E172",
+          "sourceName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+          "baseNameCompared": "Mysore College of Engineering and Management",
+          "status": "official_code_name_conflict_review",
+          "candidates": [
+            {
+              "id": "6a913cab8aeb83a96d3803e8",
+              "collegeId": "E123",
+              "name": "Canara Engineering College"
+            }
+          ]
+        },
+        {
+          "sourceCode": "E186",
+          "sourceName": "Nitte School of Architecture Planning and Design-Yelahanka, Bengaluru",
+          "baseNameCompared": "Nitte School of Architecture Planning and Design",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E202",
+          "sourceName": "C Byregowda Insitute of Technology-Thoradevandahalli, Kolar",
+          "baseNameCompared": "C Byregowda Insitute of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E204",
+          "sourceName": "H.K.E. Societys Sir M. Visvesvaraya College of Engineering-Yermarus Camp, Raichur",
+          "baseNameCompared": "H.K.E. Societys Sir M. Visvesvaraya College of Engineering",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E205",
+          "sourceName": "Vijaya Vittala Institution of Technology-Kothanur, Bengaluru",
+          "baseNameCompared": "Vijaya Vittala Institution of Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E208",
+          "sourceName": "A.G.M Rural College of Engineering and Technology-Varur, Hubballi",
+          "baseNameCompared": "A.G.M Rural College of Engineering and Technology",
+          "status": "unmatched",
+          "candidates": []
+        },
+        {
+          "sourceCode": "E210",
+          "sourceName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+          "baseNameCompared": "Impact College Of Engineering and Applied Science",
+          "status": "unmatched",
+          "candidates": []
+        }
+      ]
+    },
+    "candidates": 803,
+    "branchCodes": [
+      "AD",
+      "AE",
+      "AG",
+      "AI",
+      "AL",
+      "AS",
+      "AU",
+      "AVE",
+      "BM",
+      "BT",
+      "CA",
+      "CB",
+      "CBD",
+      "CD",
+      "CE",
+      "CG",
+      "CH",
+      "CI",
+      "CM",
+      "CNW",
+      "CO",
+      "COS",
+      "CS",
+      "CSD",
+      "CST",
+      "CU",
+      "CV",
+      "CY",
+      "DS",
+      "EC",
+      "EE",
+      "EI",
+      "EIE",
+      "ES",
+      "ET",
+      "IC",
+      "IM",
+      "INT",
+      "IS",
+      "IST",
+      "MD",
+      "ME",
+      "MR",
+      "MT",
+      "PTE",
+      "RA",
+      "RI",
+      "TX",
+      "UE",
+      "VL",
+      "VLS"
+    ],
+    "excluded": [
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "AE",
+        "seatType": "GM",
+        "closingRank": 62967,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "AS",
+        "seatType": "GM",
+        "closingRank": 33264,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "AE",
+        "seatType": "KKR",
+        "closingRank": 98722,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "AS",
+        "seatType": "KKR",
+        "closingRank": 69992,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 69328,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "AG",
+        "seatType": "GM",
+        "closingRank": 97806,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 99127,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E014",
+        "collegeName": "Bharatesh Institute of Technology-Shindhollicross, Belagavi",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 100356,
+        "page": 1,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "AR",
+        "seatType": "GM",
+        "closingRank": 21723,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "AR",
+        "seatType": "KKR",
+        "closingRank": 48753,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 22221,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "KKR",
+        "closingRank": 69480,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 48966,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "AI",
+        "seatType": "KKR",
+        "closingRank": 69367,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 1539,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 1981,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "AS",
+        "seatType": "GM",
+        "closingRank": 4450,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "AD",
+        "seatType": "KKR",
+        "closingRank": 8003,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "KKR",
+        "closingRank": 7942,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "AS",
+        "seatType": "KKR",
+        "closingRank": 36946,
+        "page": 2,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 13021,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 12597,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "AD",
+        "seatType": "KKR",
+        "closingRank": 39918,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "KKR",
+        "closingRank": 37232,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E035",
+        "collegeName": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 99218,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E038",
+        "collegeName": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 96402,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E038",
+        "collegeName": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 95657,
+        "page": 3,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E045",
+        "collegeName": "Dr H N National College Of Engineering-Jayanagar, Bengaluru",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 84710,
+        "page": 4,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E051",
+        "collegeName": "GM Institute of Technology-P B Road, Davangere",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 84531,
+        "page": 4,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E056",
+        "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 97828,
+        "page": 5,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 43922,
+        "page": 5,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E066",
+        "collegeName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 34015,
+        "page": 5,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E066",
+        "collegeName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "branchCode": "AD",
+        "seatType": "KKR",
+        "closingRank": 100711,
+        "page": 5,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E082",
+        "collegeName": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 70280,
+        "page": 7,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E098",
+        "collegeName": "R T E Societys Rural Engineering College-Hulkoti, Gadag",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 98063,
+        "page": 8,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 48062,
+        "page": 8,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 100170,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "AG",
+        "seatType": "GM",
+        "closingRank": 62340,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 97160,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E110",
+        "collegeName": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 96379,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 26483,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "AI",
+        "seatType": "KKR",
+        "closingRank": 44389,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E118",
+        "collegeName": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+        "branchCode": "AD",
+        "seatType": "GM",
+        "closingRank": 26950,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E118",
+        "collegeName": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+        "branchCode": "AD",
+        "seatType": "KKR",
+        "closingRank": 48772,
+        "page": 9,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E145",
+        "collegeName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 61806,
+        "page": 11,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E149",
+        "collegeName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 72049,
+        "page": 11,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 14791,
+        "page": 12,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "AS",
+        "seatType": "GM",
+        "closingRank": 20946,
+        "page": 12,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "KKR",
+        "closingRank": 37892,
+        "page": 12,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "AS",
+        "seatType": "KKR",
+        "closingRank": 46264,
+        "page": 12,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E205",
+        "collegeName": "Vijaya Vittala Institution of Technology-Kothanur, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 93010,
+        "page": 13,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E210",
+        "collegeName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "branchCode": "AI",
+        "seatType": "GM",
+        "closingRank": 92535,
+        "page": 14,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E210",
+        "collegeName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "branchCode": "AR",
+        "seatType": "GM",
+        "closingRank": 97106,
+        "page": 14,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "BM",
+        "seatType": "GM",
+        "closingRank": 94280,
+        "page": 15,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "BT",
+        "seatType": "GM",
+        "closingRank": 62171,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "CA",
+        "seatType": "GM",
+        "closingRank": 12824,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "CA",
+        "seatType": "KKR",
+        "closingRank": 25837,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "BT",
+        "seatType": "GM",
+        "closingRank": 67629,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "BT",
+        "seatType": "GM",
+        "closingRank": 13565,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CB",
+        "seatType": "GM",
+        "closingRank": 1721,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "BT",
+        "seatType": "KKR",
+        "closingRank": 56169,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CB",
+        "seatType": "KKR",
+        "closingRank": 10199,
+        "page": 16,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CA",
+        "seatType": "GM",
+        "closingRank": 53376,
+        "page": 20,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CB",
+        "seatType": "GM",
+        "closingRank": 83249,
+        "page": 20,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CA",
+        "seatType": "KKR",
+        "closingRank": 54045,
+        "page": 20,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CB",
+        "seatType": "GM",
+        "closingRank": 12609,
+        "page": 21,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CB",
+        "seatType": "KKR",
+        "closingRank": 79176,
+        "page": 21,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E110",
+        "collegeName": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+        "branchCode": "CB",
+        "seatType": "GM",
+        "closingRank": 102243,
+        "page": 23,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CB",
+        "seatType": "GM",
+        "closingRank": 10406,
+        "page": 26,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CB",
+        "seatType": "KKR",
+        "closingRank": 78994,
+        "page": 26,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E186",
+        "collegeName": "Nitte School of Architecture Planning and Design-Yelahanka, Bengaluru",
+        "branchCode": "BD",
+        "seatType": "GM",
+        "closingRank": 100740,
+        "page": 26,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E186",
+        "collegeName": "Nitte School of Architecture Planning and Design-Yelahanka, Bengaluru",
+        "branchCode": "BP",
+        "seatType": "GM",
+        "closingRank": 96464,
+        "page": 26,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 53968,
+        "page": 29,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 100611,
+        "page": 29,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 99818,
+        "page": 29,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "CG",
+        "seatType": "GM",
+        "closingRank": 102220,
+        "page": 29,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E011",
+        "collegeName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 40459,
+        "page": 29,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E026",
+        "collegeName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 101035,
+        "page": 30,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E026",
+        "collegeName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 68311,
+        "page": 30,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 1419,
+        "page": 30,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CH",
+        "seatType": "GM",
+        "closingRank": 13046,
+        "page": 30,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "KKR",
+        "closingRank": 6087,
+        "page": 30,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CH",
+        "seatType": "KKR",
+        "closingRank": 56344,
+        "page": 30,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 10821,
+        "page": 31,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 9689,
+        "page": 31,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "KKR",
+        "closingRank": 36588,
+        "page": 31,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "CI",
+        "seatType": "KKR",
+        "closingRank": 37116,
+        "page": 31,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 49508,
+        "page": 33,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 26615,
+        "page": 33,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E069",
+        "collegeName": "KVG College Of Engineering-Sullia, Dakshina Kannada",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 87292,
+        "page": 34,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E074",
+        "collegeName": "KLS Vishwanathrao Deshpande Institute of Technology-Dandeli Road, Haliyal",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 73565,
+        "page": 34,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 67050,
+        "page": 34,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CE",
+        "seatType": "GM",
+        "closingRank": 85262,
+        "page": 34,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 60532,
+        "page": 34,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E081",
+        "collegeName": "Moodalakatte Institute of Technology-Moodalakatte, Udupi",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 75511,
+        "page": 35,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E082",
+        "collegeName": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 72058,
+        "page": 35,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 10507,
+        "page": 35,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 9901,
+        "page": 35,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CD",
+        "seatType": "KKR",
+        "closingRank": 57500,
+        "page": 35,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CI",
+        "seatType": "KKR",
+        "closingRank": 73028,
+        "page": 35,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E094",
+        "collegeName": "Proudhadevaraya Institute of Technology-TB Dam Road, Hosapete",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 82466,
+        "page": 36,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "CG",
+        "seatType": "GM",
+        "closingRank": 77708,
+        "page": 36,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E116",
+        "collegeName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 28113,
+        "page": 37,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E116",
+        "collegeName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "KKR",
+        "closingRank": 84957,
+        "page": 37,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "CH",
+        "seatType": "GM",
+        "closingRank": 65175,
+        "page": 37,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E145",
+        "collegeName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 70650,
+        "page": 39,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 30879,
+        "page": 39,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "CI",
+        "seatType": "KKR",
+        "closingRank": 65407,
+        "page": 39,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CCA",
+        "seatType": "GM",
+        "closingRank": 57535,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 4818,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 4471,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "KKR",
+        "closingRank": 57000,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CI",
+        "seatType": "KKR",
+        "closingRank": 40129,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 53838,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 63339,
+        "page": 40,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E202",
+        "collegeName": "C Byregowda Insitute of Technology-Thoradevandahalli, Kolar",
+        "branchCode": "CE",
+        "seatType": "GM",
+        "closingRank": 89613,
+        "page": 41,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E205",
+        "collegeName": "Vijaya Vittala Institution of Technology-Kothanur, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 79364,
+        "page": 41,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E205",
+        "collegeName": "Vijaya Vittala Institution of Technology-Kothanur, Bengaluru",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 99345,
+        "page": 41,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E208",
+        "collegeName": "A.G.M Rural College of Engineering and Technology-Varur, Hubballi",
+        "branchCode": "CG",
+        "seatType": "GM",
+        "closingRank": 85432,
+        "page": 42,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E208",
+        "collegeName": "A.G.M Rural College of Engineering and Technology-Varur, Hubballi",
+        "branchCode": "CI",
+        "seatType": "GM",
+        "closingRank": 87711,
+        "page": 42,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E210",
+        "collegeName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "branchCode": "CD",
+        "seatType": "GM",
+        "closingRank": 96263,
+        "page": 42,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "CO",
+        "seatType": "GM",
+        "closingRank": 64223,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 44304,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 95746,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 61281,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 72501,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 99005,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E011",
+        "collegeName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 50081,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E014",
+        "collegeName": "Bharatesh Institute of Technology-Shindhollicross, Belagavi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 99442,
+        "page": 43,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 11366,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 21254,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 19684,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 100343,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 39970,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 71897,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E026",
+        "collegeName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 96523,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 1365,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 5657,
+        "page": 44,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 8542,
+        "page": 45,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 28292,
+        "page": 45,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E035",
+        "collegeName": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 101925,
+        "page": 45,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E038",
+        "collegeName": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 73298,
+        "page": 45,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E044",
+        "collegeName": "Dr.Shri Shri Shivakumara Mahaswamy College of Engineering-Nelamangala, Bengaluru Rural",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 98243,
+        "page": 46,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E045",
+        "collegeName": "Dr H N National College Of Engineering-Jayanagar, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 76881,
+        "page": 46,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E051",
+        "collegeName": "GM Institute of Technology-P B Road, Davangere",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 65593,
+        "page": 46,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E051",
+        "collegeName": "GM Institute of Technology-P B Road, Davangere",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 96556,
+        "page": 46,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E056",
+        "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 87378,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E056",
+        "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 100727,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 40429,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 36164,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 77674,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E063",
+        "collegeName": "Jnana Vikas Institute of Technology-Bidadi, Ramnagar Taluk, Bengaluru Rural",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 89441,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E066",
+        "collegeName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 31524,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E066",
+        "collegeName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 87632,
+        "page": 47,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E069",
+        "collegeName": "KVG College Of Engineering-Sullia, Dakshina Kannada",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 77769,
+        "page": 48,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 26749,
+        "page": 48,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 65749,
+        "page": 48,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E074",
+        "collegeName": "KLS Vishwanathrao Deshpande Institute of Technology-Dandeli Road, Haliyal",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 67929,
+        "page": 48,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CO",
+        "seatType": "GM",
+        "closingRank": 75379,
+        "page": 48,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 54581,
+        "page": 48,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E081",
+        "collegeName": "Moodalakatte Institute of Technology-Moodalakatte, Udupi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 98285,
+        "page": 49,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E082",
+        "collegeName": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 63089,
+        "page": 49,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 9527,
+        "page": 49,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 51054,
+        "page": 49,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E094",
+        "collegeName": "Proudhadevaraya Institute of Technology-TB Dam Road, Hosapete",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 92760,
+        "page": 50,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E098",
+        "collegeName": "R T E Societys Rural Engineering College-Hulkoti, Gadag",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 101228,
+        "page": 50,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 51498,
+        "page": 50,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 99374,
+        "page": 50,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 73939,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E110",
+        "collegeName": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 86631,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E116",
+        "collegeName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 27437,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E116",
+        "collegeName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 83061,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 21120,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 33435,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E118",
+        "collegeName": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 23769,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E119",
+        "collegeName": "SECAB Institute of Engineering andTechnology-Nauraspur-Bagalkot Road, Vijayapura",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 100688,
+        "page": 51,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E127",
+        "collegeName": "SJM Institute of Technology-NH 4 Bye-pass, Chitradurga",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 86900,
+        "page": 52,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E145",
+        "collegeName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 59924,
+        "page": 53,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 27836,
+        "page": 53,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 64448,
+        "page": 53,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E149",
+        "collegeName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 58067,
+        "page": 53,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CO",
+        "seatType": "GM",
+        "closingRank": 15843,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 9830,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CO",
+        "seatType": "KKR",
+        "closingRank": 87029,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 29124,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 3651,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "KKR",
+        "closingRank": 43116,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 100778,
+        "page": 54,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E204",
+        "collegeName": "H.K.E. Societys Sir M. Visvesvaraya College of Engineering-Yermarus Camp, Raichur",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 81626,
+        "page": 55,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E205",
+        "collegeName": "Vijaya Vittala Institution of Technology-Kothanur, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 101248,
+        "page": 55,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E208",
+        "collegeName": "A.G.M Rural College of Engineering and Technology-Varur, Hubballi",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 87966,
+        "page": 56,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E210",
+        "collegeName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "branchCode": "CS",
+        "seatType": "GM",
+        "closingRank": 99660,
+        "page": 56,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "GM",
+        "closingRank": 64079,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 60941,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E003",
+        "collegeName": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "KKR",
+        "closingRank": 72888,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 101891,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 100408,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 52192,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 98313,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E011",
+        "collegeName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 100483,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E011",
+        "collegeName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "GM",
+        "closingRank": 59487,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E011",
+        "collegeName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 101501,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E014",
+        "collegeName": "Bharatesh Institute of Technology-Shindhollicross, Belagavi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 60713,
+        "page": 57,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 84507,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 21753,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 28968,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 46133,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "EE",
+        "seatType": "KKR",
+        "closingRank": 73335,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 26536,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 31890,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 100692,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 50178,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E026",
+        "collegeName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 95833,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E026",
+        "collegeName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 64243,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 16264,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 2407,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "CV",
+        "seatType": "KKR",
+        "closingRank": 62399,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 10689,
+        "page": 58,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 16897,
+        "page": 59,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 47763,
+        "page": 59,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E035",
+        "collegeName": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 98724,
+        "page": 59,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E038",
+        "collegeName": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+        "branchCode": "CY",
+        "seatType": "GM",
+        "closingRank": 97942,
+        "page": 59,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E038",
+        "collegeName": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 51953,
+        "page": 59,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E045",
+        "collegeName": "Dr H N National College Of Engineering-Jayanagar, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 94494,
+        "page": 60,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E051",
+        "collegeName": "GM Institute of Technology-P B Road, Davangere",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 100604,
+        "page": 60,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E056",
+        "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 90134,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E056",
+        "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 79136,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 95405,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 69969,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 102078,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 99605,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 57774,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 97765,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E066",
+        "collegeName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 65620,
+        "page": 61,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 94713,
+        "page": 62,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 43281,
+        "page": 62,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 55145,
+        "page": 62,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 88095,
+        "page": 62,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E074",
+        "collegeName": "KLS Vishwanathrao Deshpande Institute of Technology-Dandeli Road, Haliyal",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 96723,
+        "page": 62,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 91758,
+        "page": 62,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 87652,
+        "page": 62,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E082",
+        "collegeName": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 80595,
+        "page": 63,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E082",
+        "collegeName": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 95262,
+        "page": 63,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 30696,
+        "page": 63,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 18319,
+        "page": 63,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 21262,
+        "page": 63,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 86406,
+        "page": 63,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 80110,
+        "page": 64,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 94140,
+        "page": 64,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 75976,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E110",
+        "collegeName": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 94716,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E116",
+        "collegeName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 32490,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E116",
+        "collegeName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 91541,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 71844,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 29760,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 45870,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 53945,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "EE",
+        "seatType": "KKR",
+        "closingRank": 90393,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E118",
+        "collegeName": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 31893,
+        "page": 65,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 32003,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 8863,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 16889,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "CV",
+        "seatType": "KKR",
+        "closingRank": 89944,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 32111,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "EE",
+        "seatType": "KKR",
+        "closingRank": 87272,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E145",
+        "collegeName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 44296,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E145",
+        "collegeName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 84548,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 57032,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 37389,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 39005,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 97122,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "EE",
+        "seatType": "KKR",
+        "closingRank": 98472,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E149",
+        "collegeName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 79248,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E149",
+        "collegeName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 100912,
+        "page": 67,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 64220,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "GM",
+        "closingRank": 14830,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 20818,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "EE",
+        "seatType": "GM",
+        "closingRank": 35657,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "KKR",
+        "closingRank": 42334,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 52197,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "GM",
+        "closingRank": 7275,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "ECE",
+        "seatType": "GM",
+        "closingRank": 27869,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 25576,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "KKR",
+        "closingRank": 65720,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "ECE",
+        "seatType": "KKR",
+        "closingRank": 69070,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "KKR",
+        "closingRank": 95672,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "CV",
+        "seatType": "GM",
+        "closingRank": 99835,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 72251,
+        "page": 68,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E204",
+        "collegeName": "H.K.E. Societys Sir M. Visvesvaraya College of Engineering-Yermarus Camp, Raichur",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 97976,
+        "page": 69,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E208",
+        "collegeName": "A.G.M Rural College of Engineering and Technology-Varur, Hubballi",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 87209,
+        "page": 70,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E210",
+        "collegeName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "branchCode": "CY",
+        "seatType": "GM",
+        "closingRank": 78429,
+        "page": 70,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E210",
+        "collegeName": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "branchCode": "EC",
+        "seatType": "GM",
+        "closingRank": 83758,
+        "page": 70,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "IC",
+        "seatType": "GM",
+        "closingRank": 81981,
+        "page": 71,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "IC",
+        "seatType": "GM",
+        "closingRank": 1566,
+        "page": 72,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "IC",
+        "seatType": "KKR",
+        "closingRank": 7825,
+        "page": 72,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E056",
+        "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "branchCode": "EI",
+        "seatType": "GM",
+        "closingRank": 40122,
+        "page": 75,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "ET",
+        "seatType": "GM",
+        "closingRank": 92231,
+        "page": 75,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "IC",
+        "seatType": "GM",
+        "closingRank": 69001,
+        "page": 78,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "IC",
+        "seatType": "KKR",
+        "closingRank": 90009,
+        "page": 78,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "IC",
+        "seatType": "GM",
+        "closingRank": 91347,
+        "page": 79,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "IAR",
+        "seatType": "GM",
+        "closingRank": 34351,
+        "page": 82,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "IDA",
+        "seatType": "GM",
+        "closingRank": 23087,
+        "page": 82,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "INT",
+        "seatType": "GM",
+        "closingRank": 22902,
+        "page": 82,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "IDA",
+        "seatType": "KKR",
+        "closingRank": 65506,
+        "page": 82,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "INT",
+        "seatType": "KKR",
+        "closingRank": 59008,
+        "page": 82,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 98081,
+        "page": 85,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 66323,
+        "page": 85,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E006",
+        "collegeName": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 99748,
+        "page": 85,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E011",
+        "collegeName": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 84703,
+        "page": 85,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E014",
+        "collegeName": "Bharatesh Institute of Technology-Shindhollicross, Belagavi",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 43258,
+        "page": 85,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 54365,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "ME",
+        "seatType": "KKR",
+        "closingRank": 99109,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E018",
+        "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 25493,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 66869,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "IS",
+        "seatType": "KKR",
+        "closingRank": 91015,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E026",
+        "collegeName": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 99141,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 6079,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E027",
+        "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "branchCode": "ME",
+        "seatType": "KKR",
+        "closingRank": 43024,
+        "page": 86,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 12984,
+        "page": 87,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E032",
+        "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "KKR",
+        "closingRank": 36289,
+        "page": 87,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E035",
+        "collegeName": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 76627,
+        "page": 87,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E035",
+        "collegeName": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 87659,
+        "page": 87,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E036",
+        "collegeName": "Chanakya University-Devanahalli, Bengaluru Rural",
+        "branchCode": "MAE",
+        "seatType": "GM",
+        "closingRank": 80490,
+        "page": 87,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E044",
+        "collegeName": "Dr.Shri Shri Shivakumara Mahaswamy College of Engineering-Nelamangala, Bengaluru Rural",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 81978,
+        "page": 88,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E045",
+        "collegeName": "Dr H N National College Of Engineering-Jayanagar, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 90567,
+        "page": 88,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E051",
+        "collegeName": "GM Institute of Technology-P B Road, Davangere",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 78583,
+        "page": 88,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 59957,
+        "page": 89,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E062",
+        "collegeName": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 93496,
+        "page": 89,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E066",
+        "collegeName": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 70046,
+        "page": 89,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E072",
+        "collegeName": "K L E Institute of Technology-Gokul, Hubbali",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 80792,
+        "page": 90,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 71109,
+        "page": 90,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E078",
+        "collegeName": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 77387,
+        "page": 90,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E082",
+        "collegeName": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 72940,
+        "page": 91,
+        "reason": "college mapping collision"
+      },
+      {
+        "collegeCode": "E089",
+        "collegeName": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 14817,
+        "page": 91,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 70118,
+        "page": 92,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E109",
+        "collegeName": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 75342,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E110",
+        "collegeName": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 96056,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 25547,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 63059,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "IS",
+        "seatType": "KKR",
+        "closingRank": 38815,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E117",
+        "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "branchCode": "ME",
+        "seatType": "KKR",
+        "closingRank": 88313,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E118",
+        "collegeName": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 20502,
+        "page": 93,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 25715,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E142",
+        "collegeName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "branchCode": "ME",
+        "seatType": "KKR",
+        "closingRank": 68711,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E145",
+        "collegeName": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 100868,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 33615,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 50554,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E147",
+        "collegeName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "branchCode": "IS",
+        "seatType": "KKR",
+        "closingRank": 81642,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E149",
+        "collegeName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 102070,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E149",
+        "collegeName": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 70302,
+        "page": 95,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E165",
+        "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 60972,
+        "page": 96,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 100385,
+        "page": 96,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "IS",
+        "seatType": "GM",
+        "closingRank": 98849,
+        "page": 96,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E172",
+        "collegeName": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "branchCode": "ME",
+        "seatType": "GM",
+        "closingRank": 83998,
+        "page": 96,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E004",
+        "collegeName": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "branchCode": "RI",
+        "seatType": "GM",
+        "closingRank": 79444,
+        "page": 99,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "VL",
+        "seatType": "GM",
+        "closingRank": 26396,
+        "page": 100,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E016",
+        "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "branchCode": "VL",
+        "seatType": "KKR",
+        "closingRank": 60993,
+        "page": 100,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E024",
+        "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "branchCode": "UE",
+        "seatType": "GM",
+        "closingRank": 80554,
+        "page": 100,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E059",
+        "collegeName": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "branchCode": "RI",
+        "seatType": "GM",
+        "closingRank": 84613,
+        "page": 103,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E099",
+        "collegeName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "branchCode": "RA",
+        "seatType": "GM",
+        "closingRank": 85503,
+        "page": 106,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "RI",
+        "seatType": "GM",
+        "closingRank": 19581,
+        "page": 110,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "VL",
+        "seatType": "GM",
+        "closingRank": 33318,
+        "page": 110,
+        "reason": "college mapping unresolved"
+      },
+      {
+        "collegeCode": "E171",
+        "collegeName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "branchCode": "RI",
+        "seatType": "KKR",
+        "closingRank": 68889,
+        "page": 110,
+        "reason": "college mapping unresolved"
+      }
+    ],
+    "duplicateCandidates": 0,
+    "conflicts": [],
+    "alreadyImported": 0,
+    "wouldInsert": 803,
+    "idempotent": false,
+    "writesPerformed": 0,
+    "reportFile": "COMEDK_2024_Round1-live-dry-run-1793335954328.json"
+  }
+}

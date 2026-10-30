@@ -1,0 +1,137 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  api:
+    name: API — Lint, Type-check, Test
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:7
+        ports: ['27017:27017']
+        options: >-
+          --health-cmd="mongosh --eval 'db.runCommand({ping:1})'"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build shared packages
+        run: npm run build:packages
+
+      - name: Type check
+        working-directory: apps/api
+        run: npx tsc --noEmit
+
+      - name: Run unit tests
+        working-directory: apps/api
+        run: npm test
+        env:
+          MONGO_URI: mongodb://localhost:27017/career-compass-test
+          JWT_ACCESS_SECRET: ci-test-access-secret-min-32-chars-long
+          JWT_REFRESH_SECRET: ci-test-refresh-secret-min-32-chars-long
+
+      - name: Run e2e tests
+        working-directory: apps/api
+        run: npm run test:e2e
+        env:
+          MONGO_URI: mongodb://localhost:27017/career-compass-e2e-test
+          JWT_ACCESS_SECRET: ci-test-access-secret-min-32-chars-long
+          JWT_REFRESH_SECRET: ci-test-refresh-secret-min-32-chars-long
+          SECURITY_ENCRYPTION_KEY: "0000000000000000000000000000000000000000000000000000000000000000"
+          AI_SERVICE_URL: http://localhost:8000
+          AI_SERVICE_INTERNAL_TOKEN: ci-test-shared-secret
+
+  web:
+    # `npm run lint` is intentionally not run here yet: ESLint was
+    # unconfigured before this change (next lint had no working config at
+    # all — see apps/web/.eslintrc.json) and now that it runs, it surfaces
+    # ~30 pre-existing violations (mostly react/no-unescaped-entities)
+    # across the app that predate this pass. Wiring lint as a CI gate is a
+    # follow-up once those are cleaned up; see the final report.
+    name: Web — Build, Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build shared packages
+        run: npm run build:packages
+
+      - name: Build
+        working-directory: apps/web
+        run: npm run build
+
+      - name: Run tests
+        working-directory: apps/web
+        run: npm test
+
+  ai-service:
+    name: AI Service — Test
+    runs-on: ubuntu-latest
+
+    # Matches docker-compose.yml's `postgres` service image and port offset
+    # (5433 here vs. 5434 there — both map to the container's 5432; 5433 is
+    # what tests/conftest.py's DATABASE_URL default already expects). Most
+    # of the test suite (vectorstore, document_processor, retriever,
+    # reranker, rag_accuracy, prompt_template_store, provider_resolver,
+    # main_pipeline, migrate) needs a live DB — this was previously missing
+    # entirely, so those modules could not have been passing in CI.
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        ports: ['5433:5432']
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: career_compass_rag_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: apps/ai-service/requirements.txt
+
+      - name: Install dependencies
+        working-directory: apps/ai-service
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        working-directory: apps/ai-service
+        run: pytest tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5433/career_compass_rag_test

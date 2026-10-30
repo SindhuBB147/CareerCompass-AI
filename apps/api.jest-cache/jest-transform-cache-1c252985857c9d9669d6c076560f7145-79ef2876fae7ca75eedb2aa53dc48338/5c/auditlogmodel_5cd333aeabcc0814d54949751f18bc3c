@@ -1,0 +1,57 @@
+0561dc17813fa9edb4d2747cebf333e3
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AuditLogSchema = exports.AuditLog = void 0;
+const mongoose_1 = require("@nestjs/mongoose");
+let AuditLog = class AuditLog {
+};
+exports.AuditLog = AuditLog;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], AuditLog.prototype, "adminId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], AuditLog.prototype, "action", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], AuditLog.prototype, "targetCollection", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], AuditLog.prototype, "targetId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Object, default: null }),
+    __metadata("design:type", Object)
+], AuditLog.prototype, "beforeSnapshot", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Object, default: null }),
+    __metadata("design:type", Object)
+], AuditLog.prototype, "afterSnapshot", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true, default: () => new Date() }),
+    __metadata("design:type", Date)
+], AuditLog.prototype, "timestamp", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: String, default: null }),
+    __metadata("design:type", Object)
+], AuditLog.prototype, "ipAddress", void 0);
+exports.AuditLog = AuditLog = __decorate([
+    (0, mongoose_1.Schema)()
+], AuditLog);
+exports.AuditLogSchema = mongoose_1.SchemaFactory.createForClass(AuditLog);
+exports.AuditLogSchema.index({ targetCollection: 1, targetId: 1 });
+exports.AuditLogSchema.index({ adminId: 1 });
+exports.AuditLogSchema.index({ timestamp: -1 });
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXGNvbGxlZ2VzXFxtb2RlbHNcXGF1ZGl0LWxvZy5tb2RlbC50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQSwrQ0FBK0Q7QUFNeEQsSUFBTSxRQUFRLEdBQWQsTUFBTSxRQUFRO0NBU3BCLENBQUE7QUFUWSw0QkFBUTtBQUNPO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzt5Q0FBaUI7QUFDaEI7SUFBekIsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7O3dDQUFnQjtBQUNmO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOztrREFBMEI7QUFDekI7SUFBekIsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7OzBDQUFrQjtBQUNKO0lBQXRDLElBQUEsZUFBSSxFQUFDLEVBQUUsSUFBSSxFQUFFLE1BQU0sRUFBRSxPQUFPLEVBQUUsSUFBSSxFQUFFLENBQUM7O2dEQUFnRDtBQUMvQztJQUF0QyxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUUsT0FBTyxFQUFFLElBQUksRUFBRSxDQUFDOzsrQ0FBK0M7QUFDaEM7SUFBcEQsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxHQUFHLEVBQUUsQ0FBQyxJQUFJLElBQUksRUFBRSxFQUFFLENBQUM7OEJBQVksSUFBSTsyQ0FBQztBQUM5QjtJQUF0QyxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUUsT0FBTyxFQUFFLElBQUksRUFBRSxDQUFDOzsyQ0FBMEI7bUJBUnJELFFBQVE7SUFEcEIsSUFBQSxpQkFBTSxHQUFFO0dBQ0ksUUFBUSxDQVNwQjtBQUVZLFFBQUEsY0FBYyxHQUFHLHdCQUFhLENBQUMsY0FBYyxDQUFDLFFBQVEsQ0FBQyxDQUFDO0FBQ3JFLHNCQUFjLENBQUMsS0FBSyxDQUFDLEVBQUUsZ0JBQWdCLEVBQUUsQ0FBQyxFQUFFLFFBQVEsRUFBRSxDQUFDLEVBQUUsQ0FBQyxDQUFDO0FBQzNELHNCQUFjLENBQUMsS0FBSyxDQUFDLEVBQUUsT0FBTyxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUM7QUFDckMsc0JBQWMsQ0FBQyxLQUFLLENBQUMsRUFBRSxTQUFTLEVBQUUsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcc2luZGhcXERlc2t0b3BcXGNhcmVlci1jb21wYXNzLWFpICgxKVxcY2FyZWVyLWNvbXBhc3MtYWlcXGFwcHNcXGFwaVxcc3JjXFxtb2R1bGVzXFxjb2xsZWdlc1xcbW9kZWxzXFxhdWRpdC1sb2cubW9kZWwudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUHJvcCwgU2NoZW1hLCBTY2hlbWFGYWN0b3J5IH0gZnJvbSAnQG5lc3Rqcy9tb25nb29zZSc7XG5pbXBvcnQgeyBEb2N1bWVudCB9IGZyb20gJ21vbmdvb3NlJztcblxuZXhwb3J0IHR5cGUgQXVkaXRMb2dEb2N1bWVudCA9IEF1ZGl0TG9nICYgRG9jdW1lbnQ7XG5cbkBTY2hlbWEoKVxuZXhwb3J0IGNsYXNzIEF1ZGl0TG9nIHtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBhZG1pbklkOiBzdHJpbmc7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgYWN0aW9uOiBzdHJpbmc7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgdGFyZ2V0Q29sbGVjdGlvbjogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHRhcmdldElkOiBzdHJpbmc7XG4gIEBQcm9wKHsgdHlwZTogT2JqZWN0LCBkZWZhdWx0OiBudWxsIH0pIGJlZm9yZVNuYXBzaG90OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiB8IG51bGw7XG4gIEBQcm9wKHsgdHlwZTogT2JqZWN0LCBkZWZhdWx0OiBudWxsIH0pIGFmdGVyU25hcHNob3Q6IFJlY29yZDxzdHJpbmcsIHVua25vd24+IHwgbnVsbDtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSwgZGVmYXVsdDogKCkgPT4gbmV3IERhdGUoKSB9KSB0aW1lc3RhbXA6IERhdGU7XG4gIEBQcm9wKHsgdHlwZTogU3RyaW5nLCBkZWZhdWx0OiBudWxsIH0pIGlwQWRkcmVzczogc3RyaW5nIHwgbnVsbDtcbn1cblxuZXhwb3J0IGNvbnN0IEF1ZGl0TG9nU2NoZW1hID0gU2NoZW1hRmFjdG9yeS5jcmVhdGVGb3JDbGFzcyhBdWRpdExvZyk7XG5BdWRpdExvZ1NjaGVtYS5pbmRleCh7IHRhcmdldENvbGxlY3Rpb246IDEsIHRhcmdldElkOiAxIH0pO1xuQXVkaXRMb2dTY2hlbWEuaW5kZXgoeyBhZG1pbklkOiAxIH0pO1xuQXVkaXRMb2dTY2hlbWEuaW5kZXgoeyB0aW1lc3RhbXA6IC0xIH0pO1xuIl0sInZlcnNpb24iOjN9

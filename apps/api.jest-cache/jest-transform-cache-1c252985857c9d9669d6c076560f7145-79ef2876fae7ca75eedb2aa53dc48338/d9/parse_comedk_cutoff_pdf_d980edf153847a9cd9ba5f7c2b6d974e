@@ -1,0 +1,188 @@
+a3b70a1ec591ceb505306e2bec2f90ad
+const fs = require('node:fs');
+const path = require('node:path');
+const { PDFParse } = require('pdf-parse');
+
+const BRANCH_NAMES = {
+  AD: 'Artificial Intelligence & Data Science', AE: 'Aeronautical Engineering', AG: 'Agriculture Engineering',
+  AI: 'Artificial Intelligence & Machine Learning', AL: 'Agricultural Engineering', AR: 'Automation & Robotics Engineering',
+  AS: 'Aerospace Engineering', AU: 'Automobile Engineering', AVE: 'Automotive Engineering', BD: 'Bachelor of Design',
+  BT: 'Biotechnology', CA: 'Computer Science & Engineering (Artificial Intelligence)', CB: 'Computer Science & Business Systems',
+  CD: 'Computer Science & Engineering (Data Science)', CE: 'Computer Engineering', CH: 'Chemical Engineering',
+  CI: 'Computer Science & Engineering (Artificial Intelligence & Machine Learning)', CO: 'Computer Science & Engineering (IoT)',
+  CS: 'Computer Science & Engineering', CST: 'Computer Science & Technology', CV: 'Civil Engineering',
+  CY: 'Computer Science & Engineering (Cyber Security)', EC: 'Electronics & Communication Engineering',
+  EE: 'Electrical & Electronics Engineering', EI: 'Electronics & Instrumentation Engineering',
+  ET: 'Electronics & Telecommunication Engineering', IC: 'Computer Science & Engineering (IoT & Cyber Security)',
+  IS: 'Information Science & Engineering', ME: 'Mechanical Engineering', MT: 'Mechatronics Engineering',
+  RA: 'Robotics & Automation', TX: 'Textile Technology',
+};
+
+function cleanText(value) {
+  return String(value ?? '').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function normalizeBranchLabel(value) {
+  // COMEDK wraps some words with a hyphen at the line end (for example,
+  // "Telecomm-" / "unication"). Rejoin those fragments for display while
+  // retaining the extracted source label separately.
+  return String(value ?? '').replace(/-\s+([a-z])/g, '$1').replace(/\s+/g, ' ').trim();
+}
+
+function groupLines(items) {
+  const lines = [];
+  for (const item of items.filter((entry) => entry.str && entry.str.trim())) {
+    const x = Number(item.transform?.[4] ?? 0);
+    const y = Number(item.transform?.[5] ?? 0);
+    let line = lines.find((candidate) => Math.abs(candidate.y - y) <= 2);
+    if (!line) { line = { y, items: [] }; lines.push(line); }
+    line.items.push({ x, y, text: cleanText(item.str) });
+  }
+  for (const line of lines) line.items.sort((a, b) => a.x - b.x);
+  return lines.sort((a, b) => b.y - a.y);
+}
+
+function readBranchHeaders(lines, firstBranchX = 400, headerYRange = { min: 300, max: 540 }) {
+  const headers = [];
+  for (const line of lines) {
+    if (line.y < headerYRange.min || line.y > headerYRange.max) continue;
+    for (const item of line.items) {
+      if (item.x < firstBranchX) continue;
+      const match = item.text.match(/^([A-Z]{1,4})(?:\s*[-–—]\s*|\s+)(.*)$/);
+      if (!match) continue;
+      const code = match[1];
+      if (!headers.some((header) => header.code === code)) headers.push({ code, x: item.x, parts: [] });
+    }
+  }
+  headers.sort((a, b) => a.x - b.x);
+  for (const line of lines) {
+    if (line.y < headerYRange.min || line.y > headerYRange.max) continue;
+    for (const item of line.items) {
+      if (item.x < firstBranchX) continue;
+      const owner = [...headers].sort((a, b) => Math.abs(a.x - item.x) - Math.abs(b.x - item.x))[0];
+      if (!owner || Math.abs(owner.x - item.x) > 20) continue;
+      const codePrefix = item.text.match(/^([A-Z]{1,4})(?:\s*[-–—]\s*|\s+)(.*)$/);
+      const text = codePrefix ? codePrefix[2] : item.text;
+      if (/^\d+$/.test(text)) continue;
+      if (text && !owner.parts.some((part) => part.text === text && part.y === line.y)) owner.parts.push({ text, y: line.y });
+    }
+  }
+  for (const header of headers) {
+    const label = header.parts.sort((a, b) => b.y - a.y).map((part) => part.text).join(' ').replace(/\s+/g, ' ').trim();
+    header.sourceBranchName = label || header.code;
+    header.branchName = BRANCH_NAMES[header.code] || normalizeBranchLabel(label) || header.code;
+  }
+  return headers;
+}
+
+function parsePage(lines, pageNumber, layout = {}) {
+  // The 2024 R1 PDF uses a narrower first-column layout than R3. Detect the
+  // seat-type column from the actual data rows so both official layouts parse.
+  const seatTypeXs = lines.flatMap((line) => {
+    const hasCollegeCode = line.items.some((item) => item.x < 100 && /^E\d{3}$/.test(item.text));
+    const seat = line.items.find((item) => /^(GM|KKR)$/.test(item.text));
+    return hasCollegeCode && seat ? [seat.x] : [];
+  });
+  const seatTypeX = seatTypeXs.length ? seatTypeXs.sort((a, b) => a - b)[Math.floor(seatTypeXs.length / 2)] : 386;
+  const compactLayout = seatTypeX < 360;
+  const firstBranchX = layout.firstBranchX ?? (compactLayout ? seatTypeX + 5 : 400);
+  const headers = readBranchHeaders(lines, firstBranchX, layout.headerYRange);
+  const rowLines = lines.filter((line) => line.y > 35 && line.y < 450);
+  const rows = [];
+  const rejectedRankSamples = [];
+
+  for (const line of rowLines) {
+    const collegeCodeItem = line.items.find((item) => item.x < 100 && /^E\d{3}$/.test(item.text));
+    if (!collegeCodeItem) continue;
+    const collegeName = line.items
+      .filter((item) => compactLayout
+        ? item.x >= collegeCodeItem.x + 10 && item.x < seatTypeX - 20 && item.text !== collegeCodeItem.text
+        : item.x >= collegeCodeItem.x + 10 && item.x < 385 && item.text !== collegeCodeItem.text)
+      .map((item) => item.text).join(' ').replace(/\s+(?:GM|KKR)$/, '').trim();
+    // The PDF labels this field "Seat Type". Cutoff storage calls the same
+    // source-defined value `category`; retain both names so consumers cannot
+    // mistake it for a KCET reservation category.
+    const seatType = line.items.find((item) => Math.abs(item.x - seatTypeX) < 20 && /^(GM|KKR)$/.test(item.text))?.text;
+    if (!collegeName || !seatType) continue;
+
+    const cells = [];
+    for (const item of line.items) {
+      if (item.x < firstBranchX || !/^\d{1,7}$/.test(item.text)) continue;
+      if (!headers.length) { rejectedRankSamples.push({ page: pageNumber, x: item.x, rank: item.text, reason: 'no branch header' }); continue; }
+      const nearest = [...headers].sort((a, b) => Math.abs(a.x - item.x) - Math.abs(b.x - item.x))[0];
+      if (Math.abs(nearest.x - item.x) > 18) {
+        rejectedRankSamples.push({ page: pageNumber, x: item.x, rank: item.text, nearestBranch: nearest.code, delta: Math.abs(nearest.x - item.x) });
+        continue;
+      }
+      cells.push({ branchCode: nearest.code, branchName: nearest.branchName, sourceBranchName: nearest.sourceBranchName, closingRank: Number(item.text) });
+    }
+    rows.push({ page: pageNumber, collegeCode: collegeCodeItem.text, collegeName, seatType, category: seatType, cells });
+  }
+  return {
+    rows,
+    rejectedRankSamples,
+    branchCodes: headers.map((header) => header.code),
+    branchNames: headers.map((header) => ({ code: header.code, name: header.branchName, sourceName: header.sourceBranchName })),
+  };
+}
+
+async function parsePdf(filePath, options = {}) {
+  const filenameYear = path.basename(filePath).match(/20\d{2}/)?.[0];
+  const sourceYear = options.sourceYear ?? (filenameYear ? Number(filenameYear) : undefined);
+  // The 2023 all-rounds source has a distinct, narrower table with its first
+  // branch columns starting around x=295 and headers around y=513. Its round
+  // remains unspecified; this layout supports extraction and auditing only.
+  const layout = sourceYear === 2023
+    ? { firstBranchX: 280, headerYRange: { min: 500, max: 540 } }
+    : { headerYRange: { min: 300, max: 540 } };
+  const parser = new PDFParse({ data: fs.readFileSync(filePath) });
+  try {
+    const doc = await parser.load();
+    const allRows = [];
+    const allBranches = new Set();
+    const allBranchNames = new Map();
+    const rejectedRankSamples = [];
+    for (let pageNumber = 1; pageNumber <= doc.numPages; pageNumber++) {
+      const page = await doc.getPage(pageNumber);
+      const parsed = parsePage(groupLines((await page.getTextContent()).items), pageNumber, layout);
+      allRows.push(...parsed.rows);
+      parsed.branchCodes.forEach((code) => allBranches.add(code));
+      parsed.branchNames.forEach(({ code, name, sourceName }) => {
+        const existing = allBranchNames.get(code);
+        if (!existing || existing.name === code) allBranchNames.set(code, { name, sourceName });
+      });
+      rejectedRankSamples.push(...parsed.rejectedRankSamples);
+    }
+    return {
+      pageCount: doc.numPages,
+      rows: allRows,
+      rejectedRankSamples,
+      branchCodes: [...allBranches].sort(),
+      branchNames: [...allBranchNames].map(([code, value]) => ({ code, ...value })).sort((a, b) => a.code.localeCompare(b.code)),
+    };
+  } finally {
+    await parser.destroy();
+  }
+}
+
+if (require.main === module) {
+  const filename = process.argv[2] ?? path.resolve(__dirname, '../data/comedk-sources/COMEDK_2024_Round3.pdf');
+  parsePdf(filename).then((result) => {
+    const cells = result.rows.flatMap((row) => row.cells);
+    const summary = {
+      sourceFile: path.basename(filename), pageCount: result.pageCount,
+      sourceCollegeSeatRows: result.rows.length,
+      populatedRankCells: cells.length,
+      rejectedRankCells: result.rejectedRankSamples.length,
+      uniqueSourceCollegeCodes: new Set(result.rows.map((row) => row.collegeCode)).size,
+      uniqueCollegeBranchPairs: new Set(result.rows.flatMap((row) => row.cells.map((cell) => `${row.collegeCode}|${cell.branchCode}`))).size,
+      categories: [...new Set(result.rows.map((row) => row.category))].sort(),
+      branchCodes: result.branchCodes,
+      rejectedRankSamples: result.rejectedRankSamples.slice(0, 15),
+      samples: result.rows.filter((row) => row.cells.length).slice(0, 4),
+    };
+    console.log(JSON.stringify(summary, null, 2));
+  }).catch((error) => { console.error(error); process.exitCode = 1; });
+}
+
+module.exports = { parsePdf };

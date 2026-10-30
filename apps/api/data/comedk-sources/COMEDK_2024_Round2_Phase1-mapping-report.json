@@ -1,0 +1,1449 @@
+{
+  "source": {
+    "file": "COMEDK_2024_Round2_Phase1.pdf",
+    "url": "https://www.comedk.org/uploads/Engineering-Cut-Off-Ranks-after-Round2-Phase1-Allotment-Notified-on-26.07.2024.pdf",
+    "year": 2024,
+    "round": 2,
+    "phase": 1,
+    "pages": 15
+  },
+  "extraction": {
+    "sourceCollegeSeatRows": 252,
+    "populatedRankCells": 192,
+    "rejectedRankCells": 0,
+    "uniqueSourceCollegeCodes": 52,
+    "uniqueSourceCollegeBranchPairs": 192,
+    "sourceSeatTypes": [
+      "KKR"
+    ],
+    "rankRange": {
+      "min": 705,
+      "max": 99005
+    },
+    "rejectedCells": []
+  },
+  "database": {
+    "connected": true,
+    "collegeCount": 648,
+    "collegeMappings": [
+      {
+        "sourceCode": "E001",
+        "sourceName": "Acharya Institute of Technology-Soladevanahalli, Bengaluru",
+        "baseNameCompared": "Acharya Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803c5",
+            "collegeId": "E079",
+            "name": "Acharya Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E007",
+        "sourceName": "AMC Engineering College-Bannerghatta Rd, Bengaluru",
+        "baseNameCompared": "AMC Engineering College",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803d0",
+            "collegeId": "E095",
+            "name": "AMC Engineering College"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E012",
+        "sourceName": "Atria Institute of Technology-Hebbal, Bengaluru",
+        "baseNameCompared": "Atria Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803fe",
+            "collegeId": "E152",
+            "name": "Atria Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E015",
+        "sourceName": "B.N.M. Institute of Technology-Banashankari, Bengaluru",
+        "baseNameCompared": "B.N.M. Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803d9",
+            "collegeId": "E107",
+            "name": "B.N.M. Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E016",
+        "sourceName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "baseNameCompared": "KLE Technological University Formerly known as BVBCET",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E017",
+        "sourceName": "Ballari Institute of Technology And Management-Near Allipura, Ballari",
+        "baseNameCompared": "Ballari Institute of Technology And Management",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803c1",
+            "collegeId": "E075",
+            "name": "Ballari Institute of Technology & Management"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E018",
+        "sourceName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "baseNameCompared": "Bangalore College of Engineering and Technology",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E019",
+        "sourceName": "Bangalore Institute of Technology-V V Puram, Bengaluru",
+        "baseNameCompared": "Bangalore Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380399",
+            "collegeId": "E008",
+            "name": "Bangalore Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E021",
+        "sourceName": "Bapuji Institute of Engineering and Technology-Shamanur Road, Davangere",
+        "baseNameCompared": "Bapuji Institute of Engineering and Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803bb",
+            "collegeId": "E062",
+            "name": "Bapuji Institute of Engineering & Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E024",
+        "sourceName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "baseNameCompared": "Basaveshwar Engineering College",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E027",
+        "sourceName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "baseNameCompared": "BMS College of Engineering",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E028",
+        "sourceName": "BMS Institute of Technology and Management-Yelahanka, Bengaluru",
+        "baseNameCompared": "BMS Institute of Technology and Management",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803ea",
+            "collegeId": "E126",
+            "name": "BMS Institute of Technology & Management"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E032",
+        "sourceName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "baseNameCompared": "C.M.R. Institute of Technology",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E033",
+        "sourceName": "Cambridge Institute of Technology-K R Puram, Bengaluru",
+        "baseNameCompared": "Cambridge Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803fb",
+            "collegeId": "E149",
+            "name": "Cambridge Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E039",
+        "sourceName": "Dayananda Sagar Academy of Technology and Management-Kanakpura Road, Bengaluru",
+        "baseNameCompared": "Dayananda Sagar Academy of Technology and Management",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380401",
+            "collegeId": "E158",
+            "name": "Dayananda Sagar Academy of Technology & Management"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E040",
+        "sourceName": "Dayananda Sagar College of Engineering-Kumaraswamy Layout, Bengaluru",
+        "baseNameCompared": "Dayananda Sagar College of Engineering",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380398",
+            "collegeId": "E007",
+            "name": "Dayananda Sagar College of Engineering"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E041",
+        "sourceName": "DON BOSCO Institute of Technology-Kumbalgodu, Bengaluru",
+        "baseNameCompared": "DON BOSCO Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803d4",
+            "collegeId": "E102",
+            "name": "Don Bosco Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E042",
+        "sourceName": "Dr. Ambedkar Institute of Technology-Malathahalli, Bengaluru",
+        "baseNameCompared": "Dr. Ambedkar Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380397",
+            "collegeId": "E004",
+            "name": "Dr. Ambedkar Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E046",
+        "sourceName": "East Point College of Engineering and Technology-Avalahalli, Bengaluru",
+        "baseNameCompared": "East Point College of Engineering and Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380400",
+            "collegeId": "E154",
+            "name": "East Point College of Engineering & Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E048",
+        "sourceName": "East West Institute of Technology-BEL Layout, Bengaluru",
+        "baseNameCompared": "East West Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803d8",
+            "collegeId": "E106",
+            "name": "East West Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E050",
+        "sourceName": "Global Academy of Technology-Rajarajeshwari Nagar, Bengaluru",
+        "baseNameCompared": "Global Academy of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803d5",
+            "collegeId": "E103",
+            "name": "Global Academy of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E055",
+        "sourceName": "GSSS Institute of Engineering and Technology for Women-Metagalli, Mysuru",
+        "baseNameCompared": "GSSS Institute of Engineering and Technology for Women",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803f0",
+            "collegeId": "E133",
+            "name": "GSSS Institute of Engineering & Technology for Women"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E056",
+        "sourceName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "baseNameCompared": "H.K.E.Societys P.D.A. College of Engineering",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E060",
+        "sourceName": "JSS Academy of Technical Education-Kengeri Main Road, Bengaluru",
+        "baseNameCompared": "JSS Academy of Technical Education",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803c7",
+            "collegeId": "E082",
+            "name": "JSS Academy of Technical Education"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E068",
+        "sourceName": "K.S. Institute of Technology-Kanakapura Main Road, Bengaluru",
+        "baseNameCompared": "K.S. Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803cd",
+            "collegeId": "E089",
+            "name": "K.S. Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E072",
+        "sourceName": "K L E Institute of Technology-Gokul, Hubbali",
+        "baseNameCompared": "K L E Institute of Technology",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E073",
+        "sourceName": "KLS Gogte Institute of Technology-Udyambag, Belagavi",
+        "baseNameCompared": "KLS Gogte Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803af",
+            "collegeId": "E037",
+            "name": "KLS Gogte Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E077",
+        "sourceName": "M.S. Ramaiah Institute of Technology-MSR Nagar, Bengaluru",
+        "baseNameCompared": "M.S. Ramaiah Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380392",
+            "collegeId": "E006",
+            "name": "M.S. Ramaiah Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E085",
+        "sourceName": "The National Institute of Engineering North Campus-Koorgalli, Mysuru",
+        "baseNameCompared": "The National Institute of Engineering North Campus",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380428",
+            "collegeId": "E178",
+            "name": "The National Institute of Engineering, North Campus"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E086",
+        "sourceName": "Nitte Meenakshi Institute of Technology-Yelahanka, Bengaluru",
+        "baseNameCompared": "Nitte Meenakshi Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803d7",
+            "collegeId": "E105",
+            "name": "Nitte Meenakshi Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E095",
+        "sourceName": "R V College of Engineering-Mysore Road, Bengaluru",
+        "baseNameCompared": "R V College of Engineering",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380390",
+            "collegeId": "E005",
+            "name": "R.V. College of Engineering"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E099",
+        "sourceName": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "baseNameCompared": "Raja Rajeswari College of Engineering",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E104",
+        "sourceName": "RNS Institute of Technology-R R Nagar Post, Bengaluru",
+        "baseNameCompared": "RNS Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803e4",
+            "collegeId": "E118",
+            "name": "RNS Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E107",
+        "sourceName": "SJB Institute of Technology-Kengeri, Bengaluru",
+        "baseNameCompared": "SJB Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803e1",
+            "collegeId": "E115",
+            "name": "SJB Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E112",
+        "sourceName": "Sahyadri College of Engineering and Management-Adyar, Mangaluru",
+        "baseNameCompared": "Sahyadri College of Engineering and Management",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380411",
+            "collegeId": "E315",
+            "name": "Sahyadri College of Engineering & Management"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E116",
+        "sourceName": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "baseNameCompared": "Sapthagiri NPS University",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E117",
+        "sourceName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "baseNameCompared": "SDM College of Engineering and Technology, Tulu Minority",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E125",
+        "sourceName": "Siddaganga Institute of Technology-B H Road, Tumakuru",
+        "baseNameCompared": "Siddaganga Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803a0",
+            "collegeId": "E016",
+            "name": "Siddaganga Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E126",
+        "sourceName": "Sir M.Visvesvaraya Institute of Technology-Yelahanka, Bengaluru",
+        "baseNameCompared": "Sir M.Visvesvaraya Institute of Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d38039c",
+            "collegeId": "E012",
+            "name": "Sir M. Visvesvaraya Institute of Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E137",
+        "sourceName": "Sri Venkateshwara College of Engineering-KIAL Road, Bengaluru",
+        "baseNameCompared": "Sri Venkateshwara College of Engineering",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d3803dd",
+            "collegeId": "E111",
+            "name": "Sri Venkateshwara College of Engineering"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E142",
+        "sourceName": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "baseNameCompared": "The National Institute of Engineering South Campus",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E147",
+        "sourceName": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "baseNameCompared": "Vidyavardhaka College of Engineering",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E161",
+        "sourceName": "Cambridge Institute of Technology North Campus-Kundana, Bengaluru",
+        "baseNameCompared": "Cambridge Institute of Technology North Campus",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380434",
+            "collegeId": "E222",
+            "name": "Cambridge Institute of Technology, North Campus"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E164",
+        "sourceName": "Reva University-Yelahanka, Bengaluru",
+        "baseNameCompared": "Reva University",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380437",
+            "collegeId": "E232",
+            "name": "REVA University"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E165",
+        "sourceName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "baseNameCompared": "Alliance College of Engineering and Design. Alliance University",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E171",
+        "sourceName": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "baseNameCompared": "GITAM Deemed to be University",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E173",
+        "sourceName": "Presidency University-Yelahanka, Bengaluru",
+        "baseNameCompared": "Presidency University",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380402",
+            "collegeId": "E159",
+            "name": "Presidency University"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E187",
+        "sourceName": "CMR University-Bagalur-Chagalatti, Bengaluru",
+        "baseNameCompared": "CMR University",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d38043f",
+            "collegeId": "E257",
+            "name": "CMR University"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E198",
+        "sourceName": "R V Institute of Technology and Management-J P Nagar, Bengaluru",
+        "baseNameCompared": "R V Institute of Technology and Management",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d380447",
+            "collegeId": "E275",
+            "name": "R V Institute Of Technology and Management"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E207",
+        "sourceName": "BGS College of Engineering and Technology-Mahalaxmipuram, Bengaluru",
+        "baseNameCompared": "BGS College of Engineering and Technology",
+        "status": "exact_college_name",
+        "candidates": [
+          {
+            "id": "6a913cab8aeb83a96d38044d",
+            "collegeId": "E286",
+            "name": "BGS College of Engineering and Technology"
+          }
+        ]
+      },
+      {
+        "sourceCode": "E058",
+        "sourceName": "KKR",
+        "baseNameCompared": "KKR",
+        "status": "unmatched",
+        "candidates": []
+      },
+      {
+        "sourceCode": "E065",
+        "sourceName": "KKR",
+        "baseNameCompared": "KKR",
+        "status": "unmatched",
+        "candidates": []
+      }
+    ],
+    "branchMappings": [
+      {
+        "sourceCode": "AD",
+        "sourceName": "Artificial Intelligence & Data Science",
+        "sourcePairCount": 6,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 48,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E041",
+            "courseId": "PDACE-AIDS",
+            "courseName": "Artificial Intelligence & Data Science"
+          },
+          {
+            "collegeId": "E091",
+            "courseId": "E091-ARTIFICIALINTE-1",
+            "courseName": "Artificial Intelligence and Data Science"
+          },
+          {
+            "collegeId": "E100",
+            "courseId": "KNSIT-AIDS",
+            "courseName": "Artificial Intelligence and Data Science"
+          },
+          {
+            "collegeId": "E101",
+            "courseId": "CIT-AIDS",
+            "courseName": "Artificial Intelligence and Data Science"
+          },
+          {
+            "collegeId": "E101",
+            "courseId": "E101-ARTIFICIALINTE-1",
+            "courseName": "Artificial Intelligence and Data Science"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "AE",
+        "sourceName": "Aeronautical Engineering",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 16,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E042",
+            "courseId": "E042-AERONAUTICALEN-1",
+            "courseName": "Aeronautical Engineering"
+          },
+          {
+            "collegeId": "E095",
+            "courseId": "AMCEC-AE",
+            "courseName": "Aeronautical Engineering"
+          },
+          {
+            "collegeId": "E095",
+            "courseId": "E095-AERONAUTICALEN-1",
+            "courseName": "Aeronautical Engineering"
+          },
+          {
+            "collegeId": "E103",
+            "courseId": "E103-AERONAUTICALEN-1",
+            "courseName": "Aeronautical Engineering"
+          },
+          {
+            "collegeId": "E105",
+            "courseId": "NMIT-AE",
+            "courseName": "Aeronautical Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "AI",
+        "sourceName": "Artificial Intelligence & Machine Learning",
+        "sourcePairCount": 17,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 104,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E013",
+            "courseId": "E013-ARTIFICIALINTE-1",
+            "courseName": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "collegeId": "E032",
+            "courseId": "RECHULKOTI-AIML",
+            "courseName": "Artificial Intelligence & Machine Learning"
+          },
+          {
+            "collegeId": "E034",
+            "courseId": "E034-ARTIFICIALINTE-1",
+            "courseName": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "collegeId": "E040",
+            "courseId": "HSIT-AIML",
+            "courseName": "Artificial Intelligence & Machine Learning"
+          },
+          {
+            "collegeId": "E041",
+            "courseId": "PDACE-AIML",
+            "courseName": "Artificial Intelligence & Machine Learning"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "AR",
+        "sourceName": "Automation & Robotics Engineering",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "AS",
+        "sourceName": "Aerospace Engineering",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 1,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E186",
+            "courseId": "ACSCE-C2",
+            "courseName": "Aerospace Engineering"
+          }
+        ],
+        "status": "exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "BT",
+        "sourceName": "Biotechnology",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 2,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E108",
+            "courseId": "SCE-B",
+            "courseName": "Biotechnology"
+          },
+          {
+            "collegeId": "E114",
+            "courseId": "GMIT-B",
+            "courseName": "Biotechnology"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CA",
+        "sourceName": "Computer Science & Engineering (Artificial Intelligence)",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CB",
+        "sourceName": "Computer Science & Business Systems",
+        "sourcePairCount": 5,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 10,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E021",
+            "courseId": "E021-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Business Systems"
+          },
+          {
+            "collegeId": "E091",
+            "courseId": "E091-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Business Systems"
+          },
+          {
+            "collegeId": "E123",
+            "courseId": "CEC-CSBS",
+            "courseName": "Computer Science & Business Systems"
+          },
+          {
+            "collegeId": "E123",
+            "courseId": "E123-COMPUTERSCIENC-2",
+            "courseName": "Computer Science and Business Systems"
+          },
+          {
+            "collegeId": "E129",
+            "courseId": "E129-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Business Systems"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CBD",
+        "sourceName": "Computer Science & Technology (Big Data)",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CD",
+        "sourceName": "Computer Science & Engineering (Data Science)",
+        "sourcePairCount": 10,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 34,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-COMPUTERSCIENC-7",
+            "courseName": "Computer Science and Engineering(data Science)"
+          },
+          {
+            "collegeId": "E043",
+            "courseId": "E043-COMPUTERSCIENC-4",
+            "courseName": "Computer Science and Engineering(data Science)"
+          },
+          {
+            "collegeId": "E044",
+            "courseId": "BKIT-CSE4",
+            "courseName": "Computer Science & Engineering (Data Science)"
+          },
+          {
+            "collegeId": "E095",
+            "courseId": "E095-COMPUTERSCIENC-6",
+            "courseName": "Computer Science and Engineering(data Science)"
+          },
+          {
+            "collegeId": "E100",
+            "courseId": "E100-COMPUTERSCIENC-5",
+            "courseName": "Computer Science and Engineering(data Science)"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CE",
+        "sourceName": "Computer Engineering",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 6,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E099",
+            "courseId": "NHCE-CE",
+            "courseName": "Computer Engineering"
+          },
+          {
+            "collegeId": "E184",
+            "courseId": "E184-COMPUTERENGINE-3",
+            "courseName": "Computer Engineering"
+          },
+          {
+            "collegeId": "E204",
+            "courseId": "E204-C3",
+            "courseName": "Computer Engineering"
+          },
+          {
+            "collegeId": "E204",
+            "courseId": "E204-COMPUTERENGINE-3",
+            "courseName": "Computer Engineering"
+          },
+          {
+            "collegeId": "E258",
+            "courseId": "E258-COMPUTERENGINE-2",
+            "courseName": "Computer Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CG",
+        "sourceName": "Computer Science & Design",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 12,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E123",
+            "courseId": "CEC-CSD",
+            "courseName": "Computer Science & Design"
+          },
+          {
+            "collegeId": "E123",
+            "courseId": "E123-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Design"
+          },
+          {
+            "collegeId": "E144",
+            "courseId": "E144-COMPUTERSCIENC-6",
+            "courseName": "Computer Science and Design"
+          },
+          {
+            "collegeId": "E145",
+            "courseId": "E145-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Design"
+          },
+          {
+            "collegeId": "E169",
+            "courseId": "AIET-C1",
+            "courseName": "Computer Science & Design"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CH",
+        "sourceName": "Chemical Engineering",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 4,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-CHEMICALENGINE-3",
+            "courseName": "Chemical Engineering"
+          },
+          {
+            "collegeId": "E034",
+            "courseId": "SDMCET-CE2",
+            "courseName": "Chemical Engineering"
+          },
+          {
+            "collegeId": "E036",
+            "courseId": "KLEMSSCET-CE2",
+            "courseName": "Chemical Engineering"
+          },
+          {
+            "collegeId": "E044",
+            "courseId": "BKIT-CE2",
+            "courseName": "Chemical Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CI",
+        "sourceName": "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+        "sourcePairCount": 9,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CO",
+        "sourceName": "Computer Science & Engineering (IoT)",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CS",
+        "sourceName": "Computer Science & Engineering",
+        "sourcePairCount": 43,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 165,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E013",
+            "courseId": "E013-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Engineering"
+          },
+          {
+            "collegeId": "E091",
+            "courseId": "E091-COMPUTERSCIENC-4",
+            "courseName": "Computer Science and Engineering"
+          },
+          {
+            "collegeId": "E095",
+            "courseId": "E095-COMPUTERSCIENC-5",
+            "courseName": "Computer Science and Engineering"
+          },
+          {
+            "collegeId": "E099",
+            "courseId": "E099-COMPUTERSCIENC-2",
+            "courseName": "Computer Science and Engineering"
+          },
+          {
+            "collegeId": "E100",
+            "courseId": "E100-COMPUTERSCIENC-4",
+            "courseName": "Computer Science and Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CST",
+        "sourceName": "Computer Science & Technology",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CV",
+        "sourceName": "Civil Engineering",
+        "sourcePairCount": 3,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 208,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-CIVILENGINEERI-4",
+            "courseName": "Civil Engineering"
+          },
+          {
+            "collegeId": "E002",
+            "courseId": "E002-CIVILENGINEERI-1",
+            "courseName": "Civil Engineering"
+          },
+          {
+            "collegeId": "E013",
+            "courseId": "E013-CIVILENGINEERI-2",
+            "courseName": "Civil Engineering"
+          },
+          {
+            "collegeId": "E021",
+            "courseId": "E021-CIVILENGINEERI-2",
+            "courseName": "Civil Engineering"
+          },
+          {
+            "collegeId": "E028",
+            "courseId": "E028-EXTRA1",
+            "courseName": "Civil Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "CY",
+        "sourceName": "Computer Science & Engineering (Cyber Security)",
+        "sourcePairCount": 6,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 14,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-COMPUTERSCIENC-6",
+            "courseName": "Computer Science and Engineering (cyber Security)"
+          },
+          {
+            "collegeId": "E111",
+            "courseId": "E111-COMPUTERSCIENC-4",
+            "courseName": "Computer Science and Engineering (cyber Security)"
+          },
+          {
+            "collegeId": "E113",
+            "courseId": "E113-COMPUTERSCIENC-4",
+            "courseName": "Computer Science and Engineering (cyber Security)"
+          },
+          {
+            "collegeId": "E116",
+            "courseId": "E116-COMPUTERSCIENC-3",
+            "courseName": "Computer Science and Engineering (cyber Security)"
+          },
+          {
+            "collegeId": "E118",
+            "courseId": "E118-COMPUTERSCIENC-4",
+            "courseName": "Computer Science and Engineering (cyber Security)"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "EC",
+        "sourceName": "Electronics & Communication Engineering",
+        "sourcePairCount": 22,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 126,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E028",
+            "courseId": "E028-EXTRA2",
+            "courseName": "Electronics and Communication Engineering"
+          },
+          {
+            "collegeId": "E031",
+            "courseId": "BEC-ECE",
+            "courseName": "Electronics & Communication Engineering"
+          },
+          {
+            "collegeId": "E032",
+            "courseId": "RECHULKOTI-ECE",
+            "courseName": "Electronics & Communication Engineering"
+          },
+          {
+            "collegeId": "E033",
+            "courseId": "STJIT-ECE",
+            "courseName": "Electronics & Communication Engineering"
+          },
+          {
+            "collegeId": "E034",
+            "courseId": "SDMCET-ECE",
+            "courseName": "Electronics & Communication Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "EE",
+        "sourceName": "Electrical & Electronics Engineering",
+        "sourcePairCount": 9,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 104,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-ELECTRICALELEC-8",
+            "courseName": "Electrical & Electronics Engineering"
+          },
+          {
+            "collegeId": "E013",
+            "courseId": "E013-ELECTRICALELEC-4",
+            "courseName": "Electrical & Electronics Engineering"
+          },
+          {
+            "collegeId": "E028",
+            "courseId": "E028-EXTRA3",
+            "courseName": "Electrical and Electronics Engineering"
+          },
+          {
+            "collegeId": "E030",
+            "courseId": "E030-ELECTRICALELEC-5",
+            "courseName": "Electrical & Electronics Engineering"
+          },
+          {
+            "collegeId": "E031",
+            "courseId": "BEC-EEE",
+            "courseName": "Electrical & Electronics Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "EI",
+        "sourceName": "Electronics & Instrumentation Engineering",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 1,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E061",
+            "courseId": "E061-ELECTRONICSAND-2",
+            "courseName": "Electronics and Instrumentation Engineering"
+          }
+        ],
+        "status": "exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "ET",
+        "sourceName": "Electronics & Telecommunication Engineering",
+        "sourcePairCount": 4,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 1,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-ELECTRONICSAND-10",
+            "courseName": "Electronics and Telecommunication Engineering"
+          }
+        ],
+        "status": "exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "IC",
+        "sourceName": "Computer Science & Engineering (IoT & Cyber Security)",
+        "sourcePairCount": 5,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 0,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [],
+        "status": "unmatched",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "IM",
+        "sourceName": "Industrial Engineering & Management",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 1,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-INDUSTRIALENGI-11",
+            "courseName": "Industrial Engineering & Management"
+          }
+        ],
+        "status": "exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "INT",
+        "sourceName": "Information Technology",
+        "sourcePairCount": 1,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 6,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E153",
+            "courseId": "BCE-C3",
+            "courseName": "Information Technology"
+          },
+          {
+            "collegeId": "E256",
+            "courseId": "E256-C2",
+            "courseName": "Information Technology"
+          },
+          {
+            "collegeId": "E275",
+            "courseId": "E275-C2",
+            "courseName": "Information Technology"
+          },
+          {
+            "collegeId": "E305",
+            "courseId": "HNNCE-C2",
+            "courseName": "Information Technology"
+          },
+          {
+            "collegeId": "E307",
+            "courseId": "SIT-C4",
+            "courseName": "Information Technology"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "IS",
+        "sourceName": "Information Science & Engineering",
+        "sourcePairCount": 22,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 83,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E013",
+            "courseId": "E013-INFORMATIONSCI-6",
+            "courseName": "Information Science and Engineering"
+          },
+          {
+            "collegeId": "E021",
+            "courseId": "E021-INFORMATIONSCI-6",
+            "courseName": "Information Science and Engineering"
+          },
+          {
+            "collegeId": "E038",
+            "courseId": "BLDEACET-ISE",
+            "courseName": "Information Science & Engineering"
+          },
+          {
+            "collegeId": "E043",
+            "courseId": "E043-INFORMATIONSCI-5",
+            "courseName": "Information Science and Engineering"
+          },
+          {
+            "collegeId": "E070",
+            "courseId": "E070-INFORMATIONSCI-4",
+            "courseName": "Information Science and Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "ME",
+        "sourceName": "Mechanical Engineering",
+        "sourcePairCount": 5,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 220,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E005",
+            "courseId": "E005-MECHANICALENGI-12",
+            "courseName": "Mechanical Engineering"
+          },
+          {
+            "collegeId": "E022",
+            "courseId": "NIE-ME",
+            "courseName": "Mechanical Engineering"
+          },
+          {
+            "collegeId": "E021",
+            "courseId": "E021-MECHANICALENGI-7",
+            "courseName": "Mechanical Engineering"
+          },
+          {
+            "collegeId": "E030",
+            "courseId": "E030-MECHANICALENGI-8",
+            "courseName": "Mechanical Engineering"
+          },
+          {
+            "collegeId": "E031",
+            "courseId": "BEC-ME",
+            "courseName": "Mechanical Engineering"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "RI",
+        "sourceName": "Robotics & Artificial Intelligence",
+        "sourcePairCount": 3,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 9,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E013",
+            "courseId": "E013-ROBOTICSANDART-7",
+            "courseName": "Robotics and Artificial Intelligence"
+          },
+          {
+            "collegeId": "E035",
+            "courseId": "E035-ROBOTICSANDART-2",
+            "courseName": "Robotics and Artificial Intelligence"
+          },
+          {
+            "collegeId": "E061",
+            "courseId": "E061-ROBOTICSANDART-3",
+            "courseName": "Robotics and Artificial Intelligence"
+          },
+          {
+            "collegeId": "E105",
+            "courseId": "NMIT-RAI",
+            "courseName": "Robotics and Artificial Intelligence"
+          },
+          {
+            "collegeId": "E322",
+            "courseId": "E322-ROBOTICSANDART-10",
+            "courseName": "Robotics and Artificial Intelligence"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      },
+      {
+        "sourceCode": "VL",
+        "sourceName": "Electronics Engineering (VLSI Design & Technology)",
+        "sourcePairCount": 2,
+        "matchedLocalCourseIdCount": 0,
+        "exactLocalCourseNameCount": 4,
+        "structuredAliasFieldAvailable": false,
+        "candidateExamples": [
+          {
+            "collegeId": "E030",
+            "courseId": "E030-ELECTRONICSENG-6",
+            "courseName": "Electronics Engineering(vlsi Design & Technology)"
+          },
+          {
+            "collegeId": "E112",
+            "courseId": "E112-ELECTRONICSENG-4",
+            "courseName": "Electronics Engineering(vlsi Design & Technology)"
+          },
+          {
+            "collegeId": "E177",
+            "courseId": "E177-ELECTRONICSENG-6",
+            "courseName": "Electronics Engineering(vlsi Design & Technology)"
+          },
+          {
+            "collegeId": "E255",
+            "courseId": "E255-ELECTRONICSENG-7",
+            "courseName": "Electronics Engineering(vlsi Design & Technology)"
+          }
+        ],
+        "status": "ambiguous_exact_branch_name",
+        "identityForImport": "COMEDK source branch code (stored in courseId and metadata)"
+      }
+    ],
+    "branchMappingCounts": {
+      "ambiguous_exact_branch_name": 19,
+      "unmatched": 7,
+      "exact_branch_name": 4
+    },
+    "collegeBranchMappingCounts": {
+      "college_exact_branch_code_retained": 146,
+      "unresolved_college": 46
+    },
+    "collegeMappingCounts": {
+      "exact_college_name": 36,
+      "unmatched": 16
+    }
+  }
+}

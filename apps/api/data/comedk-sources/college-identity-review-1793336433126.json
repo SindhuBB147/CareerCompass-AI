@@ -1,0 +1,462 @@
+{
+  "generatedAt": "2026-10-30T05:00:32.798Z",
+  "database": {
+    "status": "connected",
+    "mode": "persistent",
+    "target": "127.0.0.1:27017/career-compass-dev",
+    "database": "career-compass-dev",
+    "collegeCount": 648
+  },
+  "policy": "Read-only discovery. No database or production mapping writes. Fuzzy candidates are never automatically approved.",
+  "results": [
+    {
+      "sourceCode": "E016",
+      "sourceNames": [
+        {
+          "code": "E016",
+          "name": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "unmatched",
+      "suggestedMapping": null,
+      "candidates": []
+    },
+    {
+      "sourceCode": "E024",
+      "sourceNames": [
+        {
+          "code": "E024",
+          "name": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "unmatched",
+      "suggestedMapping": null,
+      "candidates": []
+    },
+    {
+      "sourceCode": "E027",
+      "sourceNames": [
+        {
+          "code": "E027",
+          "name": "BMS College of Engineering-Basavanagudi, Bengaluru",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "unmatched",
+      "suggestedMapping": null,
+      "candidates": []
+    },
+    {
+      "sourceCode": "E059",
+      "sourceNames": [
+        {
+          "code": "E059",
+          "name": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "unmatched",
+      "suggestedMapping": null,
+      "candidates": []
+    },
+    {
+      "sourceCode": "E072",
+      "sourceNames": [
+        {
+          "code": "E072",
+          "name": "K L E Institute of Technology-Gokul, Hubbali",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "candidate discovery only",
+      "suggestedMapping": null,
+      "candidates": [
+        {
+          "id": "E141",
+          "name": "PES Institute of Technology - South Campus",
+          "aliases": [
+            "PESIT South / PES University EC Campus"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "Hosur Road, Electronic City, Bengaluru, Karnataka, Bengaluru, Bengaluru, Karnataka",
+          "city": "Bengaluru",
+          "district": "Bengaluru",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "A+"
+          },
+          "similarity": 0.6,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E162",
+          "name": "KLE Institute of Technology",
+          "aliases": [
+            "KLEIT",
+            "KLE Society's KLE Institute of Technology"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [
+            {
+              "code": "E163",
+              "examBody": "COMEDK",
+              "note": "Also listed under COMEDK code E163 as 'KLE Society's KLE Institute of Technology'; same institution as E162 (same website kleit.ac.in, address, and 2008 establishment year). No secondary-code-specific cutoff or fee data was independently sourced; not publicly disclosed."
+            }
+          ],
+          "address": "Opposite Hubballi Airport, Gokul, Hubballi, Karnataka 580027, Hubballi, Dharwad, Karnataka",
+          "city": "Hubballi",
+          "district": "Dharwad",
+          "state": "Karnataka",
+          "accreditation": null,
+          "similarity": 0.6,
+          "locationTokenOverlap": 1,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E347",
+          "name": "P E S Institute of Technology & Management, Shimoga",
+          "aliases": [],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "GUDDADAARAKERE, KOTEGANGOORSAGAR ROAD,SHIMOGA, Shivamogga, Shivamogga, Karnataka",
+          "city": "Shivamogga",
+          "district": "Shivamogga",
+          "state": "Karnataka",
+          "accreditation": null,
+          "similarity": 0.578,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E014",
+          "name": "S.J.C. Institute of Technology",
+          "aliases": [
+            "SJCIT"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "P.B. No. 20, B.B. Road, Chikkaballapur - 562101, Chikkaballapur, Chikkaballapur, Karnataka",
+          "city": "Chikkaballapur",
+          "district": "Chikkaballapur",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "A+"
+          },
+          "similarity": 0.575,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E063",
+          "name": "S.J.M. Institute of Technology",
+          "aliases": [
+            "SJMIT"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "NH-4 Bypass, P.B No: 73, Chitradurga 577502, Karnataka, Chitradurga, Chitradurga, Karnataka",
+          "city": "Chitradurga",
+          "district": "Chitradurga",
+          "state": "Karnataka",
+          "accreditation": null,
+          "similarity": 0.575,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E081",
+          "name": "H.M.S. Institute of Technology",
+          "aliases": [
+            "HMSIT"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "NH-4, Kesaramadu Post, Kyathsandra, Tumakuru - 572104, Tumakuru, Tumakuru, Karnataka",
+          "city": "Tumakuru",
+          "district": "Tumakuru",
+          "state": "Karnataka",
+          "accreditation": {
+            "nbaCourses": [
+              "Not publicly disclosed"
+            ]
+          },
+          "similarity": 0.575,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E089",
+          "name": "K.S. Institute of Technology",
+          "aliases": [
+            "KSIT"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "No. 14, Raghuvanahalli, Kanakapura Road, Bengaluru - 560109, Bengaluru, Bengaluru Urban, Karnataka",
+          "city": "Bengaluru",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "A+",
+            "nbaCourses": [
+              "Electronics and Communication Engineering",
+              "Computer Science and Engineering"
+            ]
+          },
+          "similarity": 0.575,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E107",
+          "name": "B.N.M. Institute of Technology",
+          "aliases": [
+            "BNMIT"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "Banashankari II Stage, Bengaluru, Karnataka, Bengaluru, Bengaluru Urban, Karnataka",
+          "city": "Bengaluru",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "A",
+            "nirfRank": 201
+          },
+          "similarity": 0.575,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E275",
+          "name": "R V Institute Of Technology and Management",
+          "aliases": [
+            "RVITM"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "R V Institute Of Technology and Management, Sy. No. 171/5, Kothanur, 8th Phase, J.P. Nagar, Bengaluru - 560078, Bengaluru, Bengaluru Urban, Karnataka",
+          "city": "Bengaluru",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "accreditation": null,
+          "similarity": 0.575,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E338",
+          "name": "Coorg Institute of Technology, Kunda, Ponnampet",
+          "aliases": [],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "POST BOX NO.11,COORG, Coorg, Coorg, Karnataka",
+          "city": "Coorg",
+          "district": "Coorg",
+          "state": "Karnataka",
+          "accreditation": null,
+          "similarity": 0.571,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E222",
+          "name": "Cambridge Institute of Technology, North Campus",
+          "aliases": [
+            "CITNC"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "Cambridge Institute of Technology North Campus, Devanahalli, Bengaluru, Karnataka, Bengaluru, Bengaluru Rural, Karnataka",
+          "city": "Bengaluru",
+          "district": "Bengaluru Rural",
+          "state": "Karnataka",
+          "accreditation": null,
+          "similarity": 0.558,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        },
+        {
+          "id": "E015",
+          "name": "Dr. T. Thimmaiah Institute of Technology",
+          "aliases": [
+            "Dr. TTIT",
+            "KGF Institute of Technology"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "Dr. T. Thimmaiah Road, Oorgaum, Kolar Gold Fields (KGF), Karnataka - 563120, KGF, Kolar, Karnataka",
+          "city": "KGF",
+          "district": "Kolar",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "A"
+          },
+          "similarity": 0.55,
+          "locationTokenOverlap": 0,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        }
+      ]
+    },
+    {
+      "sourceCode": "E089",
+      "sourceNames": [
+        {
+          "code": "E089",
+          "name": "P.E.S.College of Engineering-PES College Road, Mandya",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "unmatched",
+      "suggestedMapping": null,
+      "candidates": []
+    },
+    {
+      "sourceCode": "E142",
+      "sourceNames": [
+        {
+          "code": "E142",
+          "name": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "candidate discovery only",
+      "suggestedMapping": null,
+      "candidates": [
+        {
+          "id": "E178",
+          "name": "The National Institute of Engineering, North Campus",
+          "aliases": [
+            "NIE North Campus"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "No.50 (Part), Koorgalli Village, Hootagalli Industrial Area, Mysuru, Karnataka - 570018, Mysuru, Mysuru, Karnataka",
+          "city": "Mysuru",
+          "district": "Mysuru",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "B++",
+            "nirfRank": 151
+          },
+          "similarity": 0.603,
+          "locationTokenOverlap": 1,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": true
+        }
+      ]
+    },
+    {
+      "sourceCode": "E147",
+      "sourceNames": [
+        {
+          "code": "E147",
+          "name": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "candidate discovery only",
+      "suggestedMapping": null,
+      "candidates": [
+        {
+          "id": "E071",
+          "name": "Vidya Vardhaka College of Engineering",
+          "aliases": [
+            "VVCE"
+          ],
+          "collegeCode": null,
+          "alternateAdmissionCodes": [],
+          "address": "P.B. No. 206, Kannada Sahitya Parishat Road, Gokulam III Stage, Mysuru 570002, Mysuru, Mysuru, Karnataka",
+          "city": "Mysuru",
+          "district": "Mysuru",
+          "state": "Karnataka",
+          "accreditation": {
+            "naac": "A",
+            "nbaCourses": [
+              "Information Science & Engineering",
+              "Electrical & Electronics Engineering",
+              "Computer Science & Engineering",
+              "Electronics & Communication Engineering",
+              "Mechanical Engineering",
+              "Civil Engineering"
+            ]
+          },
+          "similarity": 0.6,
+          "locationTokenOverlap": 2,
+          "evidence": "fuzzy name similarity only",
+          "confidence": "low",
+          "distinctCampusWarning": false
+        }
+      ]
+    },
+    {
+      "sourceCode": "E165",
+      "sourceNames": [
+        {
+          "code": "E165",
+          "name": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+          "source": "COMEDK_2024_Round3.pdf",
+          "year": 2024,
+          "round": 3,
+          "phase": null
+        }
+      ],
+      "status": "unmatched",
+      "suggestedMapping": null,
+      "candidates": []
+    }
+  ]
+}

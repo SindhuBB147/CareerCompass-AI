@@ -1,0 +1,117 @@
+{
+  "sources": [
+    {
+      "url": "https://www.comedk.org/uploads/Engineering-Cut-off-Ranks-after-Round-3-Allotment-Notified-on-09.09.24.pdf",
+      "year": 2024,
+      "round": 3,
+      "phase": null,
+      "retrievedAt": "2026-10-29",
+      "file": "COMEDK_2024_Round3.pdf",
+      "parsingStatus": "imported_verified",
+      "statusReason": "240 exact-mapped official COMEDK rows imported; unresolved and colliding college mappings were excluded.",
+      "importedAt": "2026-10-29T14:14:32.248Z",
+      "importedRecords": 240,
+      "excludedUnresolvedMappings": 87,
+      "lastAppliedAt": "2026-10-29T14:31:32.513Z",
+      "verifiedRecords": 240,
+      "lastRunInserted": 0,
+      "lastRunCollegeIdRepairs": 0,
+      "excludedCollidingMappings": 7,
+      "lastRunCourseNameCorrections": 0
+    },
+    {
+      "url": "https://www.comedk.org/uploads/Round1_Cutoff_Ranks_after_Engineering_Allotment_Notified_on_12_07_2024.pdf",
+      "year": 2024,
+      "round": 1,
+      "phase": null,
+      "retrievedAt": "2026-10-29",
+      "file": "COMEDK_2024_Round1.pdf",
+      "parsingStatus": "parser_complete_import_pending",
+      "expectedPages": 112,
+      "statusReason": "All extracted rank cells are assigned to source branch headers. The import dry-run remains pending because the configured local MongoDB endpoint refused connections.",
+      "extraction": {
+        "sourceCollegeSeatRows": 2320,
+        "populatedRankCells": 1166,
+        "rejectedRankCells": 0,
+        "sourceCollegeCodes": 145,
+        "seatTypes": [
+          "GM",
+          "KKR"
+        ]
+      }
+    },
+    {
+      "url": "https://www.comedk.org/uploads/Engineering-Cut-Off-Ranks-after-Round2-Phase1-Allotment-Notified-on-26.07.2024.pdf",
+      "year": 2024,
+      "round": 2,
+      "phase": 1,
+      "retrievedAt": "2026-10-29",
+      "file": "COMEDK_2024_Round2_Phase1.pdf",
+      "parsingStatus": "imported_verified",
+      "expectedPages": 15,
+      "statusReason": "146 exact-mapped official COMEDK rows imported; unresolved and colliding college mappings were excluded.",
+      "extraction": {
+        "sourceCollegeSeatRows": 252,
+        "populatedRankCells": 192,
+        "rejectedRankCells": 0,
+        "sourceCollegeCodes": 52,
+        "seatTypes": [
+          "KKR"
+        ]
+      },
+      "importedAt": "2026-10-29T14:44:06.208Z",
+      "importedRecords": 146,
+      "lastAppliedAt": "2026-10-29T14:44:06.208Z",
+      "lastRunInserted": 146,
+      "lastRunCollegeIdRepairs": 0,
+      "lastRunCourseNameCorrections": 0,
+      "verifiedRecords": 386,
+      "excludedUnresolvedMappings": 46,
+      "excludedCollidingMappings": 0
+    },
+    {
+      "url": "https://www.comedk.org/uploads/Engineering-Cut-off-Ranks-after-Round2-Phase2-Allotment-Notified-on-07.08.2024.pdf",
+      "year": 2024,
+      "round": 2,
+      "phase": 2,
+      "retrievedAt": "2026-10-29",
+      "file": "COMEDK_2024_Round2_Phase2.pdf",
+      "parsingStatus": "parser_complete_import_pending",
+      "expectedPages": 72,
+      "statusReason": "All extracted rank cells are assigned to source branch headers. The import dry-run remains pending because the configured local MongoDB endpoint refused connections.",
+      "extraction": {
+        "sourceCollegeSeatRows": 1017,
+        "populatedRankCells": 521,
+        "rejectedRankCells": 0,
+        "sourceCollegeCodes": 113,
+        "seatTypes": [
+          "GM"
+        ]
+      }
+    },
+    {
+      "url": "https://www.comedk.org/uploads/2023-Engineering-Cut-Off-Ranks-After-All-Rounds-Notified-on-27_05_2024-final.pdf",
+      "year": 2023,
+      "round": null,
+      "phase": "All Rounds",
+      "retrievedAt": "2026-10-29",
+      "file": "COMEDK_2023_AllRounds.pdf",
+      "parsingStatus": "round_ambiguous_layout_unsupported",
+      "statusReason": "Source-specific extraction recovered 532 rank cells and rejected 49 for column mismatch; 85 additional ranks from the prior 666-cell audit remain unaccounted. The aggregate source does not identify a round and is audit-only under the current schema.",
+      "expectedPages": 35,
+      "extraction": {
+        "sourceCollegeSeatRows": 1045,
+        "populatedRankCells": 532,
+        "rejectedRankCells": 49,
+        "unaccountedAgainstPriorAudit": 85,
+        "sourceCollegeCodes": 108,
+        "seatTypes": [
+          "GM",
+          "KKR"
+        ]
+      }
+    }
+  ],
+  "officialSourceIndex": "https://www.comedk.org/counselling-document-2024",
+  "retrievedSourcePath": "apps/api/data/comedk-sources/COMEDK_2024_Round3.pdf"
+}

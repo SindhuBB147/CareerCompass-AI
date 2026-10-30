@@ -1,0 +1,50 @@
+4b023b0e6ee3f8a5433227d74a944ac7
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ScholarshipInteractionSchema = exports.ScholarshipInteraction = exports.SCHOLARSHIP_INTERACTION_ACTIONS = void 0;
+const mongoose_1 = require("@nestjs/mongoose");
+exports.SCHOLARSHIP_INTERACTION_ACTIONS = ['viewed', 'applied', 'rejected', 'eligibility_checked'];
+/**
+ * Scholarship Memory beyond "saved" — ScholarshipBookmark already owns
+ * saved/bookmarked scholarships; this covers the rest (viewed, applied,
+ * self-reported rejected, and eligibility-check outcomes), append-only so
+ * the same scholarship can accumulate a history rather than one row per
+ * student+scholarship. There's no full application-tracking workflow in the
+ * platform, so "applied"/"rejected" are student self-reported, not verified
+ * against an external application system.
+ */
+let ScholarshipInteraction = class ScholarshipInteraction {
+};
+exports.ScholarshipInteraction = ScholarshipInteraction;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], ScholarshipInteraction.prototype, "userId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], ScholarshipInteraction.prototype, "scholarshipId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: String, enum: exports.SCHOLARSHIP_INTERACTION_ACTIONS, required: true }),
+    __metadata("design:type", String)
+], ScholarshipInteraction.prototype, "action", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Object, default: {} }),
+    __metadata("design:type", Object)
+], ScholarshipInteraction.prototype, "metadata", void 0);
+exports.ScholarshipInteraction = ScholarshipInteraction = __decorate([
+    (0, mongoose_1.Schema)({ timestamps: true })
+], ScholarshipInteraction);
+exports.ScholarshipInteractionSchema = mongoose_1.SchemaFactory.createForClass(ScholarshipInteraction);
+exports.ScholarshipInteractionSchema.index({ userId: 1, createdAt: -1 });
+exports.ScholarshipInteractionSchema.index({ userId: 1, scholarshipId: 1, action: 1 });
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXHNjaG9sYXJzaGlwc1xcbW9kZWxzXFxzY2hvbGFyc2hpcC1pbnRlcmFjdGlvbi5tb2RlbC50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQSwrQ0FBK0Q7QUFLbEQsUUFBQSwrQkFBK0IsR0FBRyxDQUFDLFFBQVEsRUFBRSxTQUFTLEVBQUUsVUFBVSxFQUFFLHFCQUFxQixDQUFVLENBQUM7QUFHakg7Ozs7Ozs7O0dBUUc7QUFFSSxJQUFNLHNCQUFzQixHQUE1QixNQUFNLHNCQUFzQjtDQUtsQyxDQUFBO0FBTFksd0RBQXNCO0FBQ1A7SUFBekIsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7O3NEQUFnQjtBQUNmO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzs2REFBdUI7QUFDK0I7SUFBOUUsSUFBQSxlQUFJLEVBQUMsRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFFLElBQUksRUFBRSx1Q0FBK0IsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7O3NEQUFzQztBQUMvRTtJQUFwQyxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUUsT0FBTyxFQUFFLEVBQUUsRUFBRSxDQUFDOzt3REFBbUM7aUNBSjVELHNCQUFzQjtJQURsQyxJQUFBLGlCQUFNLEVBQUMsRUFBRSxVQUFVLEVBQUUsSUFBSSxFQUFFLENBQUM7R0FDaEIsc0JBQXNCLENBS2xDO0FBRVksUUFBQSw0QkFBNEIsR0FBRyx3QkFBYSxDQUFDLGNBQWMsQ0FBQyxzQkFBc0IsQ0FBQyxDQUFDO0FBQ2pHLG9DQUE0QixDQUFDLEtBQUssQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsU0FBUyxFQUFFLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQztBQUNqRSxvQ0FBNEIsQ0FBQyxLQUFLLENBQUMsRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLGFBQWEsRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXHNjaG9sYXJzaGlwc1xcbW9kZWxzXFxzY2hvbGFyc2hpcC1pbnRlcmFjdGlvbi5tb2RlbC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQcm9wLCBTY2hlbWEsIFNjaGVtYUZhY3RvcnkgfSBmcm9tICdAbmVzdGpzL21vbmdvb3NlJztcbmltcG9ydCB7IERvY3VtZW50IH0gZnJvbSAnbW9uZ29vc2UnO1xuXG5leHBvcnQgdHlwZSBTY2hvbGFyc2hpcEludGVyYWN0aW9uRG9jdW1lbnQgPSBTY2hvbGFyc2hpcEludGVyYWN0aW9uICYgRG9jdW1lbnQ7XG5cbmV4cG9ydCBjb25zdCBTQ0hPTEFSU0hJUF9JTlRFUkFDVElPTl9BQ1RJT05TID0gWyd2aWV3ZWQnLCAnYXBwbGllZCcsICdyZWplY3RlZCcsICdlbGlnaWJpbGl0eV9jaGVja2VkJ10gYXMgY29uc3Q7XG5leHBvcnQgdHlwZSBTY2hvbGFyc2hpcEludGVyYWN0aW9uQWN0aW9uID0gdHlwZW9mIFNDSE9MQVJTSElQX0lOVEVSQUNUSU9OX0FDVElPTlNbbnVtYmVyXTtcblxuLyoqXG4gKiBTY2hvbGFyc2hpcCBNZW1vcnkgYmV5b25kIFwic2F2ZWRcIiDigJQgU2Nob2xhcnNoaXBCb29rbWFyayBhbHJlYWR5IG93bnNcbiAqIHNhdmVkL2Jvb2ttYXJrZWQgc2Nob2xhcnNoaXBzOyB0aGlzIGNvdmVycyB0aGUgcmVzdCAodmlld2VkLCBhcHBsaWVkLFxuICogc2VsZi1yZXBvcnRlZCByZWplY3RlZCwgYW5kIGVsaWdpYmlsaXR5LWNoZWNrIG91dGNvbWVzKSwgYXBwZW5kLW9ubHkgc29cbiAqIHRoZSBzYW1lIHNjaG9sYXJzaGlwIGNhbiBhY2N1bXVsYXRlIGEgaGlzdG9yeSByYXRoZXIgdGhhbiBvbmUgcm93IHBlclxuICogc3R1ZGVudCtzY2hvbGFyc2hpcC4gVGhlcmUncyBubyBmdWxsIGFwcGxpY2F0aW9uLXRyYWNraW5nIHdvcmtmbG93IGluIHRoZVxuICogcGxhdGZvcm0sIHNvIFwiYXBwbGllZFwiL1wicmVqZWN0ZWRcIiBhcmUgc3R1ZGVudCBzZWxmLXJlcG9ydGVkLCBub3QgdmVyaWZpZWRcbiAqIGFnYWluc3QgYW4gZXh0ZXJuYWwgYXBwbGljYXRpb24gc3lzdGVtLlxuICovXG5AU2NoZW1hKHsgdGltZXN0YW1wczogdHJ1ZSB9KVxuZXhwb3J0IGNsYXNzIFNjaG9sYXJzaGlwSW50ZXJhY3Rpb24ge1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHVzZXJJZDogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHNjaG9sYXJzaGlwSWQ6IHN0cmluZztcbiAgQFByb3AoeyB0eXBlOiBTdHJpbmcsIGVudW06IFNDSE9MQVJTSElQX0lOVEVSQUNUSU9OX0FDVElPTlMsIHJlcXVpcmVkOiB0cnVlIH0pIGFjdGlvbjogU2Nob2xhcnNoaXBJbnRlcmFjdGlvbkFjdGlvbjtcbiAgQFByb3AoeyB0eXBlOiBPYmplY3QsIGRlZmF1bHQ6IHt9IH0pIG1ldGFkYXRhOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjtcbn1cblxuZXhwb3J0IGNvbnN0IFNjaG9sYXJzaGlwSW50ZXJhY3Rpb25TY2hlbWEgPSBTY2hlbWFGYWN0b3J5LmNyZWF0ZUZvckNsYXNzKFNjaG9sYXJzaGlwSW50ZXJhY3Rpb24pO1xuU2Nob2xhcnNoaXBJbnRlcmFjdGlvblNjaGVtYS5pbmRleCh7IHVzZXJJZDogMSwgY3JlYXRlZEF0OiAtMSB9KTtcblNjaG9sYXJzaGlwSW50ZXJhY3Rpb25TY2hlbWEuaW5kZXgoeyB1c2VySWQ6IDEsIHNjaG9sYXJzaGlwSWQ6IDEsIGFjdGlvbjogMSB9KTtcbiJdLCJ2ZXJzaW9uIjozfQ==

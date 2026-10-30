@@ -1,0 +1,6374 @@
+[
+  {
+    "collegeId": "E005",
+    "images": []
+  },
+  {
+    "collegeId": "E003",
+    "images": []
+  },
+  {
+    "collegeId": "E006",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/MSRIT_from_front_gate.jpg/1280px-MSRIT_from_front_gate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.S. Ramaiah Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ramaiah_Institute_of_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E009",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Pesit_A-block.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "PES University campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/PES_University",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E022",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Diamond_Jubilee_Sports_Complex_of_The_National_Institute_of_Engineering_%28HDR%29.jpg/1280px-Diamond_Jubilee_Sports_Complex_of_The_National_Institute_of_Engineering_%28HDR%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "The National Institute of Engineering campus in Mysuru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/National_Institute_of_Engineering",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E001",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/UVCE_Main_Building.jpg/250px-UVCE_Main_Building.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "University Visvesvaraya College of Engineering campus in Bengaluru",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E002",
+    "images": []
+  },
+  {
+    "collegeId": "E004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://drait.edu.in/assets/images/slider/campus1.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dr. Ambedkar Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://drait.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E007",
+    "images": []
+  },
+  {
+    "collegeId": "E008",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bangalore_Institute_of_Technology%2C_Bangalore%2C_Karnataka%2C_India_%282016%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bangalore Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bangalore_Institute_of_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E010",
+    "images": []
+  },
+  {
+    "collegeId": "E011",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/MVJ_College_of_Engineering.jpg/250px-MVJ_College_of_Engineering.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.V.J. College of Engineering campus in Bengaluru",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E012",
+    "images": []
+  },
+  {
+    "collegeId": "E013",
+    "images": []
+  },
+  {
+    "collegeId": "E014",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/SJC-Institute-of-Technology.jpg/250px-SJC-Institute-of-Technology.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.J.C. Institute of Technology campus in Chikkaballapur",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E015",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Dr_T_Thimmaiah_Institute_of_Technology_-_K.G.F.jpg/250px-Dr_T_Thimmaiah_Institute_of_Technology_-_K.G.F.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dr. T. Thimmaiah Institute of Technology campus in KGF",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E016",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sit.ac.in/wp-content/uploads/2025/10/1W5A1417-copy-e1773322025509.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Siddaganga Institute of Technology campus in Tumakuru",
+        "sourceUrl": "https://sit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E017",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Post_Graduate_Block_SSIT%2C_Tumkur.JPG/250px-Post_Graduate_Block_SSIT%2C_Tumkur.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Siddhartha Institute of Technology campus in Tumakuru",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E018",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cxbrqldyivnxtbtgccne.supabase.co/storage/v1/object/public/college%20photo/66.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kalpataru Institute of Technology campus in Tiptur",
+        "sourceUrl": "https://kittiptur.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E021",
+    "images": []
+  },
+  {
+    "collegeId": "E023",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pesce_college.JPG/250px-Pesce_college.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "PES College of Engineering campus in Mandya",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E024",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Malnad_College_of_Engineering_Main_Block_at_Twilight.jpg/250px-Malnad_College_of_Engineering_Main_Block_at_Twilight.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Malnad College of Engineering campus in Hassan",
+        "sourceUrl": null,
+        "sourceName": "Existing verified seed data",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E028",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://static.wixstatic.com/media/cb647a_67089668d2674aa3a2c978f09a981d73~mv2.gif",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Tontadarya College of Engineering campus in Gadag",
+        "sourceUrl": "https://www.tce.ac.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E029",
+    "images": []
+  },
+  {
+    "collegeId": "E030",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.kletech.ac.in/Uploads/banner/41hbanner_b2.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Technological University campus in Hubballi",
+        "sourceUrl": "https://www.kletech.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E031",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://becbgk.edu/opengraph-image-12o0cb?9ca19b6eb271b9d8",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Basaveshwara Engineering College campus in Bagalkot",
+        "sourceUrl": "https://www.becbgk.edu/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E032",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://static.wixstatic.com/media/779836_52a3e4ff4aae4f8f93ee2d7dc9a19d00%7Emv2.png/v1/fit/w_2500,h_1330,al_c/779836_52a3e4ff4aae4f8f93ee2d7dc9a19d00%7Emv2.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "R.T.E. Society's Rural Engineering College campus in Hulkoti",
+        "sourceUrl": "https://www.rechulkoti.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E033",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.stjit.ac.in/images/banner7.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Taralabalu Jagadguru Institute of Technology campus in Ranebennur",
+        "sourceUrl": "https://www.stjit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E034",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aerial_view_of_SDM_College_of_Engineering_and_Technology%2C_Dharwad_Campus.jpg/1280px-Aerial_view_of_SDM_College_of_Engineering_and_Technology%2C_Dharwad_Campus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SDM College of Engineering & Technology campus in Dharwad",
+        "sourceUrl": "https://en.wikipedia.org/wiki/SDM_College_of_Engineering_and_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E035",
+    "images": []
+  },
+  {
+    "collegeId": "E036",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.kletech.ac.in/Uploads/banner/20hbanner_belagavi-banner-img1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Dr. M.S. Sheshagiri College of Engineering & Technology campus in Belagavi",
+        "sourceUrl": "https://www.kletech.ac.in/belagavi/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E037",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://storage.googleapis.com/git-web-assets-dev/assets-optimized/assets/about/history-image.webp?v=1.0.4",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLS Gogte Institute of Technology campus in Belagavi",
+        "sourceUrl": "https://git.edu/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E038",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.bldeacet.ac.in/images/bldeacet_mainslider_final.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology campus in Vijayapura",
+        "sourceUrl": "https://www.bldeacet.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E040",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://hsit.ac.in/images/tp-banner-2-2020-21.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Hirasugar Institute of Technology campus in Nidasoshi (Nippani)",
+        "sourceUrl": "https://hsit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E041",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://demo3.chillipages.com/pdacek/og.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "P.D.A. College of Engineering campus in Kalaburagi",
+        "sourceUrl": "https://www.pdacek.ac.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E042",
+    "images": []
+  },
+  {
+    "collegeId": "E043",
+    "images": []
+  },
+  {
+    "collegeId": "E044",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://www.recbhalki.org/images/college @ night4.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bheemanna Khandre Institute of Technology campus in Bhalki",
+        "sourceUrl": "http://www.recbhalki.org/index.php",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E045",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rymec.edu.in/wp-content/uploads/2026/08/PACEMENT-BANNER.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rao Bahadur Y. Mahabaleswarappa Engineering College campus in Ballari",
+        "sourceUrl": "https://rymec.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E046",
+    "images": []
+  },
+  {
+    "collegeId": "E053",
+    "images": []
+  },
+  {
+    "collegeId": "E054",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kvgengg.com/wp-content/uploads/2025/05/ananthayya.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "K.V.G. College of Engineering campus in Sullia",
+        "sourceUrl": "https://kvgengg.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E061",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.ubdtce.org/images/banner/new/paper/2026/pp5.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "University B.D.T. College of Engineering campus in Davanagere",
+        "sourceUrl": "https://www.ubdtce.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E062",
+    "images": []
+  },
+  {
+    "collegeId": "E063",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://sjmit.ac.in/wp-content/uploads/2015/06/Slide-cam1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.J.M. Institute of Technology campus in Chitradurga",
+        "sourceUrl": "https://sjmit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E064",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://aitckm.edu.in/wp-content/uploads/2024/09/KBP_9381-min-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Adhichunchanagiri Institute of Technology campus in Chikkamagaluru",
+        "sourceUrl": "https://aitckm.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E065",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/JNNCE%2C_Shivamogga%2C_Karnataka_%282026%29_24.jpg/1280px-JNNCE%2C_Shivamogga%2C_Karnataka_%282026%29_24.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Jawaharlal Nehru National College of Engineering campus in Shivamogga",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru_National_College_of_Engineering",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E070",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bce.shravanabelagola.org/images/landing.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bahubali College of Engineering campus in Shravanabelagola",
+        "sourceUrl": "https://bce.shravanabelagola.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E071",
+    "images": []
+  },
+  {
+    "collegeId": "E075",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.bitm.edu.in/uploads/events/entrepreneurs-banner-img.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Ballari Institute of Technology & Management campus in Ballari",
+        "sourceUrl": "https://www.bitm.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E076",
+    "images": []
+  },
+  {
+    "collegeId": "E077",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/VVIET%2C_Mysore_%28346808403%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Vidya Vikas Institute of Engineering & Technology campus in Mysuru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Vidya_Vikas_Institute_of_Engineering_%26_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E078",
+    "images": []
+  },
+  {
+    "collegeId": "E079",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Acharya_Institute_of_Technology_Campus.jpg/1280px-Acharya_Institute_of_Technology_Campus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Acharya Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Acharya_Institutes",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E081",
+    "images": []
+  },
+  {
+    "collegeId": "E082",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/J.S.S._Academy_of_Technical_Education_31.jpg/1280px-J.S.S._Academy_of_Technical_Education_31.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "JSS Academy of Technical Education campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/J.S.S._Academy_of_Technical_Education,_Bengaluru",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E083",
+    "images": []
+  },
+  {
+    "collegeId": "E085",
+    "images": []
+  },
+  {
+    "collegeId": "E086",
+    "images": []
+  },
+  {
+    "collegeId": "E087",
+    "images": []
+  },
+  {
+    "collegeId": "E088",
+    "images": []
+  },
+  {
+    "collegeId": "E089",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ksit.ac.in/images/1786813846096_image.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "K.S. Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://ksit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E090",
+    "images": []
+  },
+  {
+    "collegeId": "E091",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kssem.edu.in/img/new_slider/adm2526.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "K.S. School of Engineering & Management campus in Bengaluru",
+        "sourceUrl": "https://kssem.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E095",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://static.wixstatic.com/media/174df9_5fd836465c7c40dcbad528e14f32641e~mv2.png/v1/fill/w_600,h_254,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/174df9_5fd836465c7c40dcbad528e14f32641e~mv2.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "AMC Engineering College campus in Bengaluru",
+        "sourceUrl": "https://www.amcgroup.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E099",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NHCE_Campus.jpg/1280px-NHCE_Campus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "New Horizon College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/New_Horizon_College_of_Engineering",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E100",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://knsit.com/wp-content/uploads/2025/03/college.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KNS Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://knsit.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E101",
+    "images": []
+  },
+  {
+    "collegeId": "E102",
+    "images": []
+  },
+  {
+    "collegeId": "E103",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/GAT_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Global Academy of Technology campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Global_Academy_of_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E104",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ncet.co.in/images/about_ncet.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Nagarjuna College of Engineering & Technology campus in Bengaluru Rural",
+        "sourceUrl": "https://ncet.co.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E105",
+    "images": []
+  },
+  {
+    "collegeId": "E106",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ewit.edu.in/_astro/ewit.X4pGrJmA_1LQr0S.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "East West Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://ewit.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E107",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/BNMIT_main_building.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "B.N.M. Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/B.N.M._Institute_of_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E108",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sapthagiri.edu.in/designs/assets/img/banner/homd.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sapthagiri College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://www.sapthagiri.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E109",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cityengineeringcollege.ac.in/wp-content/uploads/2026/03/city-engineering-naac.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "City Engineering College campus in Bengaluru",
+        "sourceUrl": "https://cityengineeringcollege.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E110",
+    "images": []
+  },
+  {
+    "collegeId": "E111",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://svcengg.edu.in/public/images/why.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Venkateshwara College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://svcengg.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E112",
+    "images": []
+  },
+  {
+    "collegeId": "E113",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sambhramit.com/wp-content/uploads/slider/cache/d3fe7a71e13fdb2ec2c1fa55d684919a/NRN-8-scaled-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sambhram Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://sambhramit.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E114",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://www.gmit.ac.in/images/college1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "G.M. Institute of Technology campus in Davanagere",
+        "sourceUrl": "http://www.gmit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E115",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://demo.chillipages.com/SJBIT-bangalore-2026/og.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SJB Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://www.sjbit.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E116",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rljit.in/assets/silver/212111.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "R.L. Jalappa Institute of Technology campus in Doddaballapur",
+        "sourceUrl": "https://rljit.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E117",
+    "images": []
+  },
+  {
+    "collegeId": "E118",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/RNS_Institute_of_Technology_65.jpg/1280px-RNS_Institute_of_Technology_65.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "RNS Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/RNS_Institute_of_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E119",
+    "images": []
+  },
+  {
+    "collegeId": "E120",
+    "images": []
+  },
+  {
+    "collegeId": "E121",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://vcetputtur.ac.in/wp-content/uploads/2025/06/slider-image-new-1024x542.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Vivekananda College of Engineering & Technology campus in Puttur",
+        "sourceUrl": "https://vcetputtur.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E123",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cec.edu.in/graphImage.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Canara Engineering College campus in Mangaluru",
+        "sourceUrl": "https://cec.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E124",
+    "images": []
+  },
+  {
+    "collegeId": "E126",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bmsit.ac.in/img/slider/BMS-main-banner-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BMS Institute of Technology & Management campus in Bengaluru",
+        "sourceUrl": "https://bmsit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E127",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://msec.ac.in/wp-content/uploads/2026/04/Capturebyyg-1-copy.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.S. Engineering College campus in Bengaluru",
+        "sourceUrl": "https://msec.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E128",
+    "images": []
+  },
+  {
+    "collegeId": "E129",
+    "images": []
+  },
+  {
+    "collegeId": "E130",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://shrideviengineering.org/wp-content/uploads/2026/07/mba.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shridevi Institute of Engineering & Technology campus in Tumakuru",
+        "sourceUrl": "https://shrideviengineering.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E132",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://siet.secab.org/img/carousel/beAnEngineer.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SECAB Institute of Engineering & Technology campus in Vijayapura",
+        "sourceUrl": "https://siet.secab.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E133",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mata_Jayalakshmi_Meditation_Hall%2C_GSSS_Mysore.jpg/1280px-Mata_Jayalakshmi_Meditation_Hall%2C_GSSS_Mysore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "GSSS Institute of Engineering & Technology for Women campus in Mysuru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/GSSS_Institute_of_Engineering_%26_Technology_for_Women",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E134",
+    "images": []
+  },
+  {
+    "collegeId": "E135",
+    "images": []
+  },
+  {
+    "collegeId": "E136",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.mitkundapura.com/wp-content/uploads/2025/02/MIT-Kundapura.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Moodlakatte Institute of Technology campus in Kundapura",
+        "sourceUrl": "https://www.mitkundapura.com/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E137",
+    "images": []
+  },
+  {
+    "collegeId": "E139",
+    "images": []
+  },
+  {
+    "collegeId": "E141",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://pes.edu/wp-content/uploads/revslider/slider-1/mdes-slider.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "PES Institute of Technology - South Campus campus in Bengaluru",
+        "sourceUrl": "https://pes.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E142",
+    "images": []
+  },
+  {
+    "collegeId": "E144",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sitmng.ac.in/assets/img/header-img.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Srinivas Institute of Technology campus in Mangaluru",
+        "sourceUrl": "https://www.sitmng.ac.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E145",
+    "images": []
+  },
+  {
+    "collegeId": "E147",
+    "images": []
+  },
+  {
+    "collegeId": "E149",
+    "images": []
+  },
+  {
+    "collegeId": "E150",
+    "images": []
+  },
+  {
+    "collegeId": "E151",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/REVA_UNIVERSITY.jpg/1280px-REVA_UNIVERSITY.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Reva Institute of Technology & Management campus in Bengaluru",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Reva_Institute_of_Technology_and_Management",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E152",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://atria.edu.in/assets/img/banner/campus1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Atria Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://atria.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E153",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://engineering.brindavancollege.edu.in/uploads/kp/megamenuimg.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Brindavan College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://engineering.brindavancollege.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E154",
+    "images": []
+  },
+  {
+    "collegeId": "E158",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://dsatm.edu.in/images/home/dsatm_campus_life.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dayananda Sagar Academy of Technology & Management campus in Bengaluru",
+        "sourceUrl": "https://dsatm.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E159",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://presidencyuniversity.in/uploads/home/banner_images/6a79b2749ad571786360436.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Presidency University campus in Bengaluru",
+        "sourceUrl": "https://presidencyuniversity.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E160",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.alliance.edu.in/wp-content/uploads/2026/03/Rectangle-6151-1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Alliance College of Engineering & Design campus in Bengaluru",
+        "sourceUrl": "https://www.alliance.edu.in/school/school-of-engineering-and-design/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E161",
+    "images": []
+  },
+  {
+    "collegeId": "E162",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://i0.wp.com/kleit.ac.in/wp-content/uploads/2024/02/KLE-IT-Samsung-Innovation-Campus-Banner.jpg?fit=1024%2C635&amp;ssl=1",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Institute of Technology campus in Hubballi",
+        "sourceUrl": "https://kleit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E164",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://aitmbgm.ac.in/wp-content/uploads/2022/07/1-Copy-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Angadi Institute of Technology & Management campus in Belagavi",
+        "sourceUrl": "https://aitmbgm.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E165",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.betbkec.com/assets/images/slides/slide-01.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Basavakalyan Engineering College campus in Basavakalyan",
+        "sourceUrl": "https://www.betbkec.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E167",
+    "images": []
+  },
+  {
+    "collegeId": "E168",
+    "images": []
+  },
+  {
+    "collegeId": "E169",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.aiet.org.in/wp-content/uploads/2021/09/banner-4.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Alva's Institute of Engineering & Technology campus in Moodbidri",
+        "sourceUrl": "https://www.aiet.org.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E170",
+    "images": []
+  },
+  {
+    "collegeId": "E320",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdit.ac.in/wp-content/themes/shridevi-child/images/sdit-d-banner1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shree Devi Institute of Technology campus in Mangaluru",
+        "sourceUrl": "https://sdit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E321",
+    "images": []
+  },
+  {
+    "collegeId": "E322",
+    "images": []
+  },
+  {
+    "collegeId": "E323",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.ajiet.edu.in/img/slider/vtu-statae.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "A.J. Institute of Engineering & Technology campus in Mangaluru",
+        "sourceUrl": "https://www.ajiet.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E324",
+    "images": []
+  },
+  {
+    "collegeId": "E315",
+    "images": []
+  },
+  {
+    "collegeId": "E179",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bitmangalore.edu.in/wp-content/uploads/2022/08/cropped-BIT.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bearys Institute of Technology campus in Mangaluru",
+        "sourceUrl": "https://bitmangalore.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E316",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://suiet.srinivasuniversity.edu.in/img/banners/mock_cet_2026.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Srinivas University Institute of Engineering & Technology campus in Mangaluru",
+        "sourceUrl": "https://suiet.srinivasuniversity.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E175",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sgbit.edu.in/uploads/slider/slide_crop_1779520368.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.S.E.T.S.S.G. Balekundri Institute of Technology campus in Belagavi",
+        "sourceUrl": "https://sgbit.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E181",
+    "images": []
+  },
+  {
+    "collegeId": "E184",
+    "images": []
+  },
+  {
+    "collegeId": "E186",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.acsce.edu.in/acsce/wp-content/uploads/2025/01/Dr.-A.C.-Shanmugam-honorary-doctorate-by-Mysore-University-acsce.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "ACS College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://www.acsce.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E188",
+    "images": []
+  },
+  {
+    "collegeId": "E189",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://navkisce.com/assets/images/slider/6.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "NAVKIS College of Engineering campus in Hassan",
+        "sourceUrl": "https://navkisce.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E191",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://static.wixstatic.com/media/bab7e8_fbf1ec164789457f8d093b85c7b9bac4~mv2.png/v1/fill/w_1063,h_603,al_c/bab7e8_fbf1ec164789457f8d093b85c7b9bac4~mv2.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Akshaya Institute of Technology campus in Tumakuru",
+        "sourceUrl": "https://www.ait-tumkur.ac.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E194",
+    "images": []
+  },
+  {
+    "collegeId": "E197",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://veerappanistyecs.org/assets/images/navi.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Veerappa Nisty Engineering College campus in Shorapur",
+        "sourceUrl": "https://veerappanistyecs.org/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E198",
+    "images": []
+  },
+  {
+    "collegeId": "E199",
+    "images": []
+  },
+  {
+    "collegeId": "E201",
+    "images": []
+  },
+  {
+    "collegeId": "E297",
+    "images": []
+  },
+  {
+    "collegeId": "E300",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.akashinstitutions.com/wp-content/uploads/2025/10/Institutions-AIET.avif",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Akash Institute of Engineering & Technology campus in Devanahalli, Bengaluru Rural",
+        "sourceUrl": "https://www.akashinstitutions.com/colleges/akash-institute-of-engineering-technology/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E302",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.amity.edu/bengaluru/images/bengaluru.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Amity University, Bengaluru campus in Devanahalli, Bengaluru",
+        "sourceUrl": "https://www.amity.edu/bengaluru/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E304",
+    "images": []
+  },
+  {
+    "collegeId": "E173",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://saividya.ac.in/assets/images/banner/Legacy-1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sai Vidya Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://saividya.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E174",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://drsmce.org/assets/images/banner-1.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dr. Sri Sri Sri Shivakumara Mahaswamy College of Engineering campus in Nelamangala",
+        "sourceUrl": "https://drsmce.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E176",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.navodayaengineering.edu.in/wp-content/uploads/2019/12/slider1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Navodaya Institute of Technology campus in Raichur",
+        "sourceUrl": "https://www.navodayaengineering.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E177",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Rajeev_Institute_of_Technology.JPG/1280px-Rajeev_Institute_of_Technology.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rajeev Institute of Technology campus in Hassan",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rajeev_Institute_of_Technology",
+        "sourceName": "Wikipedia",
+        "verificationStatus": "verified",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E178",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://nie.ac.in/og-image.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "The National Institute of Engineering, North Campus campus in Mysuru",
+        "sourceUrl": "https://nie.ac.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E202",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sampoornainstitutions.org/public/assets/front/images/new/DSC_8341copy.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sampoorna Group of Institutions campus in Channapatna (Ramanagara district), Bengaluru area",
+        "sourceUrl": "https://www.sampoornainstitutions.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E204",
+    "images": []
+  },
+  {
+    "collegeId": "E205",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://atme.edu.in/assets/hero-campus-jaxGPwuV.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "ATME College of Engineering campus in Mysuru",
+        "sourceUrl": "https://atme.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E206",
+    "images": []
+  },
+  {
+    "collegeId": "E207",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.vsmsrkit.edu.in/images/slider/vsmsrkit-building-infrastructure-slider.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "V S M's Somashekhar R Kothiwale Institute of Technology campus in Nipani (Belagavi district)",
+        "sourceUrl": "https://www.vsmsrkit.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E209",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://jyothyit.ac.in/wp-content/uploads/2023/05/152603572019667820_1369800846431371_3527017260222191011_o-1-copy.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Jyothy Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://jyothyit.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E210",
+    "images": []
+  },
+  {
+    "collegeId": "E211",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.jitd.ac.in/upload/slider-1-2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Jain Institute of Technology campus in Davanagere",
+        "sourceUrl": "https://www.jitd.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E213",
+    "images": []
+  },
+  {
+    "collegeId": "E216",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sitgulbarga.org/wp-content/uploads/2024/01/banner_circle.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shetty Institute of Technology campus in Kalaburagi (Gulbarga)",
+        "sourceUrl": "https://sitgulbarga.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E221",
+    "images": []
+  },
+  {
+    "collegeId": "E222",
+    "images": []
+  },
+  {
+    "collegeId": "E225",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sjbsap.edu.in/wp-content/uploads/2026/06/Sthala_2026-0x0.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SJB School of Architecture & Planning campus in Bengaluru",
+        "sourceUrl": "https://sjbsap.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E227",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://citmandya.org/wp-content/uploads/2024/06/construction-structure-concept-engineer-working-drawing-blueprint-meeting-project-working-with-partner-model-building-engineering-tools-working-site-construction-concept_265022-38490.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Cauvery Institute of Technology campus in Mandya",
+        "sourceUrl": "https://citmandya.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E232",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://files.reva.ac.in/uploads/home/banner_images/6a3b6ac8459bf1782278856.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "REVA University campus in Bengaluru",
+        "sourceUrl": "https://www.reva.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E235",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.msruas.ac.in/assets/og-image.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.S. Ramaiah University of Applied Sciences campus in Bengaluru",
+        "sourceUrl": "https://www.msruas.ac.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E238",
+    "images": []
+  },
+  {
+    "collegeId": "E239",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ewce.edu.in/img/slides/flexslider/1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "East West College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://ewce.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E240",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.dsu.edu.in/cache/resized/294f0cd808cefa50f402d2a5f5c92df2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dayananda Sagar University campus in Bengaluru",
+        "sourceUrl": "https://www.dsu.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E252",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.mycem.edu.in/wp-content/uploads/slider/cache/cd0e6e52b1e65f2ac1ff9455eb1a1412/mycem-Slider1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Mysore College Of Engineering and Management campus in Mysuru",
+        "sourceUrl": "https://www.mycem.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E255",
+    "images": []
+  },
+  {
+    "collegeId": "E256",
+    "images": []
+  },
+  {
+    "collegeId": "E257",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cmr.edu.in/wp-content/uploads/2026/01/01Artboard-1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "CMR University campus in Bengaluru",
+        "sourceUrl": "https://cmr.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E258",
+    "images": []
+  },
+  {
+    "collegeId": "E259",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sirmvsa.org/images/mvsa-slider-new-one.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sir M V School of Architecture campus in Bengaluru",
+        "sourceUrl": "https://www.sirmvsa.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E263",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://spa.uni-mysore.ac.in/img/new/01.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "School of Planning and Architecture, University of Mysore campus in Mysuru",
+        "sourceUrl": "http://spa.uni-mysore.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E264",
+    "images": []
+  },
+  {
+    "collegeId": "E265",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.jcethbl.edu.in/images/activities/2025/fdpaitceuhv.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Jain College of Engineering and Technology campus in Hubballi",
+        "sourceUrl": "https://www.jcethbl.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E272",
+    "images": []
+  },
+  {
+    "collegeId": "E274",
+    "images": []
+  },
+  {
+    "collegeId": "E275",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rvitm.edu.in/wp-content/uploads/2026/04/Hompage-2nd-section-1024x684.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "R V Institute Of Technology and Management campus in Bengaluru",
+        "sourceUrl": "https://rvitm.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E281",
+    "images": []
+  },
+  {
+    "collegeId": "E291",
+    "images": []
+  },
+  {
+    "collegeId": "E292",
+    "images": []
+  },
+  {
+    "collegeId": "E283",
+    "images": []
+  },
+  {
+    "collegeId": "E285",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://d2b6aloc836m7p.cloudfront.net/wp-content/uploads/2025/03/About_image.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "RV University campus in Bengaluru",
+        "sourceUrl": "https://rvu.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E286",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bgscet.ac.in/wp-content/uploads/2025/03/Homepage-new-1-scaled-e1742555370838-1024x645.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BGS College of Engineering and Technology campus in Bengaluru",
+        "sourceUrl": "https://bgscet.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E287",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://vidyashilp.edu.in/wp-content/uploads/2021/02/HomePageFinalNEP-2020.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Vidyashilp University campus in Bengaluru",
+        "sourceUrl": "https://vidyashilp.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E288",
+    "images": []
+  },
+  {
+    "collegeId": "E299",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpnz7v0OZH58e0b/women-s-hostel-A3Qwrxk5gLuMPQxL.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Ghousia Institute of Technology for Women campus in Bengaluru",
+        "sourceUrl": "https://gitw.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E301",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.kishkindauniversity.edu.in/public/uploads/pages/JaYn17PLAETH5XlTD6x0e21N4WGT6jGawECUA9lp.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kishkinda University campus in Ballari",
+        "sourceUrl": "https://www.kishkindauniversity.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E303",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://gmu.ac.in/assets/imgs/PGDM.jpg.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "GM University campus in Davanagere",
+        "sourceUrl": "https://gmu.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E305",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.drhnnce.in/assets/images/home_banner.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dr. H N National College of Engineering campus in Bengaluru",
+        "sourceUrl": "https://www.drhnnce.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E306",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://chanakyauniversity.edu.in/wp-content/uploads/2023/03/banner.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "The Chanakya University campus in Devanahalli, Bengaluru",
+        "sourceUrl": "https://chanakyauniversity.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E307",
+    "images": []
+  },
+  {
+    "collegeId": "E310",
+    "images": []
+  },
+  {
+    "collegeId": "E311",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rathinamcollege.in/wp-content/uploads/sites/6/2026/05/facdf066-c7a5-490a-b1de-0df4db17a2cb-compressed-1536x800.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rathinam Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://rathinamcollege.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E312",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://neit.edu.in/images/og-banner.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "New Ebenezer Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://neit.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E313",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://harshainstitute.edu.in/wp-content/uploads/2026/01/HIT_PHOTOS_44-1-1024x683.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Harsha Institute of Technology campus in Nelamangala, Bengaluru Rural",
+        "sourceUrl": "https://harshainstitute.edu.in/harsha-institute-of-technology/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E314",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ccemysuru.ac.in/wp-content/uploads/2025/05/college-students-posing-outdoors-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Cauvery College of Engineering campus in Mysuru",
+        "sourceUrl": "https://ccemysuru.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E308",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://vtu.ac.in/wp-content/uploads/2024/09/pgb1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Constituent College of VTU, Chintamani campus in Chintamani",
+        "sourceUrl": "https://vtu.ac.in/constituent-college-of-vtu-chintamani/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "N001",
+    "images": []
+  },
+  {
+    "collegeId": "N003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://betgminys.com/img/carousel-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "G. Madegowda Institute of Naturopathy and Yogic Science campus in Mandya",
+        "sourceUrl": "https://betgminys.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "N004",
+    "images": []
+  },
+  {
+    "collegeId": "N005",
+    "images": []
+  },
+  {
+    "collegeId": "N006",
+    "images": []
+  },
+  {
+    "collegeId": "N007",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://muniyalbnyscollege.com/wp-content/uploads/2021/12/Ayurveda-1024x662.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Muniyal Institute of Yoga and Naturopathy campus in Manipal, Udupi",
+        "sourceUrl": "https://muniyalbnyscollege.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "N008",
+    "images": []
+  },
+  {
+    "collegeId": "N009",
+    "images": []
+  },
+  {
+    "collegeId": "N010",
+    "images": []
+  },
+  {
+    "collegeId": "N011",
+    "images": []
+  },
+  {
+    "collegeId": "N012",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rinys.in/wp-content/uploads/2023/07/comp4-1-1-1024x559.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Rajashekharaiah Educational & Charitable Trust's Rajashekharaiah Institute of Naturopathy & Yogic Science campus in Solur, Bengaluru Rural",
+        "sourceUrl": "https://rinys.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "N014",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.svyasa.edu.in/img/slider/Kala vilasa main banner.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Swamy Vivekananda Yoga Anusandhana Samsthana (S-VYASA) Nature Cure and Yoga University campus in Bengaluru",
+        "sourceUrl": "https://www.svyasa.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "N015",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.tapovana.org.in/public/nusrat-assets/images/banner/banner1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Tapovana Medical College of Naturopathy and Yogic Sciences campus in Davangere",
+        "sourceUrl": "https://www.tapovana.org.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "N016",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ynysc.yenepoya.edu.in/img/slider/banner-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Yenepoya Naturopathy and Yogic Sciences College and Hospital campus in Mangaluru",
+        "sourceUrl": "https://ynysc.yenepoya.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "V001",
+    "images": []
+  },
+  {
+    "collegeId": "V002",
+    "images": []
+  },
+  {
+    "collegeId": "V003",
+    "images": []
+  },
+  {
+    "collegeId": "V004",
+    "images": []
+  },
+  {
+    "collegeId": "V005",
+    "images": []
+  },
+  {
+    "collegeId": "V006",
+    "images": []
+  },
+  {
+    "collegeId": "E039",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://msiaa.secab.org/img/bg-img/slider4.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Malik Sandal Institute of Arts and Architecture campus in Vijayapura (Bijapur)",
+        "sourceUrl": "https://msiaa.secab.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E190",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.anrvsa.ac.in/nrv/images/events/3.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Acharya N R V School of Architecture campus in Bengaluru",
+        "sourceUrl": "https://www.anrvsa.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E224",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://impact.ac.in/wp-content/uploads/2024/11/DSC_0180-2048x1367-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Impact School of Architecture campus in Bengaluru",
+        "sourceUrl": "https://impact.ac.in/institutions/impact-school-of-architecture/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E228",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://msa.edu.in/wp-content/uploads/2023/03/cropped-MSA-New-Homepage-Banner2f.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Mysore School of Architecture campus in Mysuru",
+        "sourceUrl": "https://msa.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E229",
+    "images": []
+  },
+  {
+    "collegeId": "E243",
+    "images": []
+  },
+  {
+    "collegeId": "E244",
+    "images": []
+  },
+  {
+    "collegeId": "E245",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cmr.edu.in/wp-content/uploads/2026/01/Mask-group.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "CMR University School of Architecture campus in Bengaluru",
+        "sourceUrl": "https://cmr.edu.in/programme/b-arch-bachelor-of-architecture/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E247",
+    "images": []
+  },
+  {
+    "collegeId": "E248",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://wcfa.ac.in/media/2024/12/onion-banner.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Wadiyar Centre for Architecture campus in Mysuru",
+        "sourceUrl": "https://wcfa.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E261",
+    "images": []
+  },
+  {
+    "collegeId": "E266",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bmsca.org/slider/Envisage-24.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BMS College of Architecture campus in Bengaluru",
+        "sourceUrl": "https://bmsca.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E271",
+    "images": []
+  },
+  {
+    "collegeId": "E280",
+    "images": []
+  },
+  {
+    "collegeId": "E293",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.pdsssa.edu.in/images/iic.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Poojya Dr. Shivakumar Swamiji School of Architecture campus in Kalaburagi",
+        "sourceUrl": "https://www.pdsssa.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E294",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.ssamangalore.in/theme/images/slides/slide-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "School of Architecture, Srinivas Institute of Technology campus in Mangaluru",
+        "sourceUrl": "https://www.ssamangalore.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "E295",
+    "images": []
+  },
+  {
+    "collegeId": "E296",
+    "images": []
+  },
+  {
+    "collegeId": "E298",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://d2e9h3gjmozu47.cloudfront.net/brand.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "School of Architecture, M S Ramaiah Institute of Technology campus in Bengaluru",
+        "sourceUrl": "https://www.msrit.edu/department/architecture.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A001",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.uasbangalore.edu.in/wp-content/uploads/2021/09/Academic.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Agriculture, GKVK campus in Bengaluru",
+        "sourceUrl": "https://www.uasbangalore.edu.in/en/college-of-agriculture-gkvk/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A002",
+    "images": []
+  },
+  {
+    "collegeId": "A003",
+    "images": []
+  },
+  {
+    "collegeId": "A004",
+    "images": []
+  },
+  {
+    "collegeId": "A005",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://uahs.edu.in/wp-content/uploads/2025/05/16.-Contro-of-Examination-Dr.-H.-K.-Veeranna.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Agriculture, Shivamogga campus in Shivamogga",
+        "sourceUrl": "https://uahs.edu.in/agricollege-shivamogga/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A006",
+    "images": []
+  },
+  {
+    "collegeId": "A007",
+    "images": []
+  },
+  {
+    "collegeId": "A008",
+    "images": []
+  },
+  {
+    "collegeId": "A009",
+    "images": []
+  },
+  {
+    "collegeId": "A010",
+    "images": []
+  },
+  {
+    "collegeId": "A011",
+    "images": []
+  },
+  {
+    "collegeId": "A012",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://atimysore.karnataka.gov.in/uploads/banner_popup.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Horticulture, Munirabad campus in Munirabad (Koppal district)",
+        "sourceUrl": "https://uhsbagalkot.karnataka.gov.in/32/coh-munirabad/colleges",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A013",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://uahs.edu.in/wp-content/uploads/elementor/thumbs/College-of-Horticulture-Mudigere_11zon-scaled-r2o3zj3n51j9rx8uxfsc14ecifdfui2ex6zg7g9s2g.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Horticulture, Mudigere campus in Mudigere",
+        "sourceUrl": "https://uahs.edu.in/horticollege-mudigere/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A014",
+    "images": []
+  },
+  {
+    "collegeId": "A015",
+    "images": []
+  },
+  {
+    "collegeId": "A019",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cofs.uasd.edu/wp-content/uploads/2023/08/fcs-main-building-960x400.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Forestry, Sirsi campus in Sirsi",
+        "sourceUrl": "https://cofs.uasd.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A016",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://acd.uasd.edu/wp-content/uploads/2026/07/uasd-home-slide-3-960x400.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Agriculture, Dharwad campus in Dharwad",
+        "sourceUrl": "https://acd.uasd.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A018",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ach.uasd.edu/wp-content/uploads/2023/08/ach-main-building-960x400.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Agriculture, Hanumanamatti campus in Hanumanamatti (Ranebennur Taluk)",
+        "sourceUrl": "https://ach.uasd.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A020",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ccsd.uasd.edu/wp-content/uploads/2025/08/Slide1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Community Science, Dharwad campus in Dharwad",
+        "sourceUrl": "https://ccsd.uasd.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A021",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://img1.wsimg.com/isteam/ip/50313d72-e4db-46d7-868d-5381ee7c0f80/20220412_091109.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Agriculture, Raichur campus in Raichur",
+        "sourceUrl": "https://coar.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A022",
+    "images": []
+  },
+  {
+    "collegeId": "A023",
+    "images": []
+  },
+  {
+    "collegeId": "A024",
+    "images": []
+  },
+  {
+    "collegeId": "A026",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://uahs.edu.in/wp-content/uploads/2026/01/COA-Iruvakki-1024x682.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "College of Agricultural Sciences, Iruvakki campus in Sagara (Shivamogga District)",
+        "sourceUrl": "https://uahs.edu.in/agricollege-iruvakki/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "A027",
+    "images": []
+  },
+  {
+    "collegeId": "A028",
+    "images": []
+  },
+  {
+    "collegeId": "A029",
+    "images": []
+  },
+  {
+    "collegeId": "A030",
+    "images": []
+  },
+  {
+    "collegeId": "A031",
+    "images": []
+  },
+  {
+    "collegeId": "B001",
+    "images": []
+  },
+  {
+    "collegeId": "B002",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://abmrcp.ac.in/img/student-loan.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Acharya and B.M. Reddy College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://abmrcp.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.alameenpharmacy.edu/images/slider1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Al-Ameen College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://www.alameenpharmacy.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://adityapharmacy.in/wp-content/uploads/2025/09/Ayudha-Puja-Celebration-slider1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Aditya Bangalore Institute of Pharmacy Education and Research Center campus in Bengaluru",
+        "sourceUrl": "https://adityapharmacy.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B005",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bvvs-hskcop.ac.in/images/DSC_0046.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "B.V.V. Sangha's Hangal Shri Kumareshwar College of Pharmacy campus in Bagalkot",
+        "sourceUrl": "https://bvvs-hskcop.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B006",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.bapujipharmacy.org/images/slide/slide_1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bapuji Pharmacy College campus in Davangere",
+        "sourceUrl": "https://www.bapujipharmacy.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B007",
+    "images": []
+  },
+  {
+    "collegeId": "B008",
+    "images": []
+  },
+  {
+    "collegeId": "B009",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.bldeapharmacy.ac.in/assets/img/banner/BLDEA_Pharmacy_slider01.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BLDEA's Shri Sanganabasava Mahaswamiji College of Pharmacy and Research Centre campus in Vijayapur",
+        "sourceUrl": "https://www.bldeapharmacy.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B010",
+    "images": []
+  },
+  {
+    "collegeId": "B013",
+    "images": []
+  },
+  {
+    "collegeId": "B014",
+    "images": []
+  },
+  {
+    "collegeId": "B015",
+    "images": []
+  },
+  {
+    "collegeId": "B016",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://epcp.ac.in/wp-content/uploads/2023/08/mn_img_4phrma.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "East Point College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://epcp.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B017",
+    "images": []
+  },
+  {
+    "collegeId": "B018",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.gauthamcollege.org/wp-content/uploads/2016/02/BUDDA.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Gautham College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://www.gauthamcollege.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B019",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.hillsidepharmacycollege.edu.in/assets/images/about/Hillside-pharmacy-college-campus-side-view-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Hillside College of Pharmacy and Research Centre campus in Bengaluru",
+        "sourceUrl": "https://www.hillsidepharmacycollege.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B020",
+    "images": []
+  },
+  {
+    "collegeId": "B021",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.klecopnpn.com/images/slider/slider-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "K.L.E. Society's College of Pharmacy, Nipani campus in Nipani",
+        "sourceUrl": "https://www.klecopnpn.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B022",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://karavalicollege.com/wp-content/uploads/2016/12/main-slider-2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Karavali College of Pharmacy campus in Mangalore",
+        "sourceUrl": "https://karavalicollege.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B023",
+    "images": []
+  },
+  {
+    "collegeId": "B024",
+    "images": []
+  },
+  {
+    "collegeId": "B025",
+    "images": []
+  },
+  {
+    "collegeId": "B027",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://pharmacy.krupanidhi.edu.in/assets/img/slider/ban1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Krupanidhi College of Pharmacy campus in Bangalore",
+        "sourceUrl": "https://pharmacy.krupanidhi.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B028",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.luqmanpharmacyglb.com/assets/img/video-bg.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Luqman College of Pharmacy campus in Gulbarga (Kalaburagi)",
+        "sourceUrl": "https://www.luqmanpharmacyglb.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B029",
+    "images": []
+  },
+  {
+    "collegeId": "B031",
+    "images": []
+  },
+  {
+    "collegeId": "B032",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://mmpharmabgm05.in/wp-content/uploads/2026/01/essay-competition-3.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Maratha Mandal College of Pharmacy campus in Belagavi (Belgaum)",
+        "sourceUrl": "https://mmpharmabgm05.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B033",
+    "images": []
+  },
+  {
+    "collegeId": "B034",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://pharmacy.nargund.edu.in/wp-content/uploads/sites/6/2025/01/nargund-PHARMACY9-scaled.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Nargund College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://pharmacy.nargund.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B035",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://ncpsmg.org.in/ncp2025.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "National College of Pharmacy campus in Shivamogga (Shimoga)",
+        "sourceUrl": "http://ncpsmg.org.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B037",
+    "images": []
+  },
+  {
+    "collegeId": "B038",
+    "images": []
+  },
+  {
+    "collegeId": "B039",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.rrcollegeofpharmacy.com/new-images/slider-2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "R.R. College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://www.rrcollegeofpharmacy.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B040",
+    "images": []
+  },
+  {
+    "collegeId": "B041",
+    "images": []
+  },
+  {
+    "collegeId": "B042",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kretpharmacy.org/wp-content/uploads/2023/12/New-header-Rani-chenamma.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rani Chennamma College of Pharmacy campus in Belgaum (Belagavi)",
+        "sourceUrl": "https://kretpharmacy.org/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B043",
+    "images": []
+  },
+  {
+    "collegeId": "B044",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.svcop.org/admin/slider/slider1.1597426164.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sharada Vilas College of Pharmacy campus in Mysore (Mysuru)",
+        "sourceUrl": "https://www.svcop.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B045",
+    "images": []
+  },
+  {
+    "collegeId": "B046",
+    "images": []
+  },
+  {
+    "collegeId": "B047",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sjmcp.org/assets/amulya-v-garlpet.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SJM College of Pharmacy campus in Chitradurga",
+        "sourceUrl": "https://sjmcp.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B048",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://setpharmacy.ac.in/img/carousel-2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Soniya Education Trust's College of Pharmacy campus in Dharwad",
+        "sourceUrl": "https://setpharmacy.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B049",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sscptumkur.org/wp-content/uploads/2025/09/cropped-siddaganga-college-of-pharmacy-004.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sree Siddaganga College of Pharmacy campus in Tumakuru",
+        "sourceUrl": "https://sscptumkur.org/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B050",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://acu.edu.in/wp-content/uploads/2026/03/major-bgs-fauclties-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Adichunchanagiri College of Pharmacy campus in Nagamangala",
+        "sourceUrl": "https://acu.edu.in/pharmacy/sacp/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B051",
+    "images": []
+  },
+  {
+    "collegeId": "B052",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.srikvcpharmacy.com/images/home/1.PNG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri K.V. College of Pharmacy campus in Chikkaballapura",
+        "sourceUrl": "https://www.srikvcpharmacy.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B053",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.srinivasgroup.com/img/pharmacy/home/slide4.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Srinivas College of Pharmacy campus in Mangalore",
+        "sourceUrl": "https://www.srinivasgroup.com/Course/PharmacyCourses.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B054",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sjpc.edu.in/wp-content/uploads/2022/08/Har-Ghar-Tiranga_Web-banner.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "St. John's College of Pharmacy campus in Bangalore",
+        "sourceUrl": "https://sjpc.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B055",
+    "images": []
+  },
+  {
+    "collegeId": "B056",
+    "images": []
+  },
+  {
+    "collegeId": "B057",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.tvmcop.org/images/bg/bg2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Togari Veeramallappa Memorial College of Pharmacy campus in Ballari",
+        "sourceUrl": "https://www.tvmcop.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B058",
+    "images": []
+  },
+  {
+    "collegeId": "B059",
+    "images": []
+  },
+  {
+    "collegeId": "B060",
+    "images": []
+  },
+  {
+    "collegeId": "B061",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://mescollegeofpharmacy.com/wp-content/uploads/2025/09/aven.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "MES College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://mescollegeofpharmacy.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B062",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ikongroupofinstitutions.com/pharmacy/wp-content/uploads/2023/08/DSC_4336-min-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "IKON Pharmacy College campus in Bidadi",
+        "sourceUrl": "https://ikongroupofinstitutions.com/pharmacy/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B063",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://mampharmacyglb.in/wp-content/uploads/2019/05/univer1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "MAM College of Pharmacy campus in Kalaburagi",
+        "sourceUrl": "https://mampharmacyglb.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B065",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://static.wixstatic.com/media/8a217b_984e0b6ec61c46b898a4d83bf8ed9bd1~mv2.jpg/v1/crop/x_0,y_370,w_8000,h_5260/fill/w_595,h_391,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG20230222123334.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Akshaya Education Trust's Akshaya Institute of Pharmacy campus in Tumakuru",
+        "sourceUrl": "https://www.aiptumkur.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B066",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.pacp.co.in/images/pharmacy/slider/c-bnr.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "P A College of Pharmacy campus in Mangaluru",
+        "sourceUrl": "https://www.pacp.co.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B067",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.rajputanacollegeofpharmacy.org/static/images/pci-visit.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rajputana College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://www.rajputanacollegeofpharmacy.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B069",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://agmpharmacy.com/wp-content/gallery/g2/image001.jpg?t=1569400722",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "A.G.M. College of Pharmacy campus in Hubballi",
+        "sourceUrl": "https://agmpharmacy.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B070",
+    "images": []
+  },
+  {
+    "collegeId": "B071",
+    "images": []
+  },
+  {
+    "collegeId": "B072",
+    "images": []
+  },
+  {
+    "collegeId": "B073",
+    "images": []
+  },
+  {
+    "collegeId": "B074",
+    "images": []
+  },
+  {
+    "collegeId": "B075",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.rrcop.org/assets/img/portfolio/portfolio-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rosy Royal College of Pharmacy campus in Nelamangala",
+        "sourceUrl": "https://www.rrcop.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B076",
+    "images": []
+  },
+  {
+    "collegeId": "B077",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.shridevipharmacy.org/wp-content/themes/magazine-news-byte/images/header.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shridevi Institute of Pharmaceutical Sciences campus in Tumakuru",
+        "sourceUrl": "https://www.shridevipharmacy.org/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B078",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://vip.ac.in/wp-content/uploads/2022/09/Untitled-2-Recovered.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Vydehi Institute of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://vip.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B079",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://iop.hkes.edu.in/images/IOP33.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "H.K.E. Society's Institute of Pharmacy campus in Kalaburagi",
+        "sourceUrl": "https://iop.hkes.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B080",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://aadyacollegepharmacy.com/wp-content/uploads/2025/01/AKI_0677-1-1-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Aadya College of Pharmacy campus in Chitradurga",
+        "sourceUrl": "https://aadyacollegepharmacy.com/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B081",
+    "images": []
+  },
+  {
+    "collegeId": "B082",
+    "images": []
+  },
+  {
+    "collegeId": "B083",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://aryanpharmacy.com/assets/images/banner-2.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Aryan College of Pharmacy campus in Kalaburagi",
+        "sourceUrl": "https://aryanpharmacy.com/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B084",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ayeshapharmacycollege.in/assets/img/slider/1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Ayesha College of Pharmacy campus in Kalaburagi",
+        "sourceUrl": "https://ayeshapharmacycollege.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B085",
+    "images": []
+  },
+  {
+    "collegeId": "B087",
+    "images": []
+  },
+  {
+    "collegeId": "B089",
+    "images": []
+  },
+  {
+    "collegeId": "B091",
+    "images": []
+  },
+  {
+    "collegeId": "B092",
+    "images": []
+  },
+  {
+    "collegeId": "B093",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://i0.wp.com/sbdpharmacy.in/wp-content/uploads/2026/01/sbd-cover.png?resize=1184%2C864&#038;ssl=1",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.B.D. Institute of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://sbdpharmacy.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B094",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://skcptumkur.com/wp-content/uploads/sree-krishna-pharmacy-college-laboratorio.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sree Krishna College of Pharmacy campus in Tumakuru",
+        "sourceUrl": "https://skcptumkur.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B095",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ssbpc.co.in/assets/images/about/about.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Sharanabasaveshwar College of Pharmacy campus in Vijayapura",
+        "sourceUrl": "https://ssbpc.co.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B097",
+    "images": []
+  },
+  {
+    "collegeId": "B098",
+    "images": []
+  },
+  {
+    "collegeId": "B100",
+    "images": []
+  },
+  {
+    "collegeId": "B101",
+    "images": []
+  },
+  {
+    "collegeId": "B102",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://vidyasiricop.edu.in/wp-content/uploads/2026/06/vscp-campus-1.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Vidya Siri College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://vidyasiricop.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B103",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://klepharm.edu/assets/images/home/kle-banner3.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE College of Pharmacy campus in Belagavi",
+        "sourceUrl": "https://klepharm.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B104",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.omcollegeofpharmacy.com/images/college1.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Om College of Pharmacy campus in Ranebennur",
+        "sourceUrl": "https://www.omcollegeofpharmacy.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B105",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://www.prasannainstitutions.in/pharmacycollege/images/about.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Prasanna College of Pharmacy campus in Belthangady",
+        "sourceUrl": "http://www.prasannainstitutions.in/pharmacycollege/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B114",
+    "images": []
+  },
+  {
+    "collegeId": "B115",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://suk.edu.in/wp-content/uploads/2026/08/hero_3-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sharnbasva University (Faculty of Pharmaceutical Sciences) campus in Kalaburagi",
+        "sourceUrl": "https://suk.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B116",
+    "images": []
+  },
+  {
+    "collegeId": "B117",
+    "images": []
+  },
+  {
+    "collegeId": "B118",
+    "images": []
+  },
+  {
+    "collegeId": "B119",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.acoptumkur.in/img/slide5.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Aruna College of Pharmacy campus in Tumkur",
+        "sourceUrl": "https://www.acoptumkur.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B120",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bldeacopjkd.ac.in/assets/img/slider/bldea-pharmacy-jamkhandi.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BLDEA's College of Pharmacy, Jamkhandi campus in Jamkhandi",
+        "sourceUrl": "https://bldeacopjkd.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B122",
+    "images": []
+  },
+  {
+    "collegeId": "B126",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://slescollegeofpharmacy.in/assets/images/slider-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.L.E.S College of Pharmacy campus in Chintamani",
+        "sourceUrl": "https://slescollegeofpharmacy.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B127",
+    "images": []
+  },
+  {
+    "collegeId": "B128",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdmupharm.edu.in/assets/images/banner/home_about_us.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Dharmasthala Manjunatheswara College of Pharmaceutical Sciences campus in Dharwad",
+        "sourceUrl": "https://sdmupharm.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B130",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sbcptiptur.com/images/s1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Basaveshwara College of Pharmacy campus in Tiptur",
+        "sourceUrl": "https://www.sbcptiptur.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B131",
+    "images": []
+  },
+  {
+    "collegeId": "B132",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://scscop.org/wp-content/uploads/2021/02/college-img-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "T.M.A.E. Society's S.C.S. College of Pharmacy campus in Davanagere",
+        "sourceUrl": "https://scscop.org/index.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B135",
+    "images": []
+  },
+  {
+    "collegeId": "B137",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.fathermuller.edu.in/frmuller-pharmacy/img/slider/banner-3a.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Father Muller College of Pharmaceutical Sciences campus in Mangaluru",
+        "sourceUrl": "https://www.fathermuller.edu.in/frmuller-pharmacy/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B138",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kanachurims.com/pharmacy/images/new_slider (1).png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kanachur College of Pharmacy campus in Mangaluru",
+        "sourceUrl": "https://kanachurims.com/pharmacy/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B139",
+    "images": []
+  },
+  {
+    "collegeId": "B140",
+    "images": []
+  },
+  {
+    "collegeId": "B141",
+    "images": []
+  },
+  {
+    "collegeId": "B142",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.alqamarpharmacy.org/assets/img/college/1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Al-Qamar College of Pharmacy campus in Kalaburagi",
+        "sourceUrl": "https://www.alqamarpharmacy.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "B143",
+    "images": []
+  },
+  {
+    "collegeId": "B146",
+    "images": []
+  },
+  {
+    "collegeId": "B147",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://littleflowerinstitutions.com/wp-content/uploads/2024/01/Untitled_design_23-removebg-preview.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Little Flower College of Pharmacy campus in Bengaluru",
+        "sourceUrl": "https://littleflowerinstitutions.com/our-colleges/little-flower-college-of-pharmacy/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M001",
+    "images": []
+  },
+  {
+    "collegeId": "M002",
+    "images": []
+  },
+  {
+    "collegeId": "M003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.kimsbangalore.edu.in/wp-content/uploads/2021/08/banner_1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kempegowda Institute of Medical Sciences campus in Bengaluru",
+        "sourceUrl": "https://www.kimsbangalore.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.msrmc.ac.in/uploads/home/banner_images/6694b9421db601721022786.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.S. Ramaiah Medical College campus in Bengaluru",
+        "sourceUrl": "https://www.msrmc.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M005",
+    "images": []
+  },
+  {
+    "collegeId": "M008",
+    "images": []
+  },
+  {
+    "collegeId": "M009",
+    "images": []
+  },
+  {
+    "collegeId": "M010",
+    "images": []
+  },
+  {
+    "collegeId": "M011",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.stjohns.in/medicalcollege/uploads/news/Website_Ad%20%2835%29.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "St. John's Medical College campus in Bengaluru",
+        "sourceUrl": "https://www.stjohns.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M020",
+    "images": []
+  },
+  {
+    "collegeId": "M021",
+    "images": []
+  },
+  {
+    "collegeId": "M022",
+    "images": []
+  },
+  {
+    "collegeId": "M023",
+    "images": []
+  },
+  {
+    "collegeId": "M024",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://mims.karnataka.gov.in/uploads/storage/slids/1635757134.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Mandya Institute of Medical Sciences campus in Mandya",
+        "sourceUrl": "https://mims.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M025",
+    "images": []
+  },
+  {
+    "collegeId": "M031",
+    "images": []
+  },
+  {
+    "collegeId": "M033",
+    "images": []
+  },
+  {
+    "collegeId": "M035",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.snmcbgk.in/assets/images/college.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S. Nijalingappa Medical College and HSK Hospital and Research Centre campus in Bagalkot",
+        "sourceUrl": "https://www.snmcbgk.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M036",
+    "images": []
+  },
+  {
+    "collegeId": "M037",
+    "images": []
+  },
+  {
+    "collegeId": "M041",
+    "images": []
+  },
+  {
+    "collegeId": "M042",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://mrmc.hkes.edu.in/images/slide1.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Mahadevappa Rampure Medical College campus in Kalaburagi",
+        "sourceUrl": "https://mrmc.hkes.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M043",
+    "images": []
+  },
+  {
+    "collegeId": "M044",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bimsbidar.karnataka.gov.in/uploads/storage/slids/1702891344.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bidar Institute of Medical Sciences campus in Bidar",
+        "sourceUrl": "https://bimsbidar.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M045",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rimsraichur.karnataka.gov.in/uploads/storage/slids/1686396576.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Raichur Institute of Medical Sciences campus in Raichur",
+        "sourceUrl": "https://rimsraichur.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M050",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.fathermuller.edu.in/medical-college/img/slider/banner-1a.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Father Muller Medical College campus in Mangaluru",
+        "sourceUrl": "https://www.fathermuller.edu.in/medical-college/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M051",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.manipal.edu/content/dam/manipal/mu/kmc-mangalore/images/banners/KMC%20Mlr%20Adm%20-%20D.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kasturba Medical College, Mangalore campus in Mangaluru",
+        "sourceUrl": "https://www.manipal.edu/kmc-mangalore.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M052",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.ymc.yenepoya.edu.in/img/slider/YMC-12-rank-banner.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Yenepoya Medical College campus in Mangaluru",
+        "sourceUrl": "https://www.ymc.yenepoya.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M053",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://nitte.edu.in/kshema/img/slider/banner-1.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "K.S. Hegde Medical Academy campus in Mangaluru",
+        "sourceUrl": "https://nitte.edu.in/kshema/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M054",
+    "images": []
+  },
+  {
+    "collegeId": "M061",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.jjmmc.org/images/slides/1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Jagadguru Jayadeva Murugharajendra Medical College campus in Davanagere",
+        "sourceUrl": "https://www.jjmmc.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M062",
+    "images": []
+  },
+  {
+    "collegeId": "M063",
+    "images": []
+  },
+  {
+    "collegeId": "M064",
+    "images": []
+  },
+  {
+    "collegeId": "M065",
+    "images": []
+  },
+  {
+    "collegeId": "M066",
+    "images": []
+  },
+  {
+    "collegeId": "M067",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://subbaiah.org/images/homepage/sbcampus.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Subbaiah Institute of Medical Sciences campus in Shivamogga",
+        "sourceUrl": "https://subbaiah.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M068",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bgsgims.edu.in/og.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BGS Global Institute of Medical Sciences campus in Bengaluru",
+        "sourceUrl": "https://www.bgsgims.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M069",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://shridevimedical.org/wp-content/uploads/2024/06/antaranga-pata-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shridevi Institute of Medical Sciences and Research Hospital campus in Tumakuru",
+        "sourceUrl": "https://shridevimedical.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M070",
+    "images": []
+  },
+  {
+    "collegeId": "M071",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://theoxfordmedical.org/slides/6p.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "The Oxford Medical College, Hospital and Research Centre campus in Bengaluru",
+        "sourceUrl": "https://theoxfordmedical.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M072",
+    "images": []
+  },
+  {
+    "collegeId": "M073",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kimskoppal.karnataka.gov.in/uploads/storage/slids/1615809865.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Koppal Institute of Medical Sciences campus in Koppal",
+        "sourceUrl": "https://kimskoppal.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M074",
+    "images": []
+  },
+  {
+    "collegeId": "M075",
+    "images": []
+  },
+  {
+    "collegeId": "M076",
+    "images": []
+  },
+  {
+    "collegeId": "M077",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kimskodagu.karnataka.gov.in/uploads/storage/slids/1636537633.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kodagu Institute of Medical Sciences campus in Madikeri",
+        "sourceUrl": "https://kimskodagu.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M078",
+    "images": []
+  },
+  {
+    "collegeId": "M079",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kanachurims.com/images/k1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kanachur Institute of Medical Sciences and Research Centre campus in Mangaluru",
+        "sourceUrl": "https://kanachurims.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M081",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://epcms.ac.in/images/icu2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "East Point College of Medical Sciences and Research Center campus in Bengaluru",
+        "sourceUrl": "https://epcms.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M082",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cdsimer.edu.in/images/Home/banner-2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dr. Chandramma Dayananda Sagar Institute of Medical Education and Research campus in Harohalli",
+        "sourceUrl": "https://cdsimer.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M083",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cimschikkaballapura.karnataka.gov.in/uploads/storage/slids/1720680158.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Chikkaballapura Institute of Medical Sciences campus in Chikkaballapura",
+        "sourceUrl": "https://cimschikkaballapura.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M084",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://cimschikkamagaluru.karnataka.gov.in/uploads/Pi7_Tool_rsz_47361757590016_pi7_tool_36631757589264_30191757589264_1757676105.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Chikkamagaluru Institute of Medical Sciences campus in Chikkamagaluru",
+        "sourceUrl": "https://cimschikkamagaluru.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M085",
+    "images": []
+  },
+  {
+    "collegeId": "M086",
+    "images": []
+  },
+  {
+    "collegeId": "M087",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://klejgmmmc.edu.in/images/kle-banner123.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Jagadguru Gangadhar Mahaswamigalu Moorsavirmath Medical College campus in Hubballi",
+        "sourceUrl": "https://klejgmmmc.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M089",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://smcri.edu.in/wp-content/uploads/elementor/thumbs/0002-2-r9e02n7ho4e53mwwyt6edupqns89nac8hcmviducwa.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Siddaganga Medical College and Research Institute campus in Tumakuru",
+        "sourceUrl": "https://smcri.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M090",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://scmch.org/wp-content/themes/rrgroup/images/collegeimg.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Chamundeshwari Medical College Hospital and Research Institute campus in Channapatna",
+        "sourceUrl": "https://scmch.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M092",
+    "images": []
+  },
+  {
+    "collegeId": "M093",
+    "images": []
+  },
+  {
+    "collegeId": "M094",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://pesuimsr.pes.edu/wp-content/uploads/2025/07/ec-campus-aerial.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "PES University Institute of Medical Sciences and Research campus in Bengaluru",
+        "sourceUrl": "https://pesuimsr.pes.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "M095",
+    "images": []
+  },
+  {
+    "collegeId": "M096",
+    "images": []
+  },
+  {
+    "collegeId": "D103",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.vsdentalcollege.org/images/slide/kims.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Vokkaligara Sangha Dental College and Hospital campus in Bengaluru",
+        "sourceUrl": "https://www.vsdentalcollege.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "D112",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.theoxford.edu/images/24.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Oxford Dental College campus in Bengaluru",
+        "sourceUrl": "https://www.theoxford.edu/dental-programs.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "D113",
+    "images": []
+  },
+  {
+    "collegeId": "D114",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.rrdch.org/rrdch/wp-content/uploads/2025/01/rrdch-slider-Dr-A-C-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rajarajeswari Dental College and Hospital campus in Bengaluru",
+        "sourceUrl": "https://www.rrdch.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "D224",
+    "images": []
+  },
+  {
+    "collegeId": "D336",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://pmnmdentalcollege.edu.in/wp-content/uploads/2024/07/teeth.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "P.M. Nadagouda Dental College and Hospital campus in Bagalkot",
+        "sourceUrl": "https://pmnmdentalcollege.edu.in/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "D337",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sdmcds.org/wp-content/themes/sdmdental/images/campus.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.D.M. College of Dental Sciences and Hospital campus in Dharwad",
+        "sourceUrl": "https://www.sdmcds.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "D442",
+    "images": []
+  },
+  {
+    "collegeId": "D673",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bgsgids.edu.in/wp-content/uploads/2026/05/slider-1-img.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BGS Global Institute of Dental Sciences and Hospital campus in Bengaluru",
+        "sourceUrl": "https://bgsgids.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I697",
+    "images": []
+  },
+  {
+    "collegeId": "I698",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.miamsh.com/assets/images/resources/slider1.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Maharaja Education Trust campus in Mandya",
+        "sourceUrl": "https://www.miamsh.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I701",
+    "images": []
+  },
+  {
+    "collegeId": "I703",
+    "images": []
+  },
+  {
+    "collegeId": "I705",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sushruthaayurvedicmedicalcollege.com/wp-content/uploads/2024/12/Campus-Life1-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sushrutha Ayurveda Medical College and Hospital campus in Bangalore",
+        "sourceUrl": "https://sushruthaayurvedicmedicalcollege.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I706",
+    "images": []
+  },
+  {
+    "collegeId": "I707",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.tmaesshimoga.com/assets/images/gallery6slider-923x276.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "T.A.M.E. Society's Ayurvedic Medical College campus in Shivamogga",
+        "sourceUrl": "https://www.tmaesshimoga.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I709",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://bamcclk.com/wp-content/uploads/2019/09/graduate-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bapuji Ayurveda Medical College & Hospital campus in Chitradurga",
+        "sourceUrl": "http://bamcclk.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I711",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=499,fit=crop/gSxoaXNTgNEg0t4p/hospital-building-1-7mfvZdaGQ9HrVeNg.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rajashekaraiah Institute of Ayurvedic Medical Science & Hospital campus in Ramanagar",
+        "sourceUrl": "https://riamsh.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I712",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://jssayurvedacollege.org/img/slider/jss-ayurvedha-mysuru-hp-slider-03.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "J.S.S. Ayurvedic Medical College campus in Mysuru",
+        "sourceUrl": "https://jssayurvedacollege.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I713",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://gamcmysore.karnataka.gov.in/uploads/storage/slids/1680183374.JPG",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Government Ayurvedic Medical College & Hospital campus in Mysuru",
+        "sourceUrl": "https://gamcmysore.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I714",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdmcahhassan.org/wp-content/uploads/2025/04/SDM-HassanSlider-copy-copy.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Dharmasthala Manjunatheswara College of Ayurveda and Hosp campus in Hassan",
+        "sourceUrl": "https://sdmcahhassan.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I715",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://www.alnrmamc.com/img/slider/S 1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Aroor Laxminarayana Rao Memorial Ayurvedic Medical College campus in Koppa-577126 Dist Chikkamagalur",
+        "sourceUrl": "http://www.alnrmamc.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I716",
+    "images": []
+  },
+  {
+    "collegeId": "I718",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://karnatakaayurveda.com/wp-content/uploads/elementor/thumbs/169709705925967_PHOTO-2023-10-07-18-59-11-qovdfh8i715k7ho6in7xn257lrce3ilyrw6n4rbaqc.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Karnataka Ayurvedic Medical College & Hosp campus in Mangaluru D.K.",
+        "sourceUrl": "https://karnatakaayurveda.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I719",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdmayurvedacollegeudupi.in/wp-content/uploads/revslider/home-1-1/College-copy.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Dharmasthala Manjunatheshwara College of Ayurveda & Hospital campus in Dist.Udupi",
+        "sourceUrl": "https://sdmayurvedacollegeudupi.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I720",
+    "images": []
+  },
+  {
+    "collegeId": "I721",
+    "images": []
+  },
+  {
+    "collegeId": "I722",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sjgchsamcghataprabha.org/slider/data1/images/1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shri Jagadguru Gurusiddeshwara Co-Operative Society's Sahakara Maharshi Sri B A Patil Ayurvedic Medical College campus in Dist-Belgaum",
+        "sourceUrl": "https://www.sjgchsamcghataprabha.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I724",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sgvamcbailhongal.org/slider/data1/images/banner.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SNVV Samasthe's S.G.V. Ayurvedic Medical College campus in Belagavi",
+        "sourceUrl": "https://www.sgvamcbailhongal.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I727",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.lesayurvediccollege.com/images/slider/slider-99.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Latthe Education Society's Acharya Deshabhushana Ayurvedic Medical College & Hosp campus in Belagavi",
+        "sourceUrl": "https://www.lesayurvediccollege.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I728",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ayurvedamahavidyalaya.org/assets/img/banner3.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Ayurveda Mahavidyalaya & Hospital campus in Old Hubli",
+        "sourceUrl": "https://ayurvedamahavidyalaya.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I729",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://mahagamc.com/wp-content/uploads/2019/12/nurse-6.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Mahaganapathy Ayurvedic Medical College campus in Dharwad",
+        "sourceUrl": "http://mahagamc.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I730",
+    "images": []
+  },
+  {
+    "collegeId": "I731",
+    "images": []
+  },
+  {
+    "collegeId": "I733",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rgesociety-ron.org/amch/wp-content/uploads/2023/05/main-building1-Copy-1024x320-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rajiv Gandhi Education Society's Ayurvedic Medical College & Hospital campus in Dist. Gadag",
+        "sourceUrl": "https://rgesociety-ron.org/amch/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I734",
+    "images": []
+  },
+  {
+    "collegeId": "I735",
+    "images": []
+  },
+  {
+    "collegeId": "I736",
+    "images": []
+  },
+  {
+    "collegeId": "I738",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sanamc.org/images/image-slider-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S A Ningoji Ayurvedic Medical College campus in Koppal",
+        "sourceUrl": "https://www.sanamc.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I739",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://svmamc.com/wp-content/uploads/2021/08/Slider_1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Vijaya Mahantheshwara Ayurvedic Medical College campus in Bagalkot",
+        "sourceUrl": "https://svmamc.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I742",
+    "images": []
+  },
+  {
+    "collegeId": "I743",
+    "images": []
+  },
+  {
+    "collegeId": "I745",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://shes-ayurvedicmedicalcollege.com/wp-content/uploads/2022/11/DR.-ANAND-MANGALGI-MDS-Oral-Maxillofacial-Surgeon-Implantologist-Hair-Transplantologist-1-e1669398768121.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shri Hingulambika Education Society's Ayurvedic Medical College campus in Kalaburgi",
+        "sourceUrl": "https://shes-ayurvedicmedicalcollege.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I746",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://aayurvediccollegemanvi.org/wp-content/uploads/slider/cache/a60df665162c8cb96150689007df520a/College-Front-Pic.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Kalmathada Pujya Sri Virupaksha Shivacharya Ayurveda Medical College and Hospital campus in Raichur",
+        "sourceUrl": "https://aayurvediccollegemanvi.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I747",
+    "images": []
+  },
+  {
+    "collegeId": "I749",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://spoorthiayugvt.in/assets/images/headersvd.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Spoorthi Ayurveda Medical College & Dr S V Savadi Hosp campus in Koppal",
+        "sourceUrl": "https://spoorthiayugvt.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I750",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://tgamcballari.org/images/slides/img1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Taranatha Government Ayurvedic Medical College campus in Bellary",
+        "sourceUrl": "https://tgamcballari.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I753",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://cbguttalamc.in/images/image-3.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "DBHPSs Shri C.B.Guttal Ayurvedic Medical College campus in Dharwad",
+        "sourceUrl": "http://cbguttalamc.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I755",
+    "images": []
+  },
+  {
+    "collegeId": "I761",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://raghavendraayurveda.com/images/Slider/01a.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Raghavendra Ayurveda Medical College & Hospital campus in Chitradurga",
+        "sourceUrl": "https://raghavendraayurveda.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I762",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://www.atreyainstitution.com/cdn/shop/files/Atreya_1.png?height=628&pad_color=ffffff&v=1690881627&width=1200",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Atreya Charitable Trust's Atreya Ayurvedic Medical College campus in Bengaluru",
+        "sourceUrl": "https://www.atreyainstitution.com/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I763",
+    "images": []
+  },
+  {
+    "collegeId": "I764",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdmayurbangalore.in/wp-content/uploads/2019/05/banner2-2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Dharmasthala Manjunatheshwara Institute of Ayurveda and Hospital campus in Bengaluru",
+        "sourceUrl": "https://sdmayurbangalore.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I765",
+    "images": []
+  },
+  {
+    "collegeId": "I766",
+    "images": []
+  },
+  {
+    "collegeId": "I768",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://drnamagadumayu.edu.in/wp-content/uploads/2023/07/2.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "S.G.E.S.S Dr.N A Magadum Ayurvedic Medical College campus in Belgaum",
+        "sourceUrl": "https://drnamagadumayu.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I774",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://i0.wp.com/spsamchrc.edu.in/wp-content/uploads/2025/02/baba.png?fit=300%2C280&amp;ssl=1",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Paripoorna Sanathana Ayurvedic Medical College campus in Bangalore Rural",
+        "sourceUrl": "https://spsamchrc.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I775",
+    "images": []
+  },
+  {
+    "collegeId": "I776",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.krishnaamch.org/images/slider/slider1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Shree Basaveshwara Shikshana Samsthe Krishna Ayurvedic Medical College and Hospital campus in Belgaum Dt",
+        "sourceUrl": "https://www.krishnaamch.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I778",
+    "images": []
+  },
+  {
+    "collegeId": "I780",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://gamcshivamogga.com/images/DKS-CM.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Government Ayurveda Medical College & Teaching Hospital campus in Shivamogga",
+        "sourceUrl": "https://gamcshivamogga.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I781",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.acamc.org/images/diwali.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Adichunchanagiri Ayurveda Medical College campus in Bangalore",
+        "sourceUrl": "https://www.acamc.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I782",
+    "images": []
+  },
+  {
+    "collegeId": "I783",
+    "images": []
+  },
+  {
+    "collegeId": "I784",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.samch.co.in/assets/img/banners/Lush-green-serene-campus.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sharada Ayurvedic Medical College and Hospital campus in Mangalore",
+        "sourceUrl": "https://www.samch.co.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I787",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://mrnayu.com/wp-content/uploads/2025/02/HI_1-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "MRN Ayurvedic Medical College Hospital and Research Centre campus in Bagalkot",
+        "sourceUrl": "http://mrnayu.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I788",
+    "images": []
+  },
+  {
+    "collegeId": "I790",
+    "images": []
+  },
+  {
+    "collegeId": "I791",
+    "images": []
+  },
+  {
+    "collegeId": "I792",
+    "images": []
+  },
+  {
+    "collegeId": "I796",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://srpef-ssmamch.org/wp-content/uploads/2024/02/slider2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Smt. Shantadevi Memorial Ayurveda Medical College and Hospital campus in Bagalkot",
+        "sourceUrl": "https://srpef-ssmamch.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I797",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://pamchrc.org/wp-content/uploads/2024/05/CHAIRM.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Poornima Ayurvedic Medical College campus in Raichur",
+        "sourceUrl": "https://pamchrc.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "I799",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://atharvaamcd.org/wp-content/uploads/2025/08/g-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "R.G.E.Society's Atharva Ayurvedic Medical College & Hospital campus in Dharwad",
+        "sourceUrl": "https://atharvaamcd.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R001",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://img1.wsimg.com/isteam/ip/3256ce8b-8a45-4bdb-b1d3-0d3e1c041732/stjohns_MBBS_2020.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "St. John's College of Nursing campus in Bengaluru",
+        "sourceUrl": "https://stjohnsadmissions.in/nursing",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R002",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.manipal.edu/content/dam/manipal/mu/imagesnew/InstituteHome/Manipal%20College%20of%20Nursing.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Manipal College of Nursing, Manipal Academy of Higher Education campus in Manipal",
+        "sourceUrl": "https://www.manipal.edu/mcon-manipal.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://jsscon.org/wp-content/uploads/2023/07/jss-nursing-college-slide-hp001.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "JSS College of Nursing, Mysuru campus in Mysuru",
+        "sourceUrl": "https://jsscon.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.msruas.ac.in/uploads/home/banner_images/65042c97ea0831694772375-m.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.S. Ramaiah Institute of Nursing Education and Research campus in Bengaluru",
+        "sourceUrl": "https://www.msruas.ac.in/school/ramaiah-institute-of-nursing-education-research",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R005",
+    "images": []
+  },
+  {
+    "collegeId": "R006",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ync.yenepoya.edu.in/img/slider/banner-4.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Yenepoya Nursing College campus in Mangaluru",
+        "sourceUrl": "https://ync.yenepoya.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R007",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.fathermuller.edu.in/nursing-college/img/slider/mobile/building-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Father Muller College of Nursing campus in Mangaluru",
+        "sourceUrl": "https://www.fathermuller.edu.in/nursing-college/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R008",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kvgins.org/wp-content/uploads/2019/08/BSC-NURSING-300x257.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "K.V.G. Institute of Nursing Sciences campus in Sullia",
+        "sourceUrl": "https://kvgins.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R009",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kleunursingbgm.edu.in/wp-content/uploads/2026/05/Inauguration-of-Research-Education-Hub-April-23-2026-01.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Institute of Nursing Sciences, Belagavi campus in Belagavi",
+        "sourceUrl": "https://kleunursingbgm.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R010",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdmunursing.edu.in/assets/images/banners/banner1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SDM Institute of Nursing Sciences, Dharwad campus in Dharwad",
+        "sourceUrl": "https://sdmunursing.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R011",
+    "images": []
+  },
+  {
+    "collegeId": "R012",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bmcribengaluru.karnataka.gov.in/uploads/storage/slids/1627650109.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Bangalore Medical College and Research Institute - B.Sc Nursing Programme campus in Bengaluru",
+        "sourceUrl": "https://bmcribengaluru.karnataka.gov.in/en",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "R014",
+    "images": []
+  },
+  {
+    "collegeId": "R015",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.rrcn.org/rrcn/wp-content/uploads/2026/08/IMG_2035-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "RajaRajeswari College of Nursing campus in Bengaluru",
+        "sourceUrl": "https://www.rrcn.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P001",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://klekipt.edu.in/wp-content/uploads/2026/03/Home-Page-1-Large.JPG.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Institute of Physiotherapy campus in Belagavi",
+        "sourceUrl": "https://klekipt.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P002",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.jssphysiotherapy.edu.in/assets/images/sliders/NAAC-B-slider.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "JSS College of Physiotherapy campus in Mysuru",
+        "sourceUrl": "https://jssphysiotherapy.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.msruas.ac.in/uploads/home/banner_images/Physiotherapy_2.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "M.S. Ramaiah College of Physiotherapy campus in Bengaluru",
+        "sourceUrl": "https://www.msruas.ac.in/school/ramaiah-college-of-physiotherapy",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://nitte.edu.in/nipt/img/slider/banner-1.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Nitte Institute of Physiotherapy campus in Mangaluru",
+        "sourceUrl": "https://nitte.edu.in/nipt/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P005",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.ypc.yenepoya.edu.in/img/slider/banner-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Yenepoya Physiotherapy College campus in Mangaluru",
+        "sourceUrl": "https://www.ypc.yenepoya.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P006",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.fathermuller.edu.in/physiotherapy/img/slider/banner-2-new.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Father Muller College of Physiotherapy campus in Mangaluru",
+        "sourceUrl": "https://www.fathermuller.edu.in/physiotherapy/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P007",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kvgphysiotherapy.org/wp-content/uploads/2020/02/IMG_3293-768x512.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KVG Institute of Physiotherapy campus in Sullia",
+        "sourceUrl": "https://kvgphysiotherapy.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P008",
+    "images": []
+  },
+  {
+    "collegeId": "P009",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://vipt.bgsmch.acu.edu.in/wp-content/uploads/2025/07/princial-cc-crop-2-min-cc-scaled.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "BGS Vijnatham Institute of Physiotherapy campus in B.G. Nagara",
+        "sourceUrl": "https://vipt.bgsmch.acu.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P010",
+    "images": []
+  },
+  {
+    "collegeId": "P011",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.manipal.edu/content/dam/manipal/mu/soahs-manipal/Images/banners/6%20MCHP%20banner.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Manipal College of Health Professions (Department of Physiotherapy) campus in Manipal",
+        "sourceUrl": "https://www.manipal.edu/soahs-manipal.html",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P012",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://rrcp.edu.in/wp-content/uploads/2026/08/01-1-1280x660.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Rajarajeswari College of Physiotherapy campus in Bengaluru",
+        "sourceUrl": "https://rrcp.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P013",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://sdmuphysiotherapy.edu.in/assets/images/banners/banner1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "SDM College of Physiotherapy campus in Dharwad",
+        "sourceUrl": "https://sdmuphysiotherapy.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "P014",
+    "images": []
+  },
+  {
+    "collegeId": "P015",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sapthagiricollegeofphysiotherapy.com/assets/images/resource/about-3.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sapthagiri Institute of Physiotherapy campus in Bengaluru",
+        "sourceUrl": "https://www.sapthagiricollegeofphysiotherapy.com/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "U001",
+    "images": []
+  },
+  {
+    "collegeId": "U002",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://lumc.secab.org/img/Dr.Tasmiya.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Luqman Unani Medical College and Hospital campus in Vijayapura (Bijapur)",
+        "sourceUrl": "https://lumc.secab.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "U003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://static.wixstatic.com/media/e3af88_7dd4c9f5b9bb48aaa1f1c0c79e5fec96%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e3af88_7dd4c9f5b9bb48aaa1f1c0c79e5fec96%7Emv2.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "H.M.S. Unani Medical College and Hospital campus in Tumkur (Tumakuru)",
+        "sourceUrl": "https://www.hmsumc.com/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "U004",
+    "images": []
+  },
+  {
+    "collegeId": "U005",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "http://inamdarunanimedicalcollegeandhospital.org/wp-content/uploads/2026/08/bg-remove.png",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Inamdar Unani Medical College and Hospital campus in Kalaburagi (Gulbarga)",
+        "sourceUrl": "http://inamdarunanimedicalcollegeandhospital.org/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "H001",
+    "images": []
+  },
+  {
+    "collegeId": "H002",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://kaher.edu.in/wp-content/uploads/2024/04/124-1-1024x683.avif",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "KLE Society's Homoeopathic Medical College and Hospital, Belagavi campus in Belagavi",
+        "sourceUrl": "https://kaher.edu.in/kle-homoeopathic-medical-college-belagavi/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "H003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.fathermuller.edu.in/homeopathic-college/img/slider/banner-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Father Muller Homoeopathic Medical College campus in Mangaluru",
+        "sourceUrl": "https://www.fathermuller.edu.in/homeopathic-college/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "H004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.hmcbgk.ac.in/wp-content/uploads/2021/04/College-Photo-1-1024x575.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "B.V.V. Sangha's BVVS Homoeopathic Medical College and Hospital campus in Bagalkot",
+        "sourceUrl": "https://www.hmcbgk.ac.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "H005",
+    "images": []
+  },
+  {
+    "collegeId": "H006",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.sshmh.org/wp-content/uploads/2023/05/sshmh-cover_jpg.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Sri Sathya Sai College of Homoeopathic Medical Science and Hospital campus in Dharwad",
+        "sourceUrl": "https://www.sshmh.org/",
+        "sourceName": "Official Website (Open Graph)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L001",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.stjohns.in/healthscience/assets/images/sjahs-desktop.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "St John's College of Allied Health Sciences campus in Bangalore",
+        "sourceUrl": "https://www.stjohns.in/healthscience/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L002",
+    "images": []
+  },
+  {
+    "collegeId": "L003",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://jssonline.org/wp-content/uploads/2018/11/JSS-Medical-College-rev.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "JSS College of Allied Health Sciences, Mysuru campus in Mysuru",
+        "sourceUrl": "https://jssonline.org/our-institutions/medical-education/jss-medical-college/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L004",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.msruas.ac.in/uploads/home/banner_images/allied-health-sciences-banner-mob.webp",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Faculty of Life and Allied Health Sciences, M.S. Ramaiah University of Applied Sciences campus in Bangalore",
+        "sourceUrl": "https://www.msruas.ac.in/department/department-of-allied-health-sciences",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L005",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://nitte.edu.in/niahs/img/slider/banner1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Nitte Institute of Allied Health Sciences (NIAHS) campus in Mangalore",
+        "sourceUrl": "https://nitte.edu.in/niahs/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L006",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.ysahs.yenepoya.edu.in/img/slider/_banner-1.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Yenepoya School of Allied Health Sciences (YSAHS) campus in Mangalore",
+        "sourceUrl": "https://www.ysahs.yenepoya.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L007",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://www.fathermuller.edu.in/allied-health-sciences/img/slider/allied-banner-1.jpeg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Father Muller College of Allied Health Sciences (FMCAHS) campus in Mangalore",
+        "sourceUrl": "https://www.fathermuller.edu.in/allied-health-sciences/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L008",
+    "images": []
+  },
+  {
+    "collegeId": "L009",
+    "images": []
+  },
+  {
+    "collegeId": "L010",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://ahs.pes.edu/wp-content/uploads/2023/10/a1920x550.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "PES University Allied Health Sciences (PES Institute of Medical Sciences & Research) campus in Bangalore",
+        "sourceUrl": "https://ahs.pes.edu/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L011",
+    "images": [
+      {
+        "category": "Campus",
+        "url": "https://bgsaims.edu.in/wp-content/uploads/2026/05/66.jpg",
+        "thumbnailUrl": null,
+        "title": "Campus",
+        "altText": "Adichunchanagiri School of Allied Health Sciences (AIMS) campus in B.G. Nagar, Mandya",
+        "sourceUrl": "https://bgsaims.edu.in/",
+        "sourceName": "Official Website (homepage image)",
+        "verificationStatus": "needs_review",
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "collegeId": "L012",
+    "images": []
+  },
+  {
+    "collegeId": "L013",
+    "images": []
+  },
+  {
+    "collegeId": "E325",
+    "images": []
+  },
+  {
+    "collegeId": "E326",
+    "images": []
+  },
+  {
+    "collegeId": "E327",
+    "images": []
+  },
+  {
+    "collegeId": "E328",
+    "images": []
+  },
+  {
+    "collegeId": "E329",
+    "images": []
+  },
+  {
+    "collegeId": "E330",
+    "images": []
+  },
+  {
+    "collegeId": "E331",
+    "images": []
+  },
+  {
+    "collegeId": "E332",
+    "images": []
+  },
+  {
+    "collegeId": "E333",
+    "images": []
+  },
+  {
+    "collegeId": "E334",
+    "images": []
+  },
+  {
+    "collegeId": "E335",
+    "images": []
+  },
+  {
+    "collegeId": "E336",
+    "images": []
+  },
+  {
+    "collegeId": "E337",
+    "images": []
+  },
+  {
+    "collegeId": "E338",
+    "images": []
+  },
+  {
+    "collegeId": "E339",
+    "images": []
+  },
+  {
+    "collegeId": "E340",
+    "images": []
+  },
+  {
+    "collegeId": "E341",
+    "images": []
+  },
+  {
+    "collegeId": "E342",
+    "images": []
+  },
+  {
+    "collegeId": "E343",
+    "images": []
+  },
+  {
+    "collegeId": "E344",
+    "images": []
+  },
+  {
+    "collegeId": "E345",
+    "images": []
+  },
+  {
+    "collegeId": "E346",
+    "images": []
+  },
+  {
+    "collegeId": "E347",
+    "images": []
+  },
+  {
+    "collegeId": "E348",
+    "images": []
+  },
+  {
+    "collegeId": "E349",
+    "images": []
+  },
+  {
+    "collegeId": "E350",
+    "images": []
+  },
+  {
+    "collegeId": "E351",
+    "images": []
+  },
+  {
+    "collegeId": "E352",
+    "images": []
+  },
+  {
+    "collegeId": "E353",
+    "images": []
+  },
+  {
+    "collegeId": "E354",
+    "images": []
+  },
+  {
+    "collegeId": "E355",
+    "images": []
+  },
+  {
+    "collegeId": "E356",
+    "images": []
+  },
+  {
+    "collegeId": "E357",
+    "images": []
+  },
+  {
+    "collegeId": "E358",
+    "images": []
+  },
+  {
+    "collegeId": "E359",
+    "images": []
+  },
+  {
+    "collegeId": "E360",
+    "images": []
+  },
+  {
+    "collegeId": "E361",
+    "images": []
+  },
+  {
+    "collegeId": "E362",
+    "images": []
+  },
+  {
+    "collegeId": "G001",
+    "images": []
+  },
+  {
+    "collegeId": "G004",
+    "images": []
+  },
+  {
+    "collegeId": "G005",
+    "images": []
+  },
+  {
+    "collegeId": "G006",
+    "images": []
+  },
+  {
+    "collegeId": "G007",
+    "images": []
+  },
+  {
+    "collegeId": "G010",
+    "images": []
+  },
+  {
+    "collegeId": "G013",
+    "images": []
+  },
+  {
+    "collegeId": "G014",
+    "images": []
+  },
+  {
+    "collegeId": "G015",
+    "images": []
+  },
+  {
+    "collegeId": "G017",
+    "images": []
+  },
+  {
+    "collegeId": "G018",
+    "images": []
+  },
+  {
+    "collegeId": "G019",
+    "images": []
+  },
+  {
+    "collegeId": "G020",
+    "images": []
+  },
+  {
+    "collegeId": "G021",
+    "images": []
+  },
+  {
+    "collegeId": "G024",
+    "images": []
+  },
+  {
+    "collegeId": "G025",
+    "images": []
+  },
+  {
+    "collegeId": "G026",
+    "images": []
+  },
+  {
+    "collegeId": "G027",
+    "images": []
+  },
+  {
+    "collegeId": "G028",
+    "images": []
+  },
+  {
+    "collegeId": "G029",
+    "images": []
+  },
+  {
+    "collegeId": "G030",
+    "images": []
+  },
+  {
+    "collegeId": "G031",
+    "images": []
+  },
+  {
+    "collegeId": "G032",
+    "images": []
+  },
+  {
+    "collegeId": "G033",
+    "images": []
+  },
+  {
+    "collegeId": "G034",
+    "images": []
+  },
+  {
+    "collegeId": "G036",
+    "images": []
+  },
+  {
+    "collegeId": "G037",
+    "images": []
+  },
+  {
+    "collegeId": "G038",
+    "images": []
+  },
+  {
+    "collegeId": "G039",
+    "images": []
+  },
+  {
+    "collegeId": "G040",
+    "images": []
+  },
+  {
+    "collegeId": "G042",
+    "images": []
+  },
+  {
+    "collegeId": "G043",
+    "images": []
+  }
+]

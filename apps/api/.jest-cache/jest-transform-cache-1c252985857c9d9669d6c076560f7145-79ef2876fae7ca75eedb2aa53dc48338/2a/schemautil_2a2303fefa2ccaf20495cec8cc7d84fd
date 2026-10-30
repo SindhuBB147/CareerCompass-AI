@@ -1,0 +1,25 @@
+aadfabb3ba4ecae12bc1d6d30773eaaf
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.WITH_ID_JSON = void 0;
+/**
+ * Mongoose's `id` virtual (a string alias for `_id`) exists on every
+ * document by default but is NOT included in `res.json()` output unless
+ * `toJSON.virtuals` is turned on — plain `@Schema({ timestamps: true })`
+ * models in this codebase serialize `_id` only, and existing frontend code
+ * that needs `.id` (e.g. UserAuthContext's `refreshUser`) works around it
+ * ad-hoc with `data.id ?? data._id`. Spreading this into a model's
+ * `@Schema()` options fixes it at the source instead, so every response
+ * from that model genuinely has `.id`.
+ */
+exports.WITH_ID_JSON = {
+    toJSON: {
+        virtuals: true,
+        transform: (_doc, ret) => {
+            delete ret._id;
+            delete ret.__v;
+            return ret;
+        },
+    },
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXGNvbW1vblxcdXRpbHNcXHNjaGVtYS51dGlsLnRzIiwibWFwcGluZ3MiOiI7OztBQUFBOzs7Ozs7Ozs7R0FTRztBQUNVLFFBQUEsWUFBWSxHQUFHO0lBQzFCLE1BQU0sRUFBRTtRQUNOLFFBQVEsRUFBRSxJQUFJO1FBQ2QsU0FBUyxFQUFFLENBQUMsSUFBYSxFQUFFLEdBQTRCLEVBQUUsRUFBRTtZQUN6RCxPQUFPLEdBQUcsQ0FBQyxHQUFHLENBQUM7WUFDZixPQUFPLEdBQUcsQ0FBQyxHQUFHLENBQUM7WUFDZixPQUFPLEdBQUcsQ0FBQztRQUNiLENBQUM7S0FDRjtDQUNGLENBQUMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXGNvbW1vblxcdXRpbHNcXHNjaGVtYS51dGlsLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogTW9uZ29vc2UncyBgaWRgIHZpcnR1YWwgKGEgc3RyaW5nIGFsaWFzIGZvciBgX2lkYCkgZXhpc3RzIG9uIGV2ZXJ5XG4gKiBkb2N1bWVudCBieSBkZWZhdWx0IGJ1dCBpcyBOT1QgaW5jbHVkZWQgaW4gYHJlcy5qc29uKClgIG91dHB1dCB1bmxlc3NcbiAqIGB0b0pTT04udmlydHVhbHNgIGlzIHR1cm5lZCBvbiDigJQgcGxhaW4gYEBTY2hlbWEoeyB0aW1lc3RhbXBzOiB0cnVlIH0pYFxuICogbW9kZWxzIGluIHRoaXMgY29kZWJhc2Ugc2VyaWFsaXplIGBfaWRgIG9ubHksIGFuZCBleGlzdGluZyBmcm9udGVuZCBjb2RlXG4gKiB0aGF0IG5lZWRzIGAuaWRgIChlLmcuIFVzZXJBdXRoQ29udGV4dCdzIGByZWZyZXNoVXNlcmApIHdvcmtzIGFyb3VuZCBpdFxuICogYWQtaG9jIHdpdGggYGRhdGEuaWQgPz8gZGF0YS5faWRgLiBTcHJlYWRpbmcgdGhpcyBpbnRvIGEgbW9kZWwnc1xuICogYEBTY2hlbWEoKWAgb3B0aW9ucyBmaXhlcyBpdCBhdCB0aGUgc291cmNlIGluc3RlYWQsIHNvIGV2ZXJ5IHJlc3BvbnNlXG4gKiBmcm9tIHRoYXQgbW9kZWwgZ2VudWluZWx5IGhhcyBgLmlkYC5cbiAqL1xuZXhwb3J0IGNvbnN0IFdJVEhfSURfSlNPTiA9IHtcbiAgdG9KU09OOiB7XG4gICAgdmlydHVhbHM6IHRydWUsXG4gICAgdHJhbnNmb3JtOiAoX2RvYzogdW5rbm93biwgcmV0OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPikgPT4ge1xuICAgICAgZGVsZXRlIHJldC5faWQ7XG4gICAgICBkZWxldGUgcmV0Ll9fdjtcbiAgICAgIHJldHVybiByZXQ7XG4gICAgfSxcbiAgfSxcbn07XG4iXSwidmVyc2lvbiI6M30=

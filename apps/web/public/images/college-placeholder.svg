@@ -1,0 +1,27 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="College image not yet available">
+  <rect width="800" height="450" fill="#EFEDE8"/>
+  <rect x="0.5" y="0.5" width="799" height="449" fill="none" stroke="#E2DFD8" stroke-width="1"/>
+
+  <g transform="translate(400,205)" fill="none" stroke="#A9A497" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Pediment (roof) -->
+    <path d="M -90 -8 L 0 -55 L 90 -8 Z"/>
+    <!-- Base steps -->
+    <line x1="-100" y1="55" x2="100" y2="55"/>
+    <line x1="-92" y1="42" x2="92" y2="42"/>
+    <!-- Columns -->
+    <line x1="-70" y1="0" x2="-70" y2="42"/>
+    <line x1="-35" y1="0" x2="-35" y2="42"/>
+    <line x1="0" y1="0" x2="0" y2="42"/>
+    <line x1="35" y1="0" x2="35" y2="42"/>
+    <line x1="70" y1="0" x2="70" y2="42"/>
+    <!-- Entablature -->
+    <line x1="-84" y1="0" x2="84" y2="0"/>
+  </g>
+
+  <text x="400" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#8A8578">
+    Image coming soon
+  </text>
+  <text x="400" y="326" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="1.5" fill="#B3AEA1">
+    CAREERCOMPASS AI
+  </text>
+</svg>

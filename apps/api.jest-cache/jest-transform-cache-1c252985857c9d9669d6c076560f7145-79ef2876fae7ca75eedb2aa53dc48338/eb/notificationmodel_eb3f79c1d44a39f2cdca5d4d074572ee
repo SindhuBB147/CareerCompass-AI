@@ -1,0 +1,133 @@
+bc0272bf86891aee8d190cff2d3613b8
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NotificationSchema = exports.Notification = exports.NOTIFICATION_CHANNELS = exports.NOTIFICATION_PRIORITIES = exports.NOTIFICATION_CATEGORIES = exports.NOTIFICATION_TYPES = void 0;
+const mongoose_1 = require("@nestjs/mongoose");
+const schema_util_1 = require("../../../common/utils/schema.util");
+// Broad taxonomy — kept generic (type + subtype) rather than one enum value
+// per exam/event combination, so KCET/COMEDK/NEET or new college/scholarship
+// events don't require a schema change; `relatedExamCode`/`relatedCollegeId`/
+// `relatedScholarshipId` carry the specific entity, `subtype` the specific
+// milestone (e.g. 'choice_filling_open', 'nirf_rank_changed').
+exports.NOTIFICATION_TYPES = [
+    'admission_event', 'scholarship_new_match', 'scholarship_deadline', 'roadmap_milestone', 'roadmap_digest',
+    'college_update', 'ai_suggestion', 'account_activity', 'financial_alert', 'admin_alert', 'reminder', 'announcement',
+    // Legacy values from the original skeleton — kept valid so existing rows/writers don't break.
+    'deadline_reminder', 'scholarship_expiry', 'cutoff_update', 'general',
+];
+exports.NOTIFICATION_CATEGORIES = [
+    'admissions', 'scholarships', 'roadmap', 'financial', 'ai_suggestions', 'account', 'system', 'announcements',
+];
+exports.NOTIFICATION_PRIORITIES = ['low', 'medium', 'high', 'urgent'];
+exports.NOTIFICATION_CHANNELS = ['inApp', 'email', 'browser', 'sms', 'whatsapp', 'push'];
+let Notification = class Notification {
+};
+exports.Notification = Notification;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Notification.prototype, "userId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: exports.NOTIFICATION_TYPES, required: true }),
+    __metadata("design:type", String)
+], Notification.prototype, "type", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "subtype", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: exports.NOTIFICATION_CATEGORIES, required: true, default: 'system' }),
+    __metadata("design:type", String)
+], Notification.prototype, "category", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: exports.NOTIFICATION_PRIORITIES, default: 'medium' }),
+    __metadata("design:type", String)
+], Notification.prototype, "priority", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "relatedExamCode", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "relatedCollegeId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "relatedScholarshipId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "relatedRoadmapId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Notification.prototype, "title", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Notification.prototype, "message", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "actionUrl", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Notification.prototype, "icon", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Object, default: {} }),
+    __metadata("design:type", Object)
+], Notification.prototype, "metadata", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], required: true }),
+    __metadata("design:type", Array)
+], Notification.prototype, "channels", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['pending', 'sent', 'failed', 'read'], default: 'pending' }),
+    __metadata("design:type", String)
+], Notification.prototype, "status", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Date)
+], Notification.prototype, "scheduledFor", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Date)
+], Notification.prototype, "sentAt", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: false }),
+    __metadata("design:type", Boolean)
+], Notification.prototype, "isRead", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Date)
+], Notification.prototype, "readAt", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: false }),
+    __metadata("design:type", Boolean)
+], Notification.prototype, "isArchived", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: false }),
+    __metadata("design:type", Boolean)
+], Notification.prototype, "isFavorite", void 0);
+exports.Notification = Notification = __decorate([
+    (0, mongoose_1.Schema)({ timestamps: true, ...schema_util_1.WITH_ID_JSON })
+], Notification);
+exports.NotificationSchema = mongoose_1.SchemaFactory.createForClass(Notification);
+exports.NotificationSchema.index({ userId: 1, status: 1 });
+exports.NotificationSchema.index({ userId: 1, isRead: 1, isArchived: 1, createdAt: -1 });
+exports.NotificationSchema.index({ userId: 1, category: 1 });
+exports.NotificationSchema.index({ scheduledFor: 1 });
+exports.NotificationSchema.index({ title: 'text', message: 'text' });
+exports.NotificationSchema.index({ createdAt: 1 }, { expireAfterSeconds: 15552000 }); // TTL 180 days
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXG5vdGlmaWNhdGlvbnNcXG1vZGVsc1xcbm90aWZpY2F0aW9uLm1vZGVsLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBLCtDQUErRDtBQUUvRCxtRUFBaUU7QUFJakUsNEVBQTRFO0FBQzVFLDZFQUE2RTtBQUM3RSw4RUFBOEU7QUFDOUUsMkVBQTJFO0FBQzNFLCtEQUErRDtBQUNsRCxRQUFBLGtCQUFrQixHQUFHO0lBQ2hDLGlCQUFpQixFQUFFLHVCQUF1QixFQUFFLHNCQUFzQixFQUFFLG1CQUFtQixFQUFFLGdCQUFnQjtJQUN6RyxnQkFBZ0IsRUFBRSxlQUFlLEVBQUUsa0JBQWtCLEVBQUUsaUJBQWlCLEVBQUUsYUFBYSxFQUFFLFVBQVUsRUFBRSxjQUFjO0lBQ25ILDhGQUE4RjtJQUM5RixtQkFBbUIsRUFBRSxvQkFBb0IsRUFBRSxlQUFlLEVBQUUsU0FBUztDQUM3RCxDQUFDO0FBR0UsUUFBQSx1QkFBdUIsR0FBRztJQUNyQyxZQUFZLEVBQUUsY0FBYyxFQUFFLFNBQVMsRUFBRSxXQUFXLEVBQUUsZ0JBQWdCLEVBQUUsU0FBUyxFQUFFLFFBQVEsRUFBRSxlQUFlO0NBQ3BHLENBQUM7QUFHRSxRQUFBLHVCQUF1QixHQUFHLENBQUMsS0FBSyxFQUFFLFFBQVEsRUFBRSxNQUFNLEVBQUUsUUFBUSxDQUFVLENBQUM7QUFHdkUsUUFBQSxxQkFBcUIsR0FBRyxDQUFDLE9BQU8sRUFBRSxPQUFPLEVBQUUsU0FBUyxFQUFFLEtBQUssRUFBRSxVQUFVLEVBQUUsTUFBTSxDQUFVLENBQUM7QUFJaEcsSUFBTSxZQUFZLEdBQWxCLE1BQU0sWUFBWTtDQTZCeEIsQ0FBQTtBQTdCWSxvQ0FBWTtBQUNHO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzs0Q0FBZ0I7QUFDVztJQUFuRCxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSwwQkFBa0IsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7OzBDQUFjO0FBQ3pEO0lBQVAsSUFBQSxlQUFJLEdBQUU7OzZDQUFrQjtBQUNtRDtJQUEzRSxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSwrQkFBdUIsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxRQUFRLEVBQUUsQ0FBQzs7OENBQWtCO0FBQ2pDO0lBQTNELElBQUEsZUFBSSxFQUFDLEVBQUUsSUFBSSxFQUFFLCtCQUF1QixFQUFFLE9BQU8sRUFBRSxRQUFRLEVBQUUsQ0FBQzs7OENBQWtCO0FBRXJFO0lBQVAsSUFBQSxlQUFJLEdBQUU7O3FEQUEwQjtBQUN6QjtJQUFQLElBQUEsZUFBSSxHQUFFOztzREFBMkI7QUFDMUI7SUFBUCxJQUFBLGVBQUksR0FBRTs7MERBQStCO0FBQzlCO0lBQVAsSUFBQSxlQUFJLEdBQUU7O3NEQUEyQjtBQUVSO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzsyQ0FBZTtBQUNkO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzs2Q0FBaUI7QUFDbEM7SUFBUCxJQUFBLGVBQUksR0FBRTs7K0NBQW9CO0FBQ25CO0lBQVAsSUFBQSxlQUFJLEdBQUU7OzBDQUFlO0FBQ2U7SUFBcEMsSUFBQSxlQUFJLEVBQUMsRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFFLE9BQU8sRUFBRSxFQUFFLEVBQUUsQ0FBQzs7OENBQW1DO0FBRTdCO0lBQXpDLElBQUEsZUFBSSxFQUFDLEVBQUUsSUFBSSxFQUFFLENBQUMsTUFBTSxDQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzs4Q0FBb0I7QUFHYztJQUExRSxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxDQUFDLFNBQVMsRUFBRSxNQUFNLEVBQUUsUUFBUSxFQUFFLE1BQU0sQ0FBQyxFQUFFLE9BQU8sRUFBRSxTQUFTLEVBQUUsQ0FBQzs7NENBQWdCO0FBQ2xGO0lBQVAsSUFBQSxlQUFJLEdBQUU7OEJBQWdCLElBQUk7a0RBQUM7QUFDcEI7SUFBUCxJQUFBLGVBQUksR0FBRTs4QkFBVSxJQUFJOzRDQUFDO0FBRUk7SUFBekIsSUFBQSxlQUFJLEVBQUMsRUFBRSxPQUFPLEVBQUUsS0FBSyxFQUFFLENBQUM7OzRDQUFpQjtBQUNsQztJQUFQLElBQUEsZUFBSSxHQUFFOzhCQUFVLElBQUk7NENBQUM7QUFDSTtJQUF6QixJQUFBLGVBQUksRUFBQyxFQUFFLE9BQU8sRUFBRSxLQUFLLEVBQUUsQ0FBQzs7Z0RBQXFCO0FBQ3BCO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsT0FBTyxFQUFFLEtBQUssRUFBRSxDQUFDOztnREFBcUI7dUJBNUJuQyxZQUFZO0lBRHhCLElBQUEsaUJBQU0sRUFBQyxFQUFFLFVBQVUsRUFBRSxJQUFJLEVBQUUsR0FBRywwQkFBWSxFQUFFLENBQUM7R0FDakMsWUFBWSxDQTZCeEI7QUFFWSxRQUFBLGtCQUFrQixHQUFHLHdCQUFhLENBQUMsY0FBYyxDQUFDLFlBQVksQ0FBQyxDQUFDO0FBQzdFLDBCQUFrQixDQUFDLEtBQUssQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUM7QUFDbkQsMEJBQWtCLENBQUMsS0FBSyxDQUFDLEVBQUUsTUFBTSxFQUFFLENBQUMsRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLFVBQVUsRUFBRSxDQUFDLEVBQUUsU0FBUyxFQUFFLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQztBQUNqRiwwQkFBa0IsQ0FBQyxLQUFLLENBQUMsRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLFFBQVEsRUFBRSxDQUFDLEVBQUUsQ0FBQyxDQUFDO0FBQ3JELDBCQUFrQixDQUFDLEtBQUssQ0FBQyxFQUFFLFlBQVksRUFBRSxDQUFDLEVBQUUsQ0FBQyxDQUFDO0FBQzlDLDBCQUFrQixDQUFDLEtBQUssQ0FBQyxFQUFFLEtBQUssRUFBRSxNQUFNLEVBQUUsT0FBTyxFQUFFLE1BQU0sRUFBRSxDQUFDLENBQUM7QUFDN0QsMEJBQWtCLENBQUMsS0FBSyxDQUFDLEVBQUUsU0FBUyxFQUFFLENBQUMsRUFBRSxFQUFFLEVBQUUsa0JBQWtCLEVBQUUsUUFBUSxFQUFFLENBQUMsQ0FBQyxDQUFDLGVBQWUiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXG5vdGlmaWNhdGlvbnNcXG1vZGVsc1xcbm90aWZpY2F0aW9uLm1vZGVsLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFByb3AsIFNjaGVtYSwgU2NoZW1hRmFjdG9yeSB9IGZyb20gJ0BuZXN0anMvbW9uZ29vc2UnO1xuaW1wb3J0IHsgRG9jdW1lbnQgfSBmcm9tICdtb25nb29zZSc7XG5pbXBvcnQgeyBXSVRIX0lEX0pTT04gfSBmcm9tICcuLi8uLi8uLi9jb21tb24vdXRpbHMvc2NoZW1hLnV0aWwnO1xuXG5leHBvcnQgdHlwZSBOb3RpZmljYXRpb25Eb2N1bWVudCA9IE5vdGlmaWNhdGlvbiAmIERvY3VtZW50O1xuXG4vLyBCcm9hZCB0YXhvbm9teSDigJQga2VwdCBnZW5lcmljICh0eXBlICsgc3VidHlwZSkgcmF0aGVyIHRoYW4gb25lIGVudW0gdmFsdWVcbi8vIHBlciBleGFtL2V2ZW50IGNvbWJpbmF0aW9uLCBzbyBLQ0VUL0NPTUVESy9ORUVUIG9yIG5ldyBjb2xsZWdlL3NjaG9sYXJzaGlwXG4vLyBldmVudHMgZG9uJ3QgcmVxdWlyZSBhIHNjaGVtYSBjaGFuZ2U7IGByZWxhdGVkRXhhbUNvZGVgL2ByZWxhdGVkQ29sbGVnZUlkYC9cbi8vIGByZWxhdGVkU2Nob2xhcnNoaXBJZGAgY2FycnkgdGhlIHNwZWNpZmljIGVudGl0eSwgYHN1YnR5cGVgIHRoZSBzcGVjaWZpY1xuLy8gbWlsZXN0b25lIChlLmcuICdjaG9pY2VfZmlsbGluZ19vcGVuJywgJ25pcmZfcmFua19jaGFuZ2VkJykuXG5leHBvcnQgY29uc3QgTk9USUZJQ0FUSU9OX1RZUEVTID0gW1xuICAnYWRtaXNzaW9uX2V2ZW50JywgJ3NjaG9sYXJzaGlwX25ld19tYXRjaCcsICdzY2hvbGFyc2hpcF9kZWFkbGluZScsICdyb2FkbWFwX21pbGVzdG9uZScsICdyb2FkbWFwX2RpZ2VzdCcsXG4gICdjb2xsZWdlX3VwZGF0ZScsICdhaV9zdWdnZXN0aW9uJywgJ2FjY291bnRfYWN0aXZpdHknLCAnZmluYW5jaWFsX2FsZXJ0JywgJ2FkbWluX2FsZXJ0JywgJ3JlbWluZGVyJywgJ2Fubm91bmNlbWVudCcsXG4gIC8vIExlZ2FjeSB2YWx1ZXMgZnJvbSB0aGUgb3JpZ2luYWwgc2tlbGV0b24g4oCUIGtlcHQgdmFsaWQgc28gZXhpc3Rpbmcgcm93cy93cml0ZXJzIGRvbid0IGJyZWFrLlxuICAnZGVhZGxpbmVfcmVtaW5kZXInLCAnc2Nob2xhcnNoaXBfZXhwaXJ5JywgJ2N1dG9mZl91cGRhdGUnLCAnZ2VuZXJhbCcsXG5dIGFzIGNvbnN0O1xuZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uVHlwZSA9IHR5cGVvZiBOT1RJRklDQVRJT05fVFlQRVNbbnVtYmVyXTtcblxuZXhwb3J0IGNvbnN0IE5PVElGSUNBVElPTl9DQVRFR09SSUVTID0gW1xuICAnYWRtaXNzaW9ucycsICdzY2hvbGFyc2hpcHMnLCAncm9hZG1hcCcsICdmaW5hbmNpYWwnLCAnYWlfc3VnZ2VzdGlvbnMnLCAnYWNjb3VudCcsICdzeXN0ZW0nLCAnYW5ub3VuY2VtZW50cycsXG5dIGFzIGNvbnN0O1xuZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uQ2F0ZWdvcnkgPSB0eXBlb2YgTk9USUZJQ0FUSU9OX0NBVEVHT1JJRVNbbnVtYmVyXTtcblxuZXhwb3J0IGNvbnN0IE5PVElGSUNBVElPTl9QUklPUklUSUVTID0gWydsb3cnLCAnbWVkaXVtJywgJ2hpZ2gnLCAndXJnZW50J10gYXMgY29uc3Q7XG5leHBvcnQgdHlwZSBOb3RpZmljYXRpb25Qcmlvcml0eSA9IHR5cGVvZiBOT1RJRklDQVRJT05fUFJJT1JJVElFU1tudW1iZXJdO1xuXG5leHBvcnQgY29uc3QgTk9USUZJQ0FUSU9OX0NIQU5ORUxTID0gWydpbkFwcCcsICdlbWFpbCcsICdicm93c2VyJywgJ3NtcycsICd3aGF0c2FwcCcsICdwdXNoJ10gYXMgY29uc3Q7XG5leHBvcnQgdHlwZSBOb3RpZmljYXRpb25DaGFubmVsID0gdHlwZW9mIE5PVElGSUNBVElPTl9DSEFOTkVMU1tudW1iZXJdO1xuXG5AU2NoZW1hKHsgdGltZXN0YW1wczogdHJ1ZSwgLi4uV0lUSF9JRF9KU09OIH0pXG5leHBvcnQgY2xhc3MgTm90aWZpY2F0aW9uIHtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSB1c2VySWQ6IHN0cmluZztcbiAgQFByb3AoeyBlbnVtOiBOT1RJRklDQVRJT05fVFlQRVMsIHJlcXVpcmVkOiB0cnVlIH0pIHR5cGU6IHN0cmluZztcbiAgQFByb3AoKSBzdWJ0eXBlPzogc3RyaW5nO1xuICBAUHJvcCh7IGVudW06IE5PVElGSUNBVElPTl9DQVRFR09SSUVTLCByZXF1aXJlZDogdHJ1ZSwgZGVmYXVsdDogJ3N5c3RlbScgfSkgY2F0ZWdvcnk6IHN0cmluZztcbiAgQFByb3AoeyBlbnVtOiBOT1RJRklDQVRJT05fUFJJT1JJVElFUywgZGVmYXVsdDogJ21lZGl1bScgfSkgcHJpb3JpdHk6IHN0cmluZztcblxuICBAUHJvcCgpIHJlbGF0ZWRFeGFtQ29kZT86IHN0cmluZztcbiAgQFByb3AoKSByZWxhdGVkQ29sbGVnZUlkPzogc3RyaW5nO1xuICBAUHJvcCgpIHJlbGF0ZWRTY2hvbGFyc2hpcElkPzogc3RyaW5nO1xuICBAUHJvcCgpIHJlbGF0ZWRSb2FkbWFwSWQ/OiBzdHJpbmc7XG5cbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSB0aXRsZTogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIG1lc3NhZ2U6IHN0cmluZztcbiAgQFByb3AoKSBhY3Rpb25Vcmw/OiBzdHJpbmc7XG4gIEBQcm9wKCkgaWNvbj86IHN0cmluZztcbiAgQFByb3AoeyB0eXBlOiBPYmplY3QsIGRlZmF1bHQ6IHt9IH0pIG1ldGFkYXRhOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjtcblxuICBAUHJvcCh7IHR5cGU6IFtTdHJpbmddLCByZXF1aXJlZDogdHJ1ZSB9KSBjaGFubmVsczogc3RyaW5nW107XG4gIC8vIERlbGl2ZXJ5IHBpcGVsaW5lIHN0YXR1cyDigJQgZGlzdGluY3QgZnJvbSByZWFkIHN0YXRlIChzZWUgaXNSZWFkIGJlbG93KSxcbiAgLy8gd2hpY2ggaXMgYSBwZXItdXNlciBVSSBjb25jZXJuLCBub3QgYSBkZWxpdmVyeSBvdXRjb21lLlxuICBAUHJvcCh7IGVudW06IFsncGVuZGluZycsICdzZW50JywgJ2ZhaWxlZCcsICdyZWFkJ10sIGRlZmF1bHQ6ICdwZW5kaW5nJyB9KSBzdGF0dXM6IHN0cmluZztcbiAgQFByb3AoKSBzY2hlZHVsZWRGb3I/OiBEYXRlO1xuICBAUHJvcCgpIHNlbnRBdD86IERhdGU7XG5cbiAgQFByb3AoeyBkZWZhdWx0OiBmYWxzZSB9KSBpc1JlYWQ6IGJvb2xlYW47XG4gIEBQcm9wKCkgcmVhZEF0PzogRGF0ZTtcbiAgQFByb3AoeyBkZWZhdWx0OiBmYWxzZSB9KSBpc0FyY2hpdmVkOiBib29sZWFuO1xuICBAUHJvcCh7IGRlZmF1bHQ6IGZhbHNlIH0pIGlzRmF2b3JpdGU6IGJvb2xlYW47XG59XG5cbmV4cG9ydCBjb25zdCBOb3RpZmljYXRpb25TY2hlbWEgPSBTY2hlbWFGYWN0b3J5LmNyZWF0ZUZvckNsYXNzKE5vdGlmaWNhdGlvbik7XG5Ob3RpZmljYXRpb25TY2hlbWEuaW5kZXgoeyB1c2VySWQ6IDEsIHN0YXR1czogMSB9KTtcbk5vdGlmaWNhdGlvblNjaGVtYS5pbmRleCh7IHVzZXJJZDogMSwgaXNSZWFkOiAxLCBpc0FyY2hpdmVkOiAxLCBjcmVhdGVkQXQ6IC0xIH0pO1xuTm90aWZpY2F0aW9uU2NoZW1hLmluZGV4KHsgdXNlcklkOiAxLCBjYXRlZ29yeTogMSB9KTtcbk5vdGlmaWNhdGlvblNjaGVtYS5pbmRleCh7IHNjaGVkdWxlZEZvcjogMSB9KTtcbk5vdGlmaWNhdGlvblNjaGVtYS5pbmRleCh7IHRpdGxlOiAndGV4dCcsIG1lc3NhZ2U6ICd0ZXh0JyB9KTtcbk5vdGlmaWNhdGlvblNjaGVtYS5pbmRleCh7IGNyZWF0ZWRBdDogMSB9LCB7IGV4cGlyZUFmdGVyU2Vjb25kczogMTU1NTIwMDAgfSk7IC8vIFRUTCAxODAgZGF5c1xuIl0sInZlcnNpb24iOjN9

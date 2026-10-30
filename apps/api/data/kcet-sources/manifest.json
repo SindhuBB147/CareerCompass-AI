@@ -1,0 +1,38 @@
+[
+  {
+    "fileName": "ENGG_CUTOFF_2023_GENenglish.pdf",
+    "year": 2023,
+    "round": 1,
+    "sourceUrl": "https://cetonline.karnataka.gov.in/keawebentry456/ENGG_CUTOFF_2023_GENenglish.pdf",
+    "publicationStatus": "official",
+    "pages": 44,
+    "collegesExtracted": 217,
+    "courseRowsExtracted": 1456,
+    "recordsInserted": 33174,
+    "processedAt": "2026-10-21T06:50:31.463Z"
+  },
+  {
+    "fileName": "ENGG_CUTOFF_2023_R2english.pdf",
+    "year": 2023,
+    "round": 2,
+    "sourceUrl": "https://cetonline.karnataka.gov.in/keawebentry456/ENGG_CUTOFF_2023_R2english.pdf",
+    "publicationStatus": "official",
+    "pages": 45,
+    "collegesExtracted": 218,
+    "courseRowsExtracted": 1467,
+    "recordsInserted": 31953,
+    "processedAt": "2026-10-21T06:50:55.731Z"
+  },
+  {
+    "fileName": "ENR2_CUTGENenglish.pdf",
+    "year": 2023,
+    "round": 3,
+    "sourceUrl": "https://cetonline.karnataka.gov.in/keawebentry456/ENR2_CUTGENenglish.pdf",
+    "publicationStatus": "official",
+    "pages": 45,
+    "collegesExtracted": 219,
+    "courseRowsExtracted": 1469,
+    "recordsInserted": 25745,
+    "processedAt": "2026-10-21T06:51:14.119Z"
+  }
+]

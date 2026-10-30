@@ -1,0 +1,136 @@
+c4315864c7a7a7f63bbec2b56a06da14
+// Read-only COMEDK-to-college identity candidate report. Suggestions require human review.
+const fs = require('node:fs');
+const path = require('node:path');
+const mongoose = require('mongoose');
+const { parsePdf } = require('./parse_comedk_cutoff_pdf');
+
+const root = path.resolve(__dirname, '..');
+const dataDir = path.join(root, 'data/comedk-sources');
+const targets = new Set(process.argv.slice(2).filter((value) => /^E\d{3}$/.test(value)));
+const focusCodes = ['E016','E024','E027','E059','E072','E089','E142','E147','E165'];
+const wanted = targets.size ? targets : new Set(focusCodes);
+const uriLine = fs.readFileSync(path.join(root, '.env'), 'utf8').split(/\r?\n/).find((line) => /^\s*MONGO_URI=/.test(line));
+const uri = process.env.MONGO_URI || uriLine?.replace(/^\s*MONGO_URI=/, '').trim().replace(/^['"]|['"]$/g, '');
+if (!uri) throw new Error('MONGO_URI missing from environment and apps/api/.env');
+
+const normalize = (s) => String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  .replace(/\b(?:[a-z]\.)+[a-z]?\.?/g, (initials) => initials.replace(/\./g, ''))
+  .replace(/&/g, ' and ').replace(/\bb\s*v\s*b\s*c\s*e\s*t\b|bhoomaraddi college of engineering and technology/g, ' bvbcet ')
+  .replace(/\b(b\s*\.\s*e\s*\.\s*c\s*\.?|bec)\b/g, ' basaveshwar engineering college ')
+  .replace(/\b(vvce)\b/g, ' vidya vardhaka college of engineering ').replace(/\b(pesce)\b/g, ' pes college of engineering ')
+  .replace(/\b(jnnce)\b/g, ' jawaharlal nehru new college of engineering ').replace(/\b(bvbcet)\b/g, ' bhoomaraddi college of engineering and technology ')
+  .replace(/\b(the|of|and|at|formerly|known|as)\b/g, ' ').replace(/[^a-z0-9]+/g, ' ').replace(/\b(college|institute|engineering|technology)\b/g, '$1')
+  .replace(/\s+/g, ' ').trim();
+function institutionName(value) {
+  return String(value || '').split(/\s+[-–—]\s+/)[0].replace(/\s+[.,]\s*$/, '').trim();
+}
+function similarity(a, b) {
+  const x = normalize(a), y = normalize(b);
+  if (!x || !y) return 0;
+  const rows = Array.from({ length: x.length + 1 }, (_, i) => i);
+  for (let j = 1; j <= y.length; j++) {
+    let prev = rows[0]; rows[0] = j;
+    for (let i = 1; i <= x.length; i++) { const old = rows[i]; rows[i] = Math.min(rows[i] + 1, rows[i - 1] + 1, prev + (x[i - 1] === y[j - 1] ? 0 : 1)); prev = old; }
+  }
+  return 1 - rows[x.length] / Math.max(x.length, y.length);
+}
+function locationText(c) {
+  const a = c.address;
+  if (typeof a === 'string') return a;
+  if (a && typeof a === 'object') return [a.line1, a.line2, a.street, a.address, a.city, a.district, a.state, a.pincode].filter(Boolean).join(', ');
+  return [c.contact?.address, c.city, c.district, c.state].filter(Boolean).join(', ');
+}
+function identityFields(c) {
+  return {
+    id: c.collegeId ?? String(c._id), name: c.name ?? null,
+    aliases: Array.isArray(c.aliasNames) ? c.aliasNames : [],
+    collegeCode: c.code ?? c.collegeCode ?? null,
+    alternateAdmissionCodes: Array.isArray(c.alternateAdmissionCodes) ? c.alternateAdmissionCodes : [],
+    address: locationText(c), city: c.city ?? null, district: c.district ?? null, state: c.state ?? null,
+    accreditation: c.accreditation ?? null,
+  };
+}
+function scoreTarget(source, college) {
+  const f = identityFields(college);
+  const historicalNames = [...(Array.isArray(college.historicalNames) ? college.historicalNames : []), ...(Array.isArray(college.alternateNames) ? college.alternateNames : [])];
+  const names = [f.name, ...f.aliases, ...historicalNames].filter(Boolean);
+  const sourceInstitution = institutionName(source.name);
+  const sourceNorm = normalize(sourceInstitution);
+  const exactName = normalize(f.name) === sourceNorm;
+  const exactAlias = f.aliases.some((n) => normalize(n) === sourceNorm);
+  const exactHistoricalName = historicalNames.some((n) => normalize(n) === sourceNorm);
+  const exactCode = f.alternateAdmissionCodes.some((item) => String(item.code).toUpperCase() === source.code && String(item.examBody).toUpperCase().includes('COMEDK')) || String(f.collegeCode || '').toUpperCase() === source.code;
+  const similarityScore = Math.max(0, ...names.map((n) => similarity(source.name, n)));
+  const sourceLocation = normalize(source.name.split(/\s+[-–—]\s+/).slice(1).join(' '));
+  const localLocation = normalize([f.address, f.city, f.district].filter(Boolean).join(' '));
+  const locationOverlap = sourceLocation && localLocation ? sourceLocation.split(' ').filter((token) => token.length > 3 && localLocation.includes(token)).length : 0;
+  const src = normalize(sourceInstitution), local = normalize(f.name);
+  const campusPattern = /\b(north|south|east|west|electronic city|main) campus\b/;
+  const sourceCampus = campusPattern.exec(normalize(source.name))?.[0] || null;
+  const localCampus = campusPattern.exec(normalize([f.name, f.address, ...f.aliases].join(' ')))?.[0] || null;
+  const sameInstitutionCore = similarity(src, local) >= 0.68 || exactAlias || exactHistoricalName;
+  const distinctCampusWarning = Boolean(sourceCampus && localCampus && sourceCampus !== localCampus && sameInstitutionCore);
+  let evidence = 'fuzzy name similarity only';
+  let confidence = 'low';
+  if (exactCode) { evidence = 'existing COMEDK admission code matches source code'; confidence = 'strong candidate; human verification required'; }
+  else if (exactName) { evidence = 'exact normalized institution name'; confidence = 'strong candidate; human verification required'; }
+  else if (exactAlias) { evidence = 'exact normalized alias'; confidence = 'strong candidate; human verification required'; }
+  else if (exactHistoricalName) { evidence = 'exact normalized historical institution name'; confidence = 'strong candidate; human verification required'; }
+  else if (similarityScore >= 0.68 && locationOverlap > 0) { evidence = 'strong normalized name similarity supported by location'; confidence = 'candidate; human verification required'; }
+  else if (similarityScore >= 0.30) { evidence = 'weak fuzzy similarity only'; confidence = 'discovery only'; }
+  return { ...f, historicalNames, similarity: Number(similarityScore.toFixed(3)), locationTokenOverlap: locationOverlap, evidence, confidence, distinctCampusWarning, exactName, exactAlias, exactHistoricalName, exactCode, automaticApproval: false };
+}
+
+function discoverCandidates(source, colleges) {
+  const scored = colleges.map((college) => scoreTarget(source, college));
+  const relevant = scored.filter((c) => c.exactCode || c.exactName || c.exactAlias || c.exactHistoricalName || (c.similarity >= 0.68 && c.locationTokenOverlap > 0) || c.distinctCampusWarning);
+  const weakFuzzySuggestions = scored.filter((c) => !relevant.includes(c) && c.similarity >= 0.30 && c.evidence === 'weak fuzzy similarity only');
+  const order = (a,b) => Number(b.distinctCampusWarning) - Number(a.distinctCampusWarning) || Number(b.exactCode) - Number(a.exactCode) || Number(b.exactName) - Number(a.exactName) || Number(b.exactAlias) - Number(a.exactAlias) || b.similarity - a.similarity;
+  return { relevant: relevant.sort(order), weakFuzzySuggestions: weakFuzzySuggestions.sort(order), falsePositiveCandidatesExcluded: scored.length - relevant.length - weakFuzzySuggestions.length };
+}
+
+if (require.main !== module) { module.exports = { normalize, institutionName, scoreTarget, discoverCandidates }; }
+
+async function main() {
+  await mongoose.connect(uri, { serverSelectionTimeoutMS: 5000 });
+  const db = mongoose.connection.db;
+  if (db.databaseName !== 'career-compass-dev') throw new Error(`Connected database ${db.databaseName}; expected career-compass-dev.`);
+  const colleges = await db.collection('colleges').find({}).toArray();
+  const manifest = JSON.parse(fs.readFileSync(path.join(dataDir, 'manifest.json'), 'utf8'));
+  const sourcesByCode = new Map();
+  for (const source of manifest.sources.filter((entry) => entry.year === 2024)) {
+    const parsed = await parsePdf(path.join(dataDir, source.file), { sourceYear: source.year });
+    for (const row of parsed.rows) {
+      const code = String(row.collegeCode).toUpperCase();
+      if (!wanted.has(code)) continue;
+      const value = { code, name: row.collegeName, source: source.file, year: source.year, round: source.round, phase: source.phase ?? null };
+      if (!sourcesByCode.has(code)) sourcesByCode.set(code, []);
+      if (!sourcesByCode.get(code).some((item) => item.name === value.name)) sourcesByCode.get(code).push(value);
+    }
+  }
+  const report = {
+    generatedAt: new Date().toISOString(),
+    database: { status: 'connected', mode: 'persistent', target: `${new URL(uri).hostname}:${new URL(uri).port || '27017'}/${db.databaseName}`, database: db.databaseName, collegeCount: colleges.length },
+    policy: 'Read-only discovery. No database or production mapping writes. Fuzzy candidates are never automatically approved.',
+    results: [],
+  };
+  for (const code of [...wanted].sort()) {
+    const sources = sourcesByCode.get(code) || [];
+    const canonicalSource = sources[0] || { code, name: null };
+    const discovery = discoverCandidates(canonicalSource, colleges);
+    const candidates = discovery.relevant;
+    const exacts = candidates.filter((candidate) => (candidate.exactCode || candidate.exactName || candidate.exactAlias) && !candidate.distinctCampusWarning);
+    report.results.push({ sourceCode: code, sourceNames: sources, status: !sources.length ? 'source code not present in selected 2024 PDFs' : exacts.length === 1 ? 'strong candidate for human review' : exacts.length > 1 ? 'ambiguous' : candidates.length ? 'candidate discovery only' : 'unmatched', suggestedMapping: null, candidates, weakFuzzySuggestions: discovery.weakFuzzySuggestions, falsePositiveCandidatesExcluded: discovery.falsePositiveCandidatesExcluded });
+  }
+  const output = path.join(dataDir, `college-identity-review-${Date.now()}.json`);
+  fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n', { flag: 'wx' });
+  console.log(JSON.stringify({ reportFile: path.basename(output), ...report }, null, 2));
+}
+module.exports = { normalize, institutionName, scoreTarget, discoverCandidates, main };
+
+if (require.main === module) {
+  main()
+    .catch((error) => { console.error(`Identity audit failed: ${error.message}`); process.exitCode = 1; })
+    .finally(async () => { if (mongoose.connection.readyState) await mongoose.disconnect(); });
+}

@@ -1,0 +1,250 @@
+79148ca12bf2669ccfbced71bdfc35b4
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ScholarshipSchema = exports.Scholarship = void 0;
+const mongoose_1 = require("@nestjs/mongoose");
+/**
+ * Karnataka KEA reservation codes (GM/SC/ST/2A/2B/3A/3B/Cat-1/EWS) and the
+ * legacy General/OBC/SC/ST/EWS/Other labels are BOTH accepted in
+ * `categories` — the same dual-taxonomy tradeoff the seed data already
+ * used, kept so existing matches (predictor's countMatchingForProfile,
+ * counsellor's getMatched) keep working unchanged.
+ */
+class Eligibility {
+}
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Eligibility.prototype, "categories", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Number)
+], Eligibility.prototype, "maxIncome", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Number)
+], Eligibility.prototype, "minIncome", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: ['Karnataka'] }),
+    __metadata("design:type", Array)
+], Eligibility.prototype, "states", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Eligibility.prototype, "exams", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Eligibility.prototype, "applicableCourses", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Eligibility.prototype, "genderSpecific", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: false }),
+    __metadata("design:type", Boolean)
+], Eligibility.prototype, "minorityOnly", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: false }),
+    __metadata("design:type", Boolean)
+], Eligibility.prototype, "pwdOnly", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Eligibility.prototype, "requiredReservations", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Number)
+], Eligibility.prototype, "minRank", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Number)
+], Eligibility.prototype, "maxRank", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Number)
+], Eligibility.prototype, "minAcademicPercent", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Eligibility.prototype, "academicCriteriaNote", void 0);
+class AwardAmount {
+}
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['fixed', 'percentage'], required: true }),
+    __metadata("design:type", String)
+], AwardAmount.prototype, "type", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], AwardAmount.prototype, "value", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], AwardAmount.prototype, "displayText", void 0);
+class ApplicationStep {
+}
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], ApplicationStep.prototype, "stepNumber", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], ApplicationStep.prototype, "title", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], ApplicationStep.prototype, "description", void 0);
+class Faq {
+}
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Faq.prototype, "question", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Faq.prototype, "answer", void 0);
+class ApplicationLinks {
+}
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ApplicationLinks.prototype, "officialWebsite", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ApplicationLinks.prototype, "applyLink", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ApplicationLinks.prototype, "notificationPdf", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ApplicationLinks.prototype, "guidelinesPdf", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ApplicationLinks.prototype, "helpdeskUrl", void 0);
+class ContactInfo {
+}
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ContactInfo.prototype, "email", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], ContactInfo.prototype, "phone", void 0);
+let Scholarship = class Scholarship {
+};
+exports.Scholarship = Scholarship;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Scholarship.prototype, "name", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ unique: true, sparse: true }),
+    __metadata("design:type", String)
+], Scholarship.prototype, "slug", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['government', 'private', 'institution'], required: true }),
+    __metadata("design:type", String)
+], Scholarship.prototype, "provider", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Scholarship.prototype, "providerName", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Scholarship.prototype, "providerId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Scholarship.prototype, "categories", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Scholarship.prototype, "type", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Scholarship.prototype, "description", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Scholarship.prototype, "benefits", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Eligibility, required: true }),
+    __metadata("design:type", Eligibility)
+], Scholarship.prototype, "eligibility", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: AwardAmount, required: true }),
+    __metadata("design:type", AwardAmount)
+], Scholarship.prototype, "awardAmount", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], Scholarship.prototype, "documents", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [ApplicationStep], default: [] }),
+    __metadata("design:type", Array)
+], Scholarship.prototype, "applicationSteps", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['online', 'offline', 'both'], default: 'online' }),
+    __metadata("design:type", String)
+], Scholarship.prototype, "applicationMode", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [Faq], default: [] }),
+    __metadata("design:type", Array)
+], Scholarship.prototype, "faqs", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: ApplicationLinks, default: () => ({}) }),
+    __metadata("design:type", ApplicationLinks)
+], Scholarship.prototype, "links", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: ContactInfo, default: () => ({}) }),
+    __metadata("design:type", ContactInfo)
+], Scholarship.prototype, "contact", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Date)
+], Scholarship.prototype, "applicationOpensAt", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Date)
+], Scholarship.prototype, "applicationDeadline", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Scholarship.prototype, "renewalPolicy", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: false }),
+    __metadata("design:type", Boolean)
+], Scholarship.prototype, "featured", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ default: true }),
+    __metadata("design:type", Boolean)
+], Scholarship.prototype, "isActive", void 0);
+exports.Scholarship = Scholarship = __decorate([
+    (0, mongoose_1.Schema)({ timestamps: true })
+], Scholarship);
+exports.ScholarshipSchema = mongoose_1.SchemaFactory.createForClass(Scholarship);
+exports.ScholarshipSchema.index({ applicationDeadline: 1 });
+exports.ScholarshipSchema.index({ 'eligibility.categories': 1, 'eligibility.states': 1, 'eligibility.exams': 1 });
+exports.ScholarshipSchema.index({ isActive: 1 });
+exports.ScholarshipSchema.index({ categories: 1 });
+exports.ScholarshipSchema.index({ featured: 1 });
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXHNjaG9sYXJzaGlwc1xcbW9kZWxzXFxzY2hvbGFyc2hpcC5tb2RlbC50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQSwrQ0FBK0Q7QUFLL0Q7Ozs7OztHQU1HO0FBQ0gsTUFBTSxXQUFXO0NBa0JoQjtBQWpCd0M7SUFBdEMsSUFBQSxlQUFJLEVBQUMsRUFBRSxJQUFJLEVBQUUsQ0FBQyxNQUFNLENBQUMsRUFBRSxPQUFPLEVBQUUsRUFBRSxFQUFFLENBQUM7OytDQUFzQjtBQUNwRDtJQUFQLElBQUEsZUFBSSxHQUFFOzs4Q0FBb0I7QUFDbkI7SUFBUCxJQUFBLGVBQUksR0FBRTs7OENBQW9CO0FBQ3VCO0lBQWpELElBQUEsZUFBSSxFQUFDLEVBQUUsSUFBSSxFQUFFLENBQUMsTUFBTSxDQUFDLEVBQUUsT0FBTyxFQUFFLENBQUMsV0FBVyxDQUFDLEVBQUUsQ0FBQzs7MkNBQWtCO0FBQzVCO0lBQXRDLElBQUEsZUFBSSxFQUFDLEVBQUUsSUFBSSxFQUFFLENBQUMsTUFBTSxDQUFDLEVBQUUsT0FBTyxFQUFFLEVBQUUsRUFBRSxDQUFDOzswQ0FBaUI7QUFJaEI7SUFBdEMsSUFBQSxlQUFJLEVBQUMsRUFBRSxJQUFJLEVBQUUsQ0FBQyxNQUFNLENBQUMsRUFBRSxPQUFPLEVBQUUsRUFBRSxFQUFFLENBQUM7O3NEQUE2QjtBQUMzRDtJQUFQLElBQUEsZUFBSSxHQUFFOzttREFBeUI7QUFDTjtJQUF6QixJQUFBLGVBQUksRUFBQyxFQUFFLE9BQU8sRUFBRSxLQUFLLEVBQUUsQ0FBQzs7aURBQXVCO0FBQ3RCO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsT0FBTyxFQUFFLEtBQUssRUFBRSxDQUFDOzs0Q0FBa0I7QUFDSjtJQUF0QyxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxDQUFDLE1BQU0sQ0FBQyxF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RSxLQUFLLEVBQUUsQ0FBQzs7NkNBQW1CO0FBQ25CO0lBQXhCLElBQUEsZUFBSSxFQUFDLEVBQUUsT0FBTyxFQUFFLElBQUksRUFBRSxDQUFDOzs2Q0FBbUI7c0JBdENoQyxXQUFXO0lBRHZCLElBQUEsaUJBQU0sRUFBQyxFQUFFLFVBQVUsRUFBRSxJQUFJLEVBQUUsQ0FBQztHQUNoQixXQUFXLENBdUN2QjtBQUVZLFFBQUEsaUJBQWlCLEdBQUcsd0JBQWEsQ0FBQyxjQUFjLENBQUMsV0FBVyxDQUFDLENBQUM7QUFDM0UseUJBQWlCLENBQUMsS0FBSyxDQUFDLEVBQUUsbUJBQW1CLEVBQUUsQ0FBQyxFQUFFLENBQUMsQ0FBQztBQUNwRCx5QkFBaUIsQ0FBQyxLQUFLLENBQUMsRUFBRSx3QkFBd0IsRUFBRSxDQUFDLEVBQUUsb0JBQW9CLEVBQUUsQ0FBQyxFQUFFLG1CQUFtQixFQUFFLENBQUMsRUFBRSxDQUFDLENBQUM7QUFDMUcseUJBQWlCLENBQUMsS0FBSyxDQUFDLEVBQUUsUUFBUSxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUM7QUFDekMseUJBQWlCLENBQUMsS0FBSyxDQUFDLEVBQUUsVUFBVSxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUM7QUFDM0MseUJBQWlCLENBQUMsS0FBSyxDQUFDLEVBQUUsUUFBUSxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXHNjaG9sYXJzaGlwc1xcbW9kZWxzXFxzY2hvbGFyc2hpcC5tb2RlbC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQcm9wLCBTY2hlbWEsIFNjaGVtYUZhY3RvcnkgfSBmcm9tICdAbmVzdGpzL21vbmdvb3NlJztcbmltcG9ydCB7IERvY3VtZW50IH0gZnJvbSAnbW9uZ29vc2UnO1xuXG5leHBvcnQgdHlwZSBTY2hvbGFyc2hpcERvY3VtZW50ID0gU2Nob2xhcnNoaXAgJiBEb2N1bWVudDtcblxuLyoqXG4gKiBLYXJuYXRha2EgS0VBIHJlc2VydmF0aW9uIGNvZGVzIChHTS9TQy9TVC8yQS8yQi8zQS8zQi9DYXQtMS9FV1MpIGFuZCB0aGVcbiAqIGxlZ2FjeSBHZW5lcmFsL09CQy9TQy9TVC9FV1MvT3RoZXIgbGFiZWxzIGFyZSBCT1RIIGFjY2VwdGVkIGluXG4gKiBgY2F0ZWdvcmllc2Ag4oCUIHRoZSBzYW1lIGR1YWwtdGF4b25vbXkgdHJhZGVvZmYgdGhlIHNlZWQgZGF0YSBhbHJlYWR5XG4gKiB1c2VkLCBrZXB0IHNvIGV4aXN0aW5nIG1hdGNoZXMgKHByZWRpY3RvcidzIGNvdW50TWF0Y2hpbmdGb3JQcm9maWxlLFxuICogY291bnNlbGxvcidzIGdldE1hdGNoZWQpIGtlZXAgd29ya2luZyB1bmNoYW5nZWQuXG4gKi9cbmNsYXNzIEVsaWdpYmlsaXR5IHtcbiAgQFByb3AoeyB0eXBlOiBbU3RyaW5nXSwgZGVmYXVsdDogW10gfSkgY2F0ZWdvcmllczogc3RyaW5nW107XG4gIEBQcm9wKCkgbWF4SW5jb21lPzogbnVtYmVyO1xuICBAUHJvcCgpIG1pbkluY29tZT86IG51bWJlcjtcbiAgQFByb3AoeyB0eXBlOiBbU3RyaW5nXSwgZGVmYXVsdDogWydLYXJuYXRha2EnXSB9KSBzdGF0ZXM6IHN0cmluZ1tdO1xuICBAUHJvcCh7IHR5cGU6IFtTdHJpbmddLCBkZWZhdWx0OiBbXSB9KSBleGFtczogc3RyaW5nW107XG4gIC8vIEZyZWUtdGV4dCBjb3Vyc2UvZGVncmVlIGxhYmVscyAoZS5nLiBcIk1CQlNcIiwgXCJCLkUuL0IuVGVjaFwiLCBcIkRpcGxvbWFcIilcbiAgLy8g4oCUIGRlbGliZXJhdGVseSBub3QgRksnZCB0byBDb3Vyc2UgZG9jdW1lbnRzOyBzY2hvbGFyc2hpcHMgYXJlIGF3YXJkZWRcbiAgLy8gYWNyb3NzIGZhciBtb3JlIHByb2dyYW0gdHlwZXMgdGhhbiB0aGUgY29sbGVnZSBjYXRhbG9nIG1vZGVscy5cbiAgQFByb3AoeyB0eXBlOiBbU3RyaW5nXSwgZGVmYXVsdDogW10gfSkgYXBwbGljYWJsZUNvdXJzZXM6IHN0cmluZ1tdO1xuICBAUHJvcCgpIGdlbmRlclNwZWNpZmljPzogc3RyaW5nO1xuICBAUHJvcCh7IGRlZmF1bHQ6IGZhbHNlIH0pIG1pbm9yaXR5T25seTogYm9vbGVhbjtcbiAgQFByb3AoeyBkZWZhdWx0OiBmYWxzZSB9KSBwd2RPbmx5OiBib29sZWFuO1xuICBAUHJvcCh7IHR5cGU6IFtTdHJpbmddLCBkZWZhdWx0OiBbXSB9KSByZXF1aXJlZFJlc2VydmF0aW9uczogc3RyaW5nW107IC8vIGUuZy4gWydQd0QnLCAnUnVyYWwnLCAnS2FubmFkYSBNZWRpdW0nXVxuICBAUHJvcCgpIG1pblJhbms/OiBudW1iZXI7XG4gIEBQcm9wKCkgbWF4UmFuaz86IG51bWJlcjtcbiAgQFByb3AoKSBtaW5BY2FkZW1pY1BlcmNlbnQ/OiBudW1iZXI7XG4gIEBQcm9wKCkgYWNhZGVtaWNDcml0ZXJpYU5vdGU/OiBzdHJpbmc7XG59XG5cbmNsYXNzIEF3YXJkQW1vdW50IHtcbiAgQFByb3AoeyBlbnVtOiBbJ2ZpeGVkJywgJ3BlcmNlbnRhZ2UnXSwgcmVxdWlyZWQ6IHRydWUgfSkgdHlwZTogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHZhbHVlOiBudW1iZXI7XG4gIEBQcm9wKCkgZGlzcGxheVRleHQ/OiBzdHJpbmc7IC8vIGUuZy4gXCJVcCB0byDigrk1MCwwMDAveWVhclwiIGZvciBpcnJlZ3VsYXIgYXdhcmQgc3RydWN0dXJlc1xufVxuXG5jbGFzcyBBcHBsaWNhdGlvblN0ZXAge1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHN0ZXBOdW1iZXI6IG51bWJlcjtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSB0aXRsZTogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIGRlc2NyaXB0aW9uOiBzdHJpbmc7XG59XG5cbmNsYXNzIEZhcSB7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgcXVlc3Rpb246IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBhbnN3ZXI6IHN0cmluZztcbn1cblxuY2xhc3MgQXBwbGljYXRpb25MaW5rcyB7XG4gIEBQcm9wKCkgb2ZmaWNpYWxXZWJzaXRlPzogc3RyaW5nO1xuICBAUHJvcCgpIGFwcGx5TGluaz86IHN0cmluZztcbiAgQFByb3AoKSBub3RpZmljYXRpb25QZGY/OiBzdHJpbmc7XG4gIEBQcm9wKCkgZ3VpZGVsaW5lc1BkZj86IHN0cmluZztcbiAgQFByb3AoKSBoZWxwZGVza1VybD86IHN0cmluZztcbn1cblxuY2xhc3MgQ29udGFjdEluZm8ge1xuICBAUHJvcCgpIGVtYWlsPzogc3RyaW5nO1xuICBAUHJvcCgpIHBob25lPzogc3RyaW5nO1xufVxuXG5AU2NoZW1hKHsgdGltZXN0YW1wczogdHJ1ZSB9KVxuZXhwb3J0IGNsYXNzIFNjaG9sYXJzaGlwIHtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBuYW1lOiBzdHJpbmc7XG4gIEBQcm9wKHsgdW5pcXVlOiB0cnVlLCBzcGFyc2U6IHRydWUgfSkgc2x1Zz86IHN0cmluZztcblxuICAvLyBCcm9hZCBncm91cGluZyAodXNlZCBieSBhbmFseXRpY3MvbWF0Y2hpbmcpIOKAlCBrZXB0IGV4YWN0bHkgYXMtaXMuXG4gIEBQcm9wKHsgZW51bTogWydnb3Zlcm5tZW50JywgJ3ByaXZhdGUnLCAnaW5zdGl0dXRpb24nXSwgcmVxdWlyZWQ6IHRydWUgfSkgcHJvdmlkZXI6IHN0cmluZztcbiAgLy8gRGlzcGxheSBuYW1lIG9mIHRoZSBhY3R1YWwgYXdhcmRpbmcgYm9keSwgZS5nLiBcIkFJQ1RFXCIsIFwiU2l0YXJhbSBKaW5kYWwgRm91bmRhdGlvblwiLlxuICBAUHJvcCgpIHByb3ZpZGVyTmFtZT86IHN0cmluZztcbiAgQFByb3AoKSBwcm92aWRlcklkPzogc3RyaW5nO1xuXG4gIC8vIFNjaG9sYXJzaGlwLWNhdGVnb3J5IHRheG9ub215IHNsdWdzIChyZWZlcmVuY2VzIFNjaG9sYXJzaGlwQ2F0ZWdvcnkpIOKAlFxuICAvLyBlLmcuIFsnbWVyaXQnLCAnc2Mtc3QnLCAnZW5naW5lZXJpbmcnXS4gQSBzY2hvbGFyc2hpcCBjYW4gYmVsb25nIHRvIG1hbnkuXG4gIEBQcm9wKHsgdHlwZTogW1N0cmluZ10sIGRlZmF1bHQ6IFtdIH0pIGNhdGVnb3JpZXM6IHN0cmluZ1tdO1xuICAvLyBGcmVlIGRlc2NyaXB0b3IgZm9yIHRoZSBVSSdzIFwiU2Nob2xhcnNoaXAgVHlwZVwiIGZpZWxkLCBlLmcuXG4gIC8vICdtZXJpdCcgfCAnbWVhbnMnIHwgJ21lcml0LWN1bS1tZWFucycgfCAnc3BvcnRzJyB8ICdtaW5vcml0eScgfCDigKZcbiAgQFByb3AoKSB0eXBlPzogc3RyaW5nO1xuXG4gIEBQcm9wKCkgZGVzY3JpcHRpb24/OiBzdHJpbmc7XG4gIEBQcm9wKHsgdHlwZTogW1N0cmluZ10sIGRlZmF1bHQ6IFtdIH0pIGJlbmVmaXRzOiBzdHJpbmdbXTtcblxuICBAUHJvcCh7IHR5cGU6IEVsaWdpYmlsaXR5LCByZXF1aXJlZDogdHJ1ZSB9KSBlbGlnaWJpbGl0eTogRWxpZ2liaWxpdHk7XG4gIEBQcm9wKHsgdHlwZTogQXdhcmRBbW91bnQsIHJlcXVpcmVkOiB0cnVlIH0pIGF3YXJkQW1vdW50OiBBd2FyZEFtb3VudDtcblxuICBAUHJvcCh7IHR5cGU6IFtTdHJpbmddLCBkZWZhdWx0OiBbXSB9KSBkb2N1bWVudHM6IHN0cmluZ1tdO1xuICBAUHJvcCh7IHR5cGU6IFtBcHBsaWNhdGlvblN0ZXBdLCBkZWZhdWx0OiBbXSB9KSBhcHBsaWNhdGlvblN0ZXBzOiBBcHBsaWNhdGlvblN0ZXBbXTtcbiAgQFByb3AoeyBlbnVtOiBbJ29ubGluZScsICdvZmZsaW5lJywgJ2JvdGgnXSwgZGVmYXVsdDogJ29ubGluZScgfSkgYXBwbGljYXRpb25Nb2RlOiBzdHJpbmc7XG5cbiAgQFByb3AoeyB0eXBlOiBbRmFxXSwgZGVmYXVsdDogW10gfSkgZmFxczogRmFxW107XG4gIEBQcm9wKHsgdHlwZTogQXBwbGljYXRpb25MaW5rcywgZGVmYXVsdDogKCkgPT4gKHt9KSB9KSBsaW5rczogQXBwbGljYXRpb25MaW5rcztcbiAgQFByb3AoeyB0eXBlOiBDb250YWN0SW5mbywgZGVmYXVsdDogKCkgPT4gKHt9KSB9KSBjb250YWN0OiBDb250YWN0SW5mbztcblxuICAvLyBLZXB0IGZsYXQgKG5vdCBuZXN0ZWQpIOKAlCB0aGUgQUkgQ291bnNlbGxvcidzIGNvbnRleHQgYWdncmVnYXRvciBhbmQgdGhlXG4gIC8vIEFkbWlzc2lvbiBQcmVkaWN0b3IgYm90aCByZWFkIGBhcHBsaWNhdGlvbkRlYWRsaW5lYCBkaXJlY3RseS5cbiAgQFByb3AoKSBhcHBsaWNhdGlvbk9wZW5zQXQ/OiBEYXRlO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIGFwcGxpY2F0aW9uRGVhZGxpbmU6IERhdGU7XG4gIEBQcm9wKCkgcmVuZXdhbFBvbGljeT86IHN0cmluZztcblxuICBAUHJvcCh7IGRlZmF1bHQ6IGZhbHNlIH0pIGZlYXR1cmVkOiBib29sZWFuO1xuICBAUHJvcCh7IGRlZmF1bHQ6IHRydWUgfSkgaXNBY3RpdmU6IGJvb2xlYW47XG59XG5cbmV4cG9ydCBjb25zdCBTY2hvbGFyc2hpcFNjaGVtYSA9IFNjaGVtYUZhY3RvcnkuY3JlYXRlRm9yQ2xhc3MoU2Nob2xhcnNoaXApO1xuU2Nob2xhcnNoaXBTY2hlbWEuaW5kZXgoeyBhcHBsaWNhdGlvbkRlYWRsaW5lOiAxIH0pO1xuU2Nob2xhcnNoaXBTY2hlbWEuaW5kZXgoeyAnZWxpZ2liaWxpdHkuY2F0ZWdvcmllcyc6IDEsICdlbGlnaWJpbGl0eS5zdGF0ZXMnOiAxLCAnZWxpZ2liaWxpdHkuZXhhbXMnOiAxIH0pO1xuU2Nob2xhcnNoaXBTY2hlbWEuaW5kZXgoeyBpc0FjdGl2ZTogMSB9KTtcblNjaG9sYXJzaGlwU2NoZW1hLmluZGV4KHsgY2F0ZWdvcmllczogMSB9KTtcblNjaG9sYXJzaGlwU2NoZW1hLmluZGV4KHsgZmVhdHVyZWQ6IDEgfSk7XG4iXSwidmVyc2lvbiI6M30=

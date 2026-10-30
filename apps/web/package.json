@@ -1,0 +1,40 @@
+{
+  "name": "@career-compass/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.330.0",
+    "clsx": "^2.1.0",
+    "@career-compass/config": "^1.0.0",
+    "@career-compass/types": "^1.0.0",
+    "@career-compass/utils": "^1.0.0",
+    "three": "^0.166.1",
+    "@react-three/fiber": "^8.15.5",
+    "@react-three/drei": "^9.97.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3",
+    "vitest": "^4.1.11",
+    "@vitejs/plugin-react": "^6.1.0",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/user-event": "^14.6.5",
+    "jsdom": "^30.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0"
+  }
+}

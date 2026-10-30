@@ -1,0 +1,7 @@
+bc501df2893d6d319235c058e2f20b77
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = void 0;
+var global_mongo_setup_1 = require("./global-mongo-setup");
+Object.defineProperty(exports, "default", { enumerable: true, get: function () { return global_mongo_setup_1.globalSetup; } });
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFx0ZXN0XFxnbG9iYWwtc2V0dXAudHMiLCJtYXBwaW5ncyI6Ijs7O0FBQUEsMkRBQThEO0FBQXJELDZHQUFBLFdBQVcsT0FBVyIsIm5hbWVzIjpbXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXHNpbmRoXFxEZXNrdG9wXFxjYXJlZXItY29tcGFzcy1haSAoMSlcXGNhcmVlci1jb21wYXNzLWFpXFxhcHBzXFxhcGlcXHRlc3RcXGdsb2JhbC1zZXR1cC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBnbG9iYWxTZXR1cCBhcyBkZWZhdWx0IH0gZnJvbSAnLi9nbG9iYWwtbW9uZ28tc2V0dXAnO1xuIl0sInZlcnNpb24iOjN9

@@ -1,0 +1,380 @@
+{
+  "source": {
+    "file": "COMEDK_2023_AllRounds.pdf",
+    "url": "https://www.comedk.org/uploads/2023-Engineering-Cut-Off-Ranks-After-All-Rounds-Notified-on-27_05_2024-final.pdf",
+    "year": 2023,
+    "round": null,
+    "phase": "All Rounds",
+    "pages": 35
+  },
+  "extraction": {
+    "sourceCollegeSeatRows": 1045,
+    "populatedRankCells": 532,
+    "rejectedRankCells": 49,
+    "uniqueSourceCollegeCodes": 108,
+    "uniqueSourceCollegeBranchPairs": 532,
+    "sourceSeatTypes": [
+      "GM",
+      "KKR"
+    ],
+    "rankRange": {
+      "min": 403,
+      "max": 77173
+    },
+    "rejectedCells": [
+      {
+        "page": 8,
+        "x": 666.6204951000001,
+        "rank": "75956",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 8,
+        "x": 666.6204951000001,
+        "rank": "50230",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 8,
+        "x": 666.599991,
+        "rank": "57506",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 9,
+        "x": 666.6204951000001,
+        "rank": "12623",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 9,
+        "x": 666.6204951000001,
+        "rank": "25576",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 9,
+        "x": 666.599991,
+        "rank": "64419",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 9,
+        "x": 666.599991,
+        "rank": "66312",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 9,
+        "x": 666.599991,
+        "rank": "58486",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 10,
+        "x": 666.599991,
+        "rank": "38420",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 10,
+        "x": 666.599991,
+        "rank": "43964",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 10,
+        "x": 666.599991,
+        "rank": "20331",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 10,
+        "x": 666.599991,
+        "rank": "33779",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 10,
+        "x": 666.599991,
+        "rank": "63213",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 11,
+        "x": 666.599991,
+        "rank": "76119",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 11,
+        "x": 668.4181506000001,
+        "rank": "1830",
+        "nearestBranch": "CIT",
+        "delta": 43.66185089999988
+      },
+      {
+        "page": 11,
+        "x": 668.400009,
+        "rank": "4989",
+        "nearestBranch": "CIT",
+        "delta": 43.679992500000026
+      },
+      {
+        "page": 11,
+        "x": 666.5661407250002,
+        "rank": "69835",
+        "nearestBranch": "CIT",
+        "delta": 45.513860774999785
+      },
+      {
+        "page": 11,
+        "x": 666.6307463999999,
+        "rank": "57606",
+        "nearestBranch": "CIT",
+        "delta": 45.44925510000007
+      },
+      {
+        "page": 11,
+        "x": 666.599991,
+        "rank": "60718",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 11,
+        "x": 666.599991,
+        "rank": "66272",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 11,
+        "x": 668.400009,
+        "rank": "7724",
+        "nearestBranch": "CIT",
+        "delta": 43.679992500000026
+      },
+      {
+        "page": 11,
+        "x": 666.599991,
+        "rank": "18468",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 11,
+        "x": 666.6307464000001,
+        "rank": "24880",
+        "nearestBranch": "CIT",
+        "delta": 45.449255099999846
+      },
+      {
+        "page": 12,
+        "x": 666.6204951000001,
+        "rank": "16926",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 12,
+        "x": 666.6204951000001,
+        "rank": "33057",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 12,
+        "x": 666.599991,
+        "rank": "64636",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 12,
+        "x": 666.599991,
+        "rank": "75084",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 12,
+        "x": 666.6204951000001,
+        "rank": "73757",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 13,
+        "x": 666.6051166500001,
+        "rank": "10240",
+        "nearestBranch": "CIT",
+        "delta": 45.47488484999985
+      },
+      {
+        "page": 13,
+        "x": 666.599991,
+        "rank": "23405",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 13,
+        "x": 666.599991,
+        "rank": "30936",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 13,
+        "x": 666.599991,
+        "rank": "54923",
+        "nearestBranch": "CIT",
+        "delta": 45.480010499999935
+      },
+      {
+        "page": 13,
+        "x": 666.6204951000001,
+        "rank": "74285",
+        "nearestBranch": "CIT",
+        "delta": 45.459506399999896
+      },
+      {
+        "page": 14,
+        "x": 666.6256207500003,
+        "rank": "31532",
+        "nearestBranch": "CIT",
+        "delta": 45.4543807499997
+      },
+      {
+        "page": 14,
+        "x": 666.6153687000001,
+        "rank": "62804",
+        "nearestBranch": "CIT",
+        "delta": 45.46463279999989
+      },
+      {
+        "page": 22,
+        "x": 556.5289263750002,
+        "rank": "7711",
+        "nearestBranch": "IM",
+        "delta": 44.91106087499986
+      },
+      {
+        "page": 22,
+        "x": 554.7856245000002,
+        "rank": "29202",
+        "nearestBranch": "IM",
+        "delta": 46.654362749999905
+      },
+      {
+        "page": 23,
+        "x": 556.5856200000002,
+        "rank": "1964",
+        "nearestBranch": "IM",
+        "delta": 44.85436724999988
+      },
+      {
+        "page": 23,
+        "x": 556.5856200000002,
+        "rank": "6694",
+        "nearestBranch": "IM",
+        "delta": 44.85436724999988
+      },
+      {
+        "page": 23,
+        "x": 554.7856245,
+        "rank": "30933",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 23,
+        "x": 554.7856245,
+        "rank": "28260",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 23,
+        "x": 554.7856245,
+        "rank": "55658",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 23,
+        "x": 556.5856200000002,
+        "rank": "4666",
+        "nearestBranch": "IM",
+        "delta": 44.85436724999988
+      },
+      {
+        "page": 23,
+        "x": 554.7856245,
+        "rank": "18670",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 23,
+        "x": 554.7856245,
+        "rank": "51437",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 25,
+        "x": 554.7856245,
+        "rank": "76512",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 25,
+        "x": 554.7856245,
+        "rank": "66106",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 26,
+        "x": 554.7856245,
+        "rank": "54569",
+        "nearestBranch": "IM",
+        "delta": 46.65436275000002
+      },
+      {
+        "page": 27,
+        "x": 554.75999475,
+        "rank": "75262",
+        "nearestBranch": "IM",
+        "delta": 46.679992500000026
+      }
+    ],
+    "priorAuditRankCellCount": 666,
+    "currentlyAccountedRankCells": 581,
+    "unaccountedAgainstPriorAudit": 85
+  },
+  "database": {
+    "connected": false,
+    "collegeCount": null,
+    "collegeMappings": null,
+    "branchMappings": null,
+    "reason": "MongooseServerSelectionError: connect EACCES ::1:27017, connect EACCES 127.0.0.1:27017"
+  }
+}

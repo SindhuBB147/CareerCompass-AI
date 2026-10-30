@@ -1,0 +1,162 @@
+{
+  "mode": "apply",
+  "source": {
+    "url": "https://www.comedk.org/uploads/Engineering-Cut-Off-Ranks-after-Round2-Phase1-Allotment-Notified-on-26.07.2024.pdf",
+    "file": "COMEDK_2024_Round2_Phase1.pdf",
+    "year": 2024,
+    "round": 2,
+    "phase": 1,
+    "retrievedAt": "2026-10-29"
+  },
+  "sourceRows": 250,
+  "validRankCells": 192,
+  "rejectedCellsByParser": 0,
+  "mappedColleges": 36,
+  "sourceColleges": 36,
+  "mappedBranches": 28,
+  "uniqueCollegeBranchCutoffs": 146,
+  "duplicateRecords": 0,
+  "excludedCollidingSourceColleges": 0,
+  "excludedCollidingMappings": 0,
+  "excludedUnresolvedMappings": 46,
+  "validationRejected": 0,
+  "existingComedkRecordsBeforeImport": 240,
+  "existingIdentityConflicts": 0,
+  "mappedCollegeIdRepairs": 0,
+  "mappedCourseNameCorrections": 0,
+  "alreadyImportedRecords": 0,
+  "newRecordsToInsert": 146,
+  "mappingCounts": {
+    "exact_college_name": 36,
+    "unmatched": 14
+  },
+  "rejectedSamples": [
+    {
+      "collegeCode": "E016",
+      "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+      "branchCode": "AR",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E018",
+      "collegeName": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+      "branchCode": "AI",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "AD",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "AI",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "AS",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "BT",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E032",
+      "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+      "branchCode": "AD",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E032",
+      "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+      "branchCode": "AI",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E056",
+      "collegeName": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+      "branchCode": "AI",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E117",
+      "collegeName": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+      "branchCode": "AI",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E165",
+      "collegeName": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+      "branchCode": "AI",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E016",
+      "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+      "branchCode": "CA",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "CB",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "CD",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E032",
+      "collegeName": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+      "branchCode": "CD",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E016",
+      "collegeName": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+      "branchCode": "CS",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E024",
+      "collegeName": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+      "branchCode": "CS",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "CH",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "CS",
+      "reason": "college mapping unresolved"
+    },
+    {
+      "collegeCode": "E027",
+      "collegeName": "BMS College of Engineering-Basavanagudi, Bengaluru",
+      "branchCode": "CV",
+      "reason": "college mapping unresolved"
+    }
+  ],
+  "importPolicy": "Unmatched or ambiguous college mappings are excluded. Existing cutoff identities are never overwritten. Source branch codes are stored unchanged in courseId and provenance metadata. Only verified values from the official source may be returned by COMEDK predictions.",
+  "insertedCount": 146,
+  "mappedCollegeIdRepairsApplied": 0,
+  "mappedCourseNameCorrectionsApplied": 0,
+  "matchedExistingCount": 0,
+  "verifiedComedkRecordsAfterImport": 386,
+  "verifiedSourceRecords": 146
+}

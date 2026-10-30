@@ -1,0 +1,189 @@
+28acac9ecd49d12a6aa6abf41cd8496e
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CutoffImportLogSchema = exports.CutoffImportLog = exports.CutoffConflictSchema = exports.CutoffConflict = exports.CutoffSchema = exports.Cutoff = void 0;
+const mongoose_1 = require("@nestjs/mongoose");
+const mongoose_2 = require("mongoose");
+let Cutoff = class Cutoff {
+};
+exports.Cutoff = Cutoff;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Cutoff.prototype, "collegeId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Cutoff.prototype, "courseId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Cutoff.prototype, "courseName", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Cutoff.prototype, "examCode", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], Cutoff.prototype, "year", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], Cutoff.prototype, "round", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], Cutoff.prototype, "category", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Cutoff.prototype, "branch", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], Cutoff.prototype, "closingRank", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['official', 'manual_admin_entry', 'import'], default: 'official' }),
+    __metadata("design:type", String)
+], Cutoff.prototype, "source", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: String, default: null }),
+    __metadata("design:type", Object)
+], Cutoff.prototype, "verifiedBy", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['verified', 'needs_review', 'imported', 'archived', 'invalid'], default: 'imported' }),
+    __metadata("design:type", String)
+], Cutoff.prototype, "status", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: mongoose_2.Schema.Types.Mixed, default: {} }),
+    __metadata("design:type", Object)
+], Cutoff.prototype, "metadata", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Date, default: Date.now }),
+    __metadata("design:type", Date)
+], Cutoff.prototype, "lastUpdated", void 0);
+exports.Cutoff = Cutoff = __decorate([
+    (0, mongoose_1.Schema)({ timestamps: true })
+], Cutoff);
+exports.CutoffSchema = mongoose_1.SchemaFactory.createForClass(Cutoff);
+exports.CutoffSchema.index({ collegeId: 1, courseId: 1, examCode: 1, category: 1, year: -1, round: 1 }, { unique: true });
+exports.CutoffSchema.index({ collegeId: 1, examCode: 1, year: -1 });
+exports.CutoffSchema.index({ examCode: 1, year: 1, round: 1 });
+exports.CutoffSchema.index({ category: 1 });
+exports.CutoffSchema.index({ status: 1 });
+let CutoffConflict = class CutoffConflict {
+};
+exports.CutoffConflict = CutoffConflict;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffConflict.prototype, "collegeId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffConflict.prototype, "courseId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffConflict.prototype, "examCode", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], CutoffConflict.prototype, "year", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], CutoffConflict.prototype, "round", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffConflict.prototype, "category", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffConflict.prototype, "field", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], CutoffConflict.prototype, "existingValue", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], CutoffConflict.prototype, "incomingValue", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['open', 'resolved'], default: 'open' }),
+    __metadata("design:type", String)
+], CutoffConflict.prototype, "status", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: Number, default: null }),
+    __metadata("design:type", Object)
+], CutoffConflict.prototype, "resolvedValue", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: String, default: null }),
+    __metadata("design:type", Object)
+], CutoffConflict.prototype, "resolvedBy", void 0);
+exports.CutoffConflict = CutoffConflict = __decorate([
+    (0, mongoose_1.Schema)({ timestamps: true })
+], CutoffConflict);
+exports.CutoffConflictSchema = mongoose_1.SchemaFactory.createForClass(CutoffConflict);
+exports.CutoffConflictSchema.index({ status: 1 });
+exports.CutoffConflictSchema.index({ collegeId: 1, courseId: 1 });
+let CutoffImportLog = class CutoffImportLog {
+};
+exports.CutoffImportLog = CutoffImportLog;
+__decorate([
+    (0, mongoose_1.Prop)({ required: true, unique: true }),
+    __metadata("design:type", String)
+], CutoffImportLog.prototype, "importId", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffImportLog.prototype, "fileName", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", Number)
+], CutoffImportLog.prototype, "totalRows", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true, default: 0 }),
+    __metadata("design:type", Number)
+], CutoffImportLog.prototype, "insertedCount", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true, default: 0 }),
+    __metadata("design:type", Number)
+], CutoffImportLog.prototype, "updatedCount", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true, default: 0 }),
+    __metadata("design:type", Number)
+], CutoffImportLog.prototype, "failedCount", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], CutoffImportLog.prototype, "errorLog", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ enum: ['completed', 'failed', 'rolled_back'], default: 'completed' }),
+    __metadata("design:type", String)
+], CutoffImportLog.prototype, "status", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ required: true }),
+    __metadata("design:type", String)
+], CutoffImportLog.prototype, "uploadedBy", void 0);
+__decorate([
+    (0, mongoose_1.Prop)({ type: [String], default: [] }),
+    __metadata("design:type", Array)
+], CutoffImportLog.prototype, "affectedCutoffIds", void 0);
+exports.CutoffImportLog = CutoffImportLog = __decorate([
+    (0, mongoose_1.Schema)({ timestamps: true })
+], CutoffImportLog);
+exports.CutoffImportLogSchema = mongoose_1.SchemaFactory.createForClass(CutoffImportLog);
+exports.CutoffImportLogSchema.index({ createdAt: -1 });
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxzaW5kaFxcRGVza3RvcFxcY2FyZWVyLWNvbXBhc3MtYWkgKDEpXFxjYXJlZXItY29tcGFzcy1haVxcYXBwc1xcYXBpXFxzcmNcXG1vZHVsZXNcXGN1dG9mZnNcXG1vZGVsc1xcY3V0b2ZmLm1vZGVsLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBLCtDQUErRDtBQUMvRCx1Q0FBOEQ7QUFPdkQsSUFBTSxNQUFNLEdBQVosTUFBTSxNQUFNO0NBZWxCLENBQUE7QUFmWSx3QkFBTTtBQUNTO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzt5Q0FBbUI7QUFDbEI7SUFBekIsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7O3dDQUFrQjtBQUNuQztJQUFQLElBQUEsZUFBSSxHQUFFOzswQ0FBcUI7QUFDRjtJQUF6QixJQUFBLGVBQUksRUFBQyxFQUFFLFFBQVEsRUFBRSxJQUFJLEVBQUUsQ0FBQzs7d0NBQWtCO0FBQ2pCO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOztvQ0FBYztBQUNiO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOztxQ0FBZTtBQUNkO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzt3Q0FBa0I7QUFDbkM7SUFBUCxJQUFBLGVBQUksR0FBRTs7c0NBQWlCO0FBQ0U7SUFBekIsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLENBQUM7OzJDQUFxQjtBQUNxQztJQUFsRixJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxDQUFDLFVBQVUsRUFBRSxvQkFBb0IsRUFBRSxRQUFRLENBQUMsRUFBRSxPQUFPLEVBQUUsVUFBVSxFQUFFLENBQUM7O3NDQUFnQjtBQUMzRDtJQUF0QyxJQUFBLGVBQUksRUFBQyxF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ckI7SUFBckMsSUFBQSxlQUFJLEVBQUMsRUFBRSxRQUFRLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxDQUFDLEVBQUUsQ0FBQzs7b0RBQXFCO0FBQ25CO0lBQXRDLElBQUEsZUFBSSxFQUFDLEVBQUUsSUFBSSxFQUFFLENBQUMsTUFBTSxDQUFDLEVBQUUsT0FBTyxFQUFFLEVBQUUsRUFBRSxDQUFDOztpREFBb0I7QUFDb0I7SUFBN0UsSUFBQSxlQUFJLEVBQUMsRUFBRSxJQUFJLEVBQUUsQ0FBQyxXQUFXLEVBQUUsUUFBUSxFQUFFLGFBQWEsQ0FBQyxFQUFFLE9BQU8sRUFBRSxXQUFXLEVBQUUsQ0FBQzs7K0NBQWdCO0FBQ25FO0lBQXpCLElBQUEsZUFBSSxFQUFDLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxDQUFDOzttREFBb0I7QUFDTjtJQUF0QyxJQUFBLGVBQUksRUFBQyxFQUFFLElBQUksRUFBRSxDQUFDLE1BQU0sQ0FBQyxFQUFFLE9BQU8sRUFBRSxFQUFFLEVBQUUsQ0FBQzs7MERBQTZCOzBCQVZ4RCxlQUFlO0lBRDNCLElBQUEsaUJBQU0sRUFBQyxFQUFFLFVBQVUsRUFBRSxJQUFJLEVBQUUsQ0FBQztHQUNoQixlQUFlLENBVzNCO0FBRVksUUFBQSxxQkFBcUIsR0FBRyx3QkFBYSxDQUFDLGNBQWMsQ0FBQyxlQUFlLENBQUMsQ0FBQztBQUNuRiw2QkFBcUIsQ0FBQyxLQUFLLENBQUMsRUFBRSxTQUFTLEVBQUUsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcc2luZGhcXERlc2t0b3BcXGNhcmVlci1jb21wYXNzLWFpICgxKVxcY2FyZWVyLWNvbXBhc3MtYWlcXGFwcHNcXGFwaVxcc3JjXFxtb2R1bGVzXFxjdXRvZmZzXFxtb2RlbHNcXGN1dG9mZi5tb2RlbC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQcm9wLCBTY2hlbWEsIFNjaGVtYUZhY3RvcnkgfSBmcm9tICdAbmVzdGpzL21vbmdvb3NlJztcbmltcG9ydCB7IERvY3VtZW50LCBTY2hlbWEgYXMgTW9uZ29vc2VTY2hlbWEgfSBmcm9tICdtb25nb29zZSc7XG5cbmV4cG9ydCB0eXBlIEN1dG9mZkRvY3VtZW50ID0gQ3V0b2ZmICYgRG9jdW1lbnQ7XG5leHBvcnQgdHlwZSBDdXRvZmZDb25mbGljdERvY3VtZW50ID0gQ3V0b2ZmQ29uZmxpY3QgJiBEb2N1bWVudDtcbmV4cG9ydCB0eXBlIEN1dG9mZkltcG9ydExvZ0RvY3VtZW50ID0gQ3V0b2ZmSW1wb3J0TG9nICYgRG9jdW1lbnQ7XG5cbkBTY2hlbWEoeyB0aW1lc3RhbXBzOiB0cnVlIH0pXG5leHBvcnQgY2xhc3MgQ3V0b2ZmIHtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBjb2xsZWdlSWQ6IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBjb3Vyc2VJZDogc3RyaW5nO1xuICBAUHJvcCgpIGNvdXJzZU5hbWU/OiBzdHJpbmc7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgZXhhbUNvZGU6IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSB5ZWFyOiBudW1iZXI7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgcm91bmQ6IG51bWJlcjtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBjYXRlZ29yeTogc3RyaW5nO1xuICBAUHJvcCgpIGJyYW5jaD86IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBjbG9zaW5nUmFuazogbnVtYmVyO1xuICBAUHJvcCh7IGVudW06IFsnb2ZmaWNpYWwnLCAnbWFudWFsX2FkbWluX2VudHJ5JywgJ2ltcG9ydCddLCBkZWZhdWx0OiAnb2ZmaWNpYWwnIH0pIHNvdXJjZTogc3RyaW5nO1xuICBAUHJvcCh7IHR5cGU6IFN0cmluZywgZGVmYXVsdDogbnVsbCB9KSB2ZXJpZmllZEJ5OiBzdHJpbmcgfCBudWxsO1xuICBAUHJvcCh7IGVudW06IFsndmVyaWZpZWQnLCAnbmVlZHNfcmV2aWV3JywgJ2ltcG9ydGVkJywgJ2FyY2hpdmVkJywgJ2ludmFsaWQnXSwgZGVmYXVsdDogJ2ltcG9ydGVkJyB9KSBzdGF0dXM6IHN0cmluZztcbiAgQFByb3AoeyB0eXBlOiBNb25nb29zZVNjaGVtYS5UeXBlcy5NaXhlZCwgZGVmYXVsdDoge30gfSkgbWV0YWRhdGE/OiBSZWNvcmQ8c3RyaW5nLCBhbnk+O1xuICBAUHJvcCh7IHR5cGU6IERhdGUsIGRlZmF1bHQ6IERhdGUubm93IH0pIGxhc3RVcGRhdGVkOiBEYXRlO1xufVxuXG5leHBvcnQgY29uc3QgQ3V0b2ZmU2NoZW1hID0gU2NoZW1hRmFjdG9yeS5jcmVhdGVGb3JDbGFzcyhDdXRvZmYpO1xuQ3V0b2ZmU2NoZW1hLmluZGV4KHsgY29sbGVnZUlkOiAxLCBjb3Vyc2VJZDogMSwgZXhhbUNvZGU6IDEsIGNhdGVnb3J5OiAxLCB5ZWFyOiAtMSwgcm91bmQ6IDEgfSwgeyB1bmlxdWU6IHRydWUgfSk7XG5DdXRvZmZTY2hlbWEuaW5kZXgoeyBjb2xsZWdlSWQ6IDEsIGV4YW1Db2RlOiAxLCB5ZWFyOiAtMSB9KTtcbkN1dG9mZlNjaGVtYS5pbmRleCh7IGV4YW1Db2RlOiAxLCB5ZWFyOiAxLCByb3VuZDogMSB9KTtcbkN1dG9mZlNjaGVtYS5pbmRleCh7IGNhdGVnb3J5OiAxIH0pO1xuQ3V0b2ZmU2NoZW1hLmluZGV4KHsgc3RhdHVzOiAxIH0pO1xuXG5AU2NoZW1hKHsgdGltZXN0YW1wczogdHJ1ZSB9KVxuZXhwb3J0IGNsYXNzIEN1dG9mZkNvbmZsaWN0IHtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBjb2xsZWdlSWQ6IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBjb3Vyc2VJZDogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIGV4YW1Db2RlOiBzdHJpbmc7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgeWVhcjogbnVtYmVyO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHJvdW5kOiBudW1iZXI7XG4gIEBQcm9wKHsgcmVxdWlyZWQ6IHRydWUgfSkgY2F0ZWdvcnk6IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBmaWVsZDogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIGV4aXN0aW5nVmFsdWU6IG51bWJlcjtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBpbmNvbWluZ1ZhbHVlOiBudW1iZXI7XG4gIEBQcm9wKHsgZW51bTogWydvcGVuJywgJ3Jlc29sdmVkJ10sIGRlZmF1bHQ6ICdvcGVuJyB9KSBzdGF0dXM6IHN0cmluZztcbiAgQFByb3AoeyB0eXBlOiBOdW1iZXIsIGRlZmF1bHQ6IG51bGwgfSkgcmVzb2x2ZWRWYWx1ZTogbnVtYmVyIHwgbnVsbDtcbiAgQFByb3AoeyB0eXBlOiBTdHJpbmcsIGRlZmF1bHQ6IG51bGwgfSkgcmVzb2x2ZWRCeTogc3RyaW5nIHwgbnVsbDtcbn1cblxuZXhwb3J0IGNvbnN0IEN1dG9mZkNvbmZsaWN0U2NoZW1hID0gU2NoZW1hRmFjdG9yeS5jcmVhdGVGb3JDbGFzcyhDdXRvZmZDb25mbGljdCk7XG5DdXRvZmZDb25mbGljdFNjaGVtYS5pbmRleCh7IHN0YXR1czogMSB9KTtcbkN1dG9mZkNvbmZsaWN0U2NoZW1hLmluZGV4KHsgY29sbGVnZUlkOiAxLCBjb3Vyc2VJZDogMSB9KTtcblxuQFNjaGVtYSh7IHRpbWVzdGFtcHM6IHRydWUgfSlcbmV4cG9ydCBjbGFzcyBDdXRvZmZJbXBvcnRMb2cge1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlLCB1bmlxdWU6IHRydWUgfSkgaW1wb3J0SWQ6IHN0cmluZztcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSB9KSBmaWxlTmFtZTogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHRvdGFsUm93czogbnVtYmVyO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlLCBkZWZhdWx0OiAwIH0pIGluc2VydGVkQ291bnQ6IG51bWJlcjtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSwgZGVmYXVsdDogMCB9KSB1cGRhdGVkQ291bnQ6IG51bWJlcjtcbiAgQFByb3AoeyByZXF1aXJlZDogdHJ1ZSwgZGVmYXVsdDogMCB9KSBmYWlsZWRDb3VudDogbnVtYmVyO1xuICBAUHJvcCh7IHR5cGU6IFtTdHJpbmddLCBkZWZhdWx0OiBbXSB9KSBlcnJvckxvZzogc3RyaW5nW107XG4gIEBQcm9wKHsgZW51bTogWydjb21wbGV0ZWQnLCAnZmFpbGVkJywgJ3JvbGxlZF9iYWNrJ10sIGRlZmF1bHQ6ICdjb21wbGV0ZWQnIH0pIHN0YXR1czogc3RyaW5nO1xuICBAUHJvcCh7IHJlcXVpcmVkOiB0cnVlIH0pIHVwbG9hZGVkQnk6IHN0cmluZztcbiAgQFByb3AoeyB0eXBlOiBbU3RyaW5nXSwgZGVmYXVsdDogW10gfSkgYWZmZWN0ZWRDdXRvZmZJZHM6IHN0cmluZ1tdO1xufVxuXG5leHBvcnQgY29uc3QgQ3V0b2ZmSW1wb3J0TG9nU2NoZW1hID0gU2NoZW1hRmFjdG9yeS5jcmVhdGVGb3JDbGFzcyhDdXRvZmZJbXBvcnRMb2cpO1xuQ3V0b2ZmSW1wb3J0TG9nU2NoZW1hLmluZGV4KHsgY3JlYXRlZEF0OiAtMSB9KTtcbiJdLCJ2ZXJzaW9uIjozfQ==

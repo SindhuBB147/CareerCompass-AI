@@ -1,0 +1,85 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: career-compass-ai-service
+  labels:
+    app: career-compass-ai-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: career-compass-ai-service
+  template:
+    metadata:
+      labels:
+        app: career-compass-ai-service
+    spec:
+      containers:
+        - name: ai-service
+          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - secretRef:
+                name: career-compass-secrets
+          resources:
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+---
+# ClusterIP only — the AI service is internal-only, reached by the api
+# Deployment via AI_SERVICE_URL (same pattern as docker-compose.yml, where
+# only api/web/postgres are exposed to ai-service, not the reverse). No
+# Ingress: it's never meant to be internet-facing.
+apiVersion: v1
+kind: Service
+metadata:
+  name: career-compass-ai-service
+spec:
+  selector:
+    app: career-compass-ai-service
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: career-compass-ai-service-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: career-compass-ai-service
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70
+    - type: Resource
+      resource:
+        name: memory
+        target:
+          type: Utilization
+          averageUtilization: 80
